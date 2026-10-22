@@ -1,0 +1,1629 @@
+{
+ "ACAD": [
+  {
+   "year": 1971,
+   "note": "Major: Added counts of visitors by snowmobile; Added counts at Isle au Haut; Added non-recreation visits; Added recreation and non-recreation visitor hours",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=ACAD"
+  },
+  {
+   "year": 1990,
+   "note": "Major: Removed counter at Thompson Island from recreation visits; Added vehicle expansion multiplier at Sand Beach counter; Added cross-country skiers; Added visits by ferry from Stonington; Included non-recreation traffic count adjustments; Added corrections to Thompson Island counter for non-recreation visits; Added fixed value for non-recreation visits at Schoodic; Stated values in count procedures for PPV, length of stay; Added persons-per-site multipliers for tent and RV sites at campgrounds; Changed non-recreation length of stay from 0.5 to 1.0 hours; Added bus multiplier of 45 persons per bus",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=ACAD"
+  },
+  {
+   "year": 1998,
+   "note": "Major: Updated method for estimating non-recreation visits on Mount Desert Island; Updated persons-per-site multipliers from 4.1 to 3.0 persons-per-site; Updated PPV multipliers",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=ACAD"
+  },
+  {
+   "year": 2003,
+   "note": "Major: Updated method for estimating non-recreation visits on Mount Desert Island; Removed non-recreation counts for Schoodic Peninsula; Updated average daily traffic counts for days out at Schoodic Peninsula traffic counter",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=ACAD"
+  },
+  {
+   "year": 2005,
+   "note": "Major: Added visits from small buses; Added visits from vans; Added visits by concession bus passengers; Split Isle au Haut visitation into day users and individual campers; Added correction to Schoodic traffic count for non-reportable and non-recreation vehicles; Added backcountry overnight stays at Isle au Haut; Updated length-of-stay multipliers",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=ACAD"
+  },
+  {
+   "year": 2006,
+   "note": "Minor: Updated average daily traffic counts for days out at both traffic counters",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=ACAD"
+  },
+  {
+   "year": 2009,
+   "note": "Minor: Added visits and overnights at Stables Horse Camp",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=ACAD"
+  },
+  {
+   "year": 2011,
+   "note": "Minor: Updated small bus multiplier from 15 to 18; Updated van multiplier from 5 to 10",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=ACAD"
+  },
+  {
+   "year": 2016,
+   "note": "Major: Updated location of Schoodic traffic counter (no longer using FOTSC counter); Removed skiers; Removed snowmobilers; Removed Stables Horse Camp; Added Schoodic Woods campground",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=ACAD"
+  },
+  {
+   "year": 2017,
+   "note": "Minor: Added visits from Island Explorer bus (25% of total monthly ridership)",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=ACAD"
+  },
+  {
+   "year": 2021,
+   "note": "Major: Updated method for missing days at Sand Beach counter; Updated historic average daily traffic counts for Sand Beach; Changed method for overnights at NPS campground from sites occupied times a persons-per-site multiplier to estimate of overnight stays from recreation.gov; Removed concession bus passengers for tour buses and Oli’s Trolley",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=ACAD"
+  }
+ ],
+ "ARCH": [
+  {
+   "year": 1975,
+   "note": "Major: Changed from National Monument to National Park; Changed Highway 160 to Highway 163; Added non-recreation visits; Split Other Overnight into Backcountry and Miscellaneous; Removed special use regarding visitors signing trail registers; Added special use data regarding visits estimated from traffic counts at recreation vehicle road, Delicate Arch Road and Salt Valley Road",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=ARCH"
+  },
+  {
+   "year": 1993,
+   "note": "Major: Specific documentation for PPV; Removed non-recreation visits; Added length of stay multipliers; Changed from counting overnights at Devil’s Garden CG to counting sites occupied and applying the PPV multiplier to get overnight stays; Removed special use data regarding visits in interior of park",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=ARCH"
+  },
+  {
+   "year": 2024,
+   "note": "Overhaul: Changed main entrance traffic counter to use more complete information from Federal Highway Administration; Added visits for Willow Flats Road entrance; Added visits for Salt Valley Road entrance; Added non-recreation visits and hours; Updated persons-per-vehicle multiplier; Updated values for non-reportable vehicles; Added a duplicate reporting adjustment for main entrance visits; Updated length of stay multipliers; Updated overnight stays in tents and RVs to use a combination of recreation.gov data and sites occupied; Changed main entrance traffic counter to use more complete information from Federal Highway Administration; Added visits for Willow Flats Road entrance; Added visits for Salt Valley Road entrance; Added non-recreation visits and hours; Updated persons-per-vehicle multiplier; Updated values for non-reportable vehicles; Added a duplicate reporting adjustment for main entrance visits; Updated length of stay multipliers; Updated overnight stays in tents and RVs to use a combination of recreation.gov data and sites occupied",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=ARCH"
+  },
+  {
+   "year": 2026,
+   "note": "Major: Added shuttle passengers entering the park from Moab",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=ARCH"
+  }
+ ],
+ "BADL": [
+  {
+   "year": 1992,
+   "note": "Overhaul: Moved traffic counters from 7-8 locations to three entrances; Added non-recreation visits and hours; Specifically called out numeric values for persons per vehicle and non-reportable vehicles",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=BADL"
+  },
+  {
+   "year": 1998,
+   "note": "Minor: Updated non-recreation and non-reportable vehicles at Northeast Entrances",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=BADL"
+  },
+  {
+   "year": 2010,
+   "note": "Minor: Cedar Pass Campground changed from NPS operated to concession operated",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=BADL"
+  },
+  {
+   "year": 2013,
+   "note": "Minor: Updated non-recreation vehicles Interior Road – use traffic count on Lane 2",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=BADL"
+  },
+  {
+   "year": 2015,
+   "note": "Minor: Updated method for estimating missing days data from FOTSC counters; Added missing language about miscellaneous overnight stays (recorded since 2005, but missing from count procedures)",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=BADL"
+  },
+  {
+   "year": 2017,
+   "note": "Minor: Changed from count of sites occupied to direct count of overnight stays at Sage Creek Campground",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=BADL"
+  },
+  {
+   "year": 2018,
+   "note": "Minor: Changed from count of sites occupied to direct count of overnight stays at Cedar Pass Campground; Moved group overnight stays at Cedar Pass from Miscellaneous to Concession Campground",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=BADL"
+  },
+  {
+   "year": 2019,
+   "note": "Major: Changed from estimate of non-rec visits at Interior using a traffic count to a set of constants; Updated recreation visits at Interior Entrance to remove buses and non-recreation vehicles",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=BADL"
+  }
+ ],
+ "BISC": [
+  {
+   "year": 1997,
+   "note": "Major: Added visitors on glass bottom boat tour; Changed from 4.0 hours per recreation visit to 3.0 hours per visit; Removed overnight stays",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=BISC"
+  },
+  {
+   "year": 2006,
+   "note": "Major: Added overnight stay use (boats, tents, group); Added 50% of overnights in boats to recreation visits; Added 10% of overnights in tents to recreation visits; Added 10% of overnight stays in group camping to recreation visits; Added 24 hours per overnight stay to recreation visitor hours",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=BISC"
+  },
+  {
+   "year": 2009,
+   "note": "Major: Added visitors on snorkel trips, Island trips and miscellaneous trips to recreation visits; Removed special use data",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=BISC"
+  },
+  {
+   "year": 2019,
+   "note": "Major: Changed from manual counts of visitors at Visitor Center area to estimate from a traffic counter; Removed glass bottom boat tours; Removed visitors on Island trips (replaced by traffic counter)",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=BISC"
+  }
+ ],
+ "BLCA": [
+  {
+   "year": 1994,
+   "note": "Major: Changed from PPV of 3.75 to lower seasonal persons per vehicle multipliers; Changed to seasonal length of stay multipliers; Added buses and bus passengers; Added fixed seasonal estimates for visitation to the Red Rocks area",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=BLCA"
+  },
+  {
+   "year": 1999,
+   "note": "Minor: Added hikers, climbers, skiers, and river runners to recreation visitor hours calculation",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=BLCA"
+  }
+ ],
+ "BRCA": [
+  {
+   "year": 1981,
+   "note": "Major: Added two entrances with traffic counters – west boundary/Hwy 12 and Bryce Point",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=BRCA"
+  },
+  {
+   "year": 1994,
+   "note": "Major: Removed west and Bryce Point entrances; Added non-recreation visits and hours; Specifically identified numeric values for persons per vehicle and length of stay; Added persons per site (PPV) multiplier for tent, RV and out of bounds sites occupied",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=BRCA"
+  },
+  {
+   "year": 1997,
+   "note": "Minor: Updated persons per vehicle multiplier for non-recreation vehicles at entrance station to use recreation PPV values",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=BRCA"
+  },
+  {
+   "year": 2000,
+   "note": "Minor: Split out counts for tour, non-tour and shuttle buses",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=BRCA"
+  },
+  {
+   "year": 2015,
+   "note": "Minor: Replaced measured count of non-recreation vehicles on Utah 12 with fixed estimate",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=BRCA"
+  }
+ ],
+ "CANY": [
+  {
+   "year": 1982,
+   "note": "Major: Added counts and traffic counter corrections for buses; Added non-recreation visits and hours; Added recreation visitor hours; Changed from direct count of overnight stays to sites occupied times persons per site multiplier for Island in the Sky campground and Oct-Mar for Needles Campground",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=CANY"
+  },
+  {
+   "year": 1993,
+   "note": "Overhaul: Changed from manual estimate of visits to estimate from traffic counters at Maze District; Identified specific values for non-reportable vehicles and persons per vehicle multipliers; Updated river use to use counts by location; Updated backcountry overnight hours at Island in the Sky; Updated some visitor hour multipliers at Maze, Needles and River; Identified specific persons per site multipliers for campgrounds",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=CANY"
+  },
+  {
+   "year": 2005,
+   "note": "Minor: Removed motorcyclists at Mesa Top and White Rim; Updated non-reportable vehicles at Island Proper, White Rim and Shafer Trail",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=CANY"
+  },
+  {
+   "year": 2019,
+   "note": "Major: Updated traffic count technology at Maze; Changed from estimate to count from permits for bike use at White Rim; Added sources for many counts (permit system, etc); Updated method for estimating backcountry use at Maze from estimate of nights spent per person to direct count from permit; Changed from fixed estimate of overnight use at Willow Flat to count of sites occupied times a persons per site multiplier",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=CANY"
+  },
+  {
+   "year": 2025,
+   "note": "Minor: Added counts on Potash Road; Removed counts at Shafer Trail and White Rim East",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=CANY"
+  },
+  {
+   "year": 2026,
+   "note": "Minor: Changed Potash traffic counter type to radar and counter adjustment to 1.0",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=CANY"
+  }
+ ],
+ "CARE": [
+  {
+   "year": 1993,
+   "note": "Overhaul: Added traffic counts; Petroglyph; North District; Cedar Mesa; Burr Trail; Bullfrog; Added buses and bus visitors; Added non-recreation visits / visitor hours; Added non-reportable vehicle corrections; Identified numeric multipliers (PPV and length-of-stay)",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=CARE"
+  },
+  {
+   "year": 1999,
+   "note": "Minor: Added comparison to select between visits estimated from traffic counts at Visitor Center and manual count of visits to Visitor Center; Added a comparison for selecting traffic count to use for non-recreation visits",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=CARE"
+  },
+  {
+   "year": 2009,
+   "note": "Minor: Changed traffic detection technology from inductive loop to magnetometer",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=CARE"
+  },
+  {
+   "year": 2011,
+   "note": "Minor: Changed from dividing combined Cedar Mesa, Burr Trail and Bullfrog traffic counts by 3 (entry / exit / duplicate reporting) to dividing by 2 for entry /exit only",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=CARE"
+  }
+ ],
+ "CAVE": [
+  {
+   "year": 1974,
+   "note": "Non-material: N/A",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=CAVE"
+  },
+  {
+   "year": 1994,
+   "note": "Overhaul: Changed from using main entrance traffic counter plus bus passengers to direct count of main cave visits; Changed from direct count at Rattlesnake Springs to using a traffic counter; Split backcountry use into day use and overnight use; Updated name for New Cave to Slaughter Canyon Cave; Added wild cave visits (formerly lumped into ‘backcountry areas’); Removed NPS campground visits; Added Recreation Visitor Hours",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=CAVE"
+  },
+  {
+   "year": 2025,
+   "note": "Minor: Changed from % of capacity to actual count of attendance at Bat Flight Programs (for visitor hours)",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=CAVE"
+  }
+ ],
+ "CHIS": [
+  {
+   "year": 1998,
+   "note": "Overhaul: Added counts for the visitor center; Split counts between recreation and non-recreation; Added recreation and non-recreation visitor hours; Added overnight stay categories: backcountry, miscellaneous (overnights on boats) and non-recreation",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=CHIS"
+  },
+  {
+   "year": 2004,
+   "note": "Minor: Added visits to the Outdoors Santa Barbara Visitor Center; Added special event visits on park property not captured elsewhere",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=CHIS"
+  },
+  {
+   "year": 2005,
+   "note": "Major: Added CINC off-shore visits",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=CHIS"
+  },
+  {
+   "year": 2019,
+   "note": "Major: Changed from manual count of boats to estimates using anchorage counts; Added ‘party boats’ with 30 persons per boat to distinguish them from private boats at anchorage; Updated non-recreation persons per boat multiplier for overnight boats from 4.5 to 2; Added non-rec overnight stays for CSUCI Research Station",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=CHIS"
+  }
+ ],
+ "CONG": [
+  {
+   "year": 1993,
+   "note": "Major: Changed from estimating recreation visits using a register book times a multiplier to using a traffic counter at the main entrance; Changed from estimating visitor hours using individual day use activities to a single day use length of stay multiplier for all recreation visits",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=CONG"
+  },
+  {
+   "year": 1998,
+   "note": "Minor: Added estimated counts at Cedar Creek",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=CONG"
+  },
+  {
+   "year": 1999,
+   "note": "Minor: Added buses and passengers at main entrance",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=CONG"
+  },
+  {
+   "year": 2000,
+   "note": "Minor: Added estimated counts at Bannister Bridge",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=CONG"
+  },
+  {
+   "year": 2007,
+   "note": "Minor: Changed from 25% of vehicle visits to 10% of vehicle visits to account for those missed by traffic counters; Added division by 4 (entry, exit, axles) at Cedar Creek; Added division by 2 (entry, exit) at Bannister Bridge",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=CONG"
+  },
+  {
+   "year": 2010,
+   "note": "Minor: Changed technology for traffic counters; Removed division by two for entry and exit at main entrance",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=CONG"
+  },
+  {
+   "year": 2012,
+   "note": "Minor: Changed from division by four to division by two at Cedar Creek",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=CONG"
+  },
+  {
+   "year": 2013,
+   "note": "Minor: Updated non-reportable vehicles from 30 to 85 at Cedar Creek and Bannister Bride",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=CONG"
+  }
+ ],
+ "CRLA": [
+  {
+   "year": 1989,
+   "note": "Major: Updated persons per vehicle multipliers; Added non-recreation visitor hours",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=CRLA"
+  },
+  {
+   "year": 1994,
+   "note": "Overhaul: Removed division by 2 on traffic counters; Removed non-reportable vehicle adjustment at Annie Spring; Updated language about visitors not crossing traffic counter to skiers and snowmobilers; Changed from estimate using traffic count to fixed estimate of non-recreation visits and hours; Changed from direct count of overnight stays in tents at Lost Creek to estimate using sites occupied and a person per site multiplier; Changed from estimate of backcountry overnights from permits to a direct count of overnights",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=CRLA"
+  },
+  {
+   "year": 1996,
+   "note": "Non-material: No material changes",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=CRLA"
+  },
+  {
+   "year": 2018,
+   "note": "Major: Updated persons per vehicle multipliers",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=CRLA"
+  }
+ ],
+ "CUVA": [
+  {
+   "year": 1989,
+   "note": "Major: Added estimate from traffic counter at Stanford Trailhead parking lot; Added estimate from traffic counter at Oak Hill Day Use Area; Added estimate from traffic counter at Horseshoe Pond Trailhead; Changed from manual count at VC to estimate from traffic counter at Canal Visitor Center parking lot and trailhead; Changed from monthly sample to fixed estimate of length of stay for several areas; Identified numeric values for PPV",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=CUVA"
+  },
+  {
+   "year": 1991,
+   "note": "Major: Identified numeric values for non-reportable (NPS) vehicles; Added Brandywine Falls overflow parking; Added estimate from traffic counter at Boston Store parking area; Added estimate from traffic counter at Lock 39 Trailhead; Added estimate from traffic counter at Indian Mound Trailhead; Added estimate from traffic counter at Lock 29 Trailhead and overflow; Added estimate from traffic counter at Fitzwater Trailhead; Added estimate from traffic counter and a manual count at Frazee House; Added estimate from traffic counter at Ira Road Trailhead; Added estimate from traffic counter at Hunt Farm Trailhead and Hunt Farm VC; Updated length of stay",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=CUVA"
+  },
+  {
+   "year": 1992,
+   "note": "Major: Removed count from Boston Store parking area; Removed count from Lock 39 Trailhead; Removed count from Indian Mound Trailhead; Removed count from Lod 29 Trailhead and Overflow; Removed count from Fitzwater Trailhead; Removed count from Hunt Farm Trailhead; Added estimate from traffic counter at Peninsula Trailhead; Added manual count at Happy Days Visitor Center; Added manual count at Canal Visitor Center; Added manual count at U of Akron EE Center; Removed manual count at Frazee House; Added manual count at Buckeye Sports; Added manual count at Special Events Site; Updated some lengths of stay",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=CUVA"
+  },
+  {
+   "year": 1997,
+   "note": "Major: Removed count from Station Road Trailhead parking area; Removed count from Peninsula Trailhead parking area; Removed count from Frazee House parking / trailhead; Removed count from Ira Road Trailhead parking area; Added estimate from traffic counter at Jaite Trailhead (separate from Redlock); Added estimate from traffic counter at Boston Store parking area; Removed manual count at Buckeye Sports; Added manual count at Frazee House; Added manual count at Boston Store; Added manual count at Hunt Farm VC; Added manual count at Institute for Creative Living; Removed manual count for Special Events Site; Updated some lengths of stay",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=CUVA"
+  },
+  {
+   "year": 2003,
+   "note": "Major: Removed division by two on Boston Trailhead traffic count; Removed count from Jaite Trailhead parking area; Added estimate from traffic counter at Lock 39 Trailhead; Added estimate from traffic counter at Indian Mound Trailhead; Added estimate from traffic counter at Station Road Trailhead; Added estimate from traffic counter at Lock 29 Trailhead and overflow; Added estimate from traffic counter at Fitzwater Trailhead; Added estimate from traffic counter at Frazee House parking area; Added estimate from traffic counter at Ira Road Trailhead; Added estimate from traffic counter at Hunt Farm Trailhead; Updated length of stay for Stanford Youth Hostel Trailhead; Removed count for Institute for Creative Living; Removed hours for Deep Lock Quarry",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=CUVA"
+  },
+  {
+   "year": 2007,
+   "note": "Overhaul: Changed from estimate using traffic counter at Octagon to estimate from regression; Changed from estimate using traffic counter at Crowfoot Gully to estimate from regression; Changed from estimate using traffic counter at Little Meadows to estimate from regression; Changed from estimate using traffic counter at Happy Days IC south to estimate from regression; Changed from estimate using traffic counter at Brandywine Falls overflow to estimate from regression; Changed from estimate using traffic counter at Blue Hen Falls to estimate from regression; Changed from estimate using traffic counter at Indigo Lake to estimate from regression; Changed from estimate using traffic counter at Pine Lane to estimate from regression; Changed from estimate using traffic counter at Boston Trailhead to estimate from regression; Changed from estimate using traffic counter at Hike & Bike Trailhead to estimate from regression; Changed from estimate using traffic counter at Everett Covered Bridge to estimate from regression; Changed from estimate using traffic counter at Stanford Hostel Trailhead to estimate from regression; Changed from estimate using traffic counter at Boston Store to estimate from regression; Changed from estimate using traffic counter at Horseshoe Pond to estimate from regression; Removed counts for Fitzwater Trailhead; Changed from estimate using traffic counter at Frazee to estimate from regression; Removed manual count at The Inn at Brandywine Falls; Removed manual count for Scout Camp Hikers; Removed manual count for Frazee House; Removed manual count for Hunt Farm VC; Added manual count for Special Event Visitors; Added manual count for Hale Farm and Village; Added manual count for Peninsula Depot",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=CUVA"
+  },
+  {
+   "year": 2008,
+   "note": "Minor: Added manual count at Hines Hill Facilities",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=CUVA"
+  },
+  {
+   "year": 2009,
+   "note": "Major: Removed count at Lower Brandywine Falls overflow parking; Added manual count of visitors to leased farm properties; Removed count at Hines Hill Facilities; Updated PPV multiplier to 2.1 all months",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=CUVA"
+  },
+  {
+   "year": 2011,
+   "note": "Minor: Added concession lodging overnights at Stanford House",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=CUVA"
+  },
+  {
+   "year": 2022,
+   "note": "Major: Traffic counter technology (all sites) changed from inductive loop to magnetometer; Added counts and hours for Boston Mill Visitor Center main parking area; Added counts and hours for Boston Mill Visitor Center RV parking area; Added counts and hours for Towpath Trail (north and south); Added counts for Hines Hill facilities; Added overnight stays at Environmental Education Center; At Everett Covered Bridge parking area, changed from using regression on Botzum traffic counter to using a traffic counter installed at Everett; Removed Blue Hen Falls; Removed Hike and Bike Trailhead parking; Removed Boston Store; Removed Stanford House day use; Removed special event visits / hours; Removed visits for Cuyahoga Valley Scenic Railroad (captured elsewhere) - kept additional hours for Railroad visits; Removed Peninsula Depot; Removed Winter Sports Center; Removed Youth Hostel overnights; Removed non-recreation visits and hours",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=CUVA"
+  },
+  {
+   "year": 2025,
+   "note": "Overhaul: Replaced regression estimates with estimates from new traffic counters at Octagon, Boston Trailhead, and Stanford House Trailhead; Updated estimate for Happy Days Lodge South, Horseshoe Pond, Indigo Lake, and Frazee House; added new counts / estimates at East Rim trail system (north and south), North Hampton Point, train boardings from outside park (Rockside and Akron); Removed counts at Brandywine Falls Inn (not eligible to report NPS visitor use statistics); updated length of stay multipliers; Each new or retained count location has updated adjustments for non-reportable vehicles, multiple counter crossings, and duplicate count corrections for same day reentries; Added adjustments for otherwise missed visits",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=CUVA"
+  }
+ ],
+ "DENA": [
+  {
+   "year": 1997,
+   "note": "Major: Changed to direct count of visits for winter recreation visits; Changed from using traffic counters to estimate much of visitor use from direct counts or counts from permits for summer recreation visits; Added an alternative method of estimating non-recreation visits when traffic counter is inoperable; Added estimated non-reportable vehicles for Highway 3 (non-rec); Updated length-of-stay multipliers",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=DENA"
+  },
+  {
+   "year": 2002,
+   "note": "Major: Added winter and summer rec visits from Talkeetna RS, mountain climbers and Talkeetna backcountry",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=DENA"
+  },
+  {
+   "year": 2010,
+   "note": "Major: Changed month breakout between winter and summer use; Added several categories to winter use; Removed mountain climbers and backcountry at Talkeetna from winter use; Expanded list of operators on Park Road for summer use; Added / expanded a few categories for summer use; Removed mountain climbers from summer use; Changed method for non-recreation; Added categories to backcountry overnight stays; Removed special use data",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=DENA"
+  },
+  {
+   "year": 2013,
+   "note": "Major: Updated multiplier for estimating visits not on bus tours from 0.33 to 0.7",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=DENA"
+  },
+  {
+   "year": 2017,
+   "note": "Major: Changed north side VC to Murie Science and Learning Center; Removed backcountry visits observed by BC rangers; Removed private vehicles past Savage; Added visits from aircraft on north side; Removed Savage Group CG / Miscellaneous Overnights; Changed campgrounds from NPS Tent/RV to concession campground",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=DENA"
+  },
+  {
+   "year": 2021,
+   "note": "Minor: Removed Winter/Summer split; Corrected length of stay so that only recreation visitors not captured by specific group are multiplied by 10 (hours were previously inflated)",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=DENA"
+  }
+ ],
+ "DEVA": [
+  {
+   "year": 1992,
+   "note": "Overhaul: Added fixed values for non-reportable vehicles, trailer axle adjustments and rec vs. non-rec; Added visits by plane; Added buses and bus passenger counts; Identified numeric value of persons-per vehicle; Changed from direct count of overnight stays in campground to count of sites times persons per site multiplier; Thorndike and Mahogany Flats campgrounds were removed",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=DEVA"
+  },
+  {
+   "year": 2012,
+   "note": "Major: Daylight Pass Road counts removed; Texas Springs group camping removed; RV overnights at Emigrant removed",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=DEVA"
+  },
+  {
+   "year": 2014,
+   "note": "Major: Furnace Creek Ranch campground was added to concession campground overnights",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=DEVA"
+  },
+  {
+   "year": 2018,
+   "note": "Major: Furnace Creek Ranch / Oasis campground removed from concession campground overnights (error noted in Abstract); Added Daylight Pass Road visits; Added Saline Valley Road visits; Added Backcountry overnight stays; Added tent overnights at Thorndike; Added tent overnights at Mahogany Flat; Added Phinney Canyon / Strozzi Road visits (NV); Added Titus Canyon visits (NV); Modified park calculations to account for visits, hours and overnights in two states instead of one",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=DEVA"
+  }
+ ],
+ "DRTO": [
+  {
+   "year": 1997,
+   "note": "Major: Changed from manual count of visits by private recreation boat to boat count time multiplier; Added non-recreation visits and hours; Updated (and somewhat removed) most overnight stay hours",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=DRTO"
+  },
+  {
+   "year": 1999,
+   "note": "Major: Added counts from ferries; Added government / military to non-recreation overnight stays",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=DRTO"
+  },
+  {
+   "year": 2007,
+   "note": "Major: Changed from manual count of commercial recreation visits to count of commercial rec boats times a multiplier; Added a field for ‘other’ recreation visits; Changed from manual count of government non-recreation visits to a count of gov boats times a multiplier; Changed from a manual count of visitors staying overnight in tents to a count of tents occupied times a multiplier",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=DRTO"
+  },
+  {
+   "year": 2009,
+   "note": "Minor: Changed back from boats times multiplier for commercial recreation to manual count of visitors arriving by commercial recreation boat",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=DRTO"
+  },
+  {
+   "year": 2019,
+   "note": "Minor: Removed ‘other recreation visits’ from REC; Changed day use length of stay from 12 to 8 hours; Changed overnight use length of stay from 12 hours to 8 hours",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=DRTO"
+  },
+  {
+   "year": 2021,
+   "note": "Minor: Added estimate of private boat visits from online pass sales to be compared with manual morning count of vessels in the harbor. The higher of the two is chosen as an estimate of private boat use at the park.",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=DRTO"
+  }
+ ],
+ "EVER": [
+  {
+   "year": 1992,
+   "note": "Major: Updated most PPVs using 1991 traffic study; Added East Everglades District counts",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=EVER"
+  },
+  {
+   "year": 2017,
+   "note": "Major: Added walk-ins and cyclists to main entrance; Added bus passengers to Shark Valley; Added decision between visits estimated from traffic counts and Visitor Center count at Gulf Coast; Added visitors entering with Airboat operators; Added visitors to Environmental Education Center; Removed East Everglades; Removed Flamingo Lodge",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=EVER"
+  },
+  {
+   "year": 2018,
+   "note": "Major: Changed from manual count of visits at main entrance to estimate from traffic count; Removed walk in and bicycle counts at main entrance; Changed from manual count of visits at Shark Valley to estimate from traffic count; Changed from manual count of non-recreation vehicles (Main Entrance, Shark Valley) to estimate of non-recreation vehicles; Changed from NPS operated to concession operated campgrounds at Flamingo and Long Pine Key",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=EVER"
+  },
+  {
+   "year": 2019,
+   "note": "Overhaul: Added pedestrian / cyclist counts at main entrance and Shark Valley; Added estimate of bicycle use at Shark Valley (to correct for bicycles crossing traffic counter); Changed from inductive loop to pneumatic tube counters (divided by 2 for entry and exit or vehicle axles) at Main Entrance, Shark Valley and Gulf Coast; Updated non-reportable (NPS) vehicles to correspond to new traffic counter locations; Added estimate of water access visits from pass sales – compared with previous method of boat trailer count and will choose higher estimate; Added back in visitation estimate for East Everglades; Changed from door count to manual count of visits at Gulf Coast Visitor Center; Moved group camping overnights to Concession Campground Overnight Stays; Updated persons per boat multipliers using 2008 study; Updated Flamingo trailer count / Florida Bay multiplier using 2008 study; Updated overnight length of stay using 2008 visitor use study",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=EVER"
+  },
+  {
+   "year": 2020,
+   "note": "Major: Homestead Entrance traffic counter was moved from fee booth to near park entrance sign. Count is now divided by 4 to account for axles and entry/exit.; Removed fixed estimate of Coe VC only visits at Homestead Entrance (now captured by new traffic counter location); Updated method for estimating bicycles at Shark Valley – combination of hand count when entrance station open and smaller fixed estimate when station closed (estimate is from staff observations in 2019)",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=EVER"
+  },
+  {
+   "year": 2021,
+   "note": "Minor: Homestead Entrance traffic count was changed to be divided by 2 to account for entry and exit (removed count correction for axles).",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=EVER"
+  }
+ ],
+ "GAAR": [
+  {
+   "year": 2002,
+   "note": "Non-material: No material changes to count procedures – clarified some language",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GAAR"
+  },
+  {
+   "year": 2026,
+   "note": "Minor: Removed visitors at Marion Creek",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GAAR"
+  }
+ ],
+ "GLAC": [
+  {
+   "year": 1994,
+   "note": "Major: Removed division by 2 for Polebridge; Removed Cut Bank entrance count; Added count at Walton / Goat Lick; Added count of bicyclists; Changed from hand count visits to estimate of visits using traffic count at West Entrance and Walton Ranger Station; Changed from direct count of overnight stays to count of sites occupied / multiplier for NPS tent and RV overnights",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GLAC"
+  },
+  {
+   "year": 2003,
+   "note": "Overhaul: Added non-reportable vehicle adjustment at West Entrance; Added 93% duplicate reporting adjustment; Removed count of bicyclists; Added estimates for winter for traffic counters that are removed; Removed Walton Ranger Station area counts; Removed counts from Customs / Chief Mountain; Added estimate for Belly River Trailhead; Added estimate for Cut Bank area; Added hours per overnight stay (Table 2); Updated persons-per-site multipliers; Added category for reporting miscellaneous overnights (group campsites)",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GLAC"
+  },
+  {
+   "year": 2009,
+   "note": "Minor: Changed from estimated winter traffic count of 100 to 50 for Walton / Goat Lick",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GLAC"
+  },
+  {
+   "year": 2017,
+   "note": "Minor: Updated FOTSC traffic counter calculations to include estimates for missing days based on either current month or historic data (depending on operational status of traffic counter)",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GLAC"
+  }
+ ],
+ "GLBA": [
+  {
+   "year": 1995,
+   "note": "Major: Changed from counting overnight stays to dividing total visitor hours at overnight sites by 24 to get overnight stays; Documented persons-per-boat multipliers for non-recreation; Updated length of stay multipliers",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GLBA"
+  },
+  {
+   "year": 2013,
+   "note": "Major: Removed visits on Spirit of Glacier Bay; Removed visits on Executive Explorer; Removed visits on Wilderness Explorer; Removed visits at Dry Bay; Changed from overflights to visits from wheeled or float plane landings; Removed crabbing, shrimping and long line non-recreation vessels; Removed fuel patrons; Removed miscellaneous non-recreation visits; Added preserve subsistence users",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GLBA"
+  },
+  {
+   "year": 2017,
+   "note": "Minor: Moved miscellaneous large vessels (USCG) from recreation to non-recreation visits and hours",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GLBA"
+  }
+ ],
+ "GRBA": [
+  {
+   "year": 1959,
+   "note": "Major: Original Count Procedures",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GRBA"
+  },
+  {
+   "year": 1962,
+   "note": "Minor: Removed overnight stays (not available at park at the time)",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GRBA"
+  },
+  {
+   "year": 1990,
+   "note": "Major: Added counts and hours for visitors on the cave tour; Added counts for non-tour visitors by increasing the cave tour count by 38% (0.382); Added counts and hours for Tent and recreational Vehicle (RV) campers; Added counts and hours for backcountry campers; Added counts and hours for non-recreation visits",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GRBA"
+  },
+  {
+   "year": 1993,
+   "note": "Non-material: No material changes",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GRBA"
+  },
+  {
+   "year": 1996,
+   "note": "Overhaul: Changed from estimate using cave tours and overnight stays to an estimate using three traffic counters (Main Entrance, Strawberry Creek and Snake Creek); Added persons per vehicle multipliers for the new traffic counters; Updated overnight stay length of stay for campground overnights",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GRBA"
+  },
+  {
+   "year": 2000,
+   "note": "Minor: Added miscellaneous overnight stays for group campers",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GRBA"
+  }
+ ],
+ "GRCA": [
+  {
+   "year": 1996,
+   "note": "Non-material: No material changes – only formatting and spelling",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GRCA"
+  },
+  {
+   "year": 1999,
+   "note": "Minor: Removed visitors arriving by NaviHopi buses; Changed from constant number of buses to remove from traffic count (61) to actual count; Added PPV multipliers at North Entrance for January through April",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GRCA"
+  },
+  {
+   "year": 2005,
+   "note": "Major: Changed from percent estimate of non-recreation vehicles (11%) and non-reportable vehicles (18%) to direct count of each; Added non-recreation and non-reportable vehicles to traffic count adjustment at Desert View, North Rim; Added visitors arriving by NaviHopi buses back in to count procedures; Identified non-recreation PPV of 1.5; Removed PPVs at North Entrance January - April",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GRCA"
+  },
+  {
+   "year": 2012,
+   "note": "Non-material: No material changes – inserted language about reservation system for Mather Campground",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GRCA"
+  },
+  {
+   "year": 2018,
+   "note": "Major: Updated PPV multipliers for South, Desert View and North entrances",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GRCA"
+  }
+ ],
+ "GRSA": [
+  {
+   "year": 1993,
+   "note": "Major: Added visits at Medano Pass Road; Updated day length of stay from 1.8 to 2 hours; Updated overnight length of stay in months May through September",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GRSA"
+  },
+  {
+   "year": 2002,
+   "note": "Major: Added visits to Music Pass; Added visits to Mosca Pass",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GRSA"
+  },
+  {
+   "year": 2003,
+   "note": "Minor: Updated non-recreation vehicles",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GRSA"
+  },
+  {
+   "year": 2005,
+   "note": "Minor: Set non-recreation vehicles back to what they were prior to 2003",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GRSA"
+  },
+  {
+   "year": 2023,
+   "note": "Minor: Switched from sites occupied to actual overnight stays at Pinon Flats Campground",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GRSA"
+  },
+  {
+   "year": 2024,
+   "note": "Major: Updated length of stay multipliers; Added duplicate reporting adjustment",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GRSA"
+  }
+ ],
+ "GRSM": [
+  {
+   "year": 1965,
+   "note": "Major: Original Count Procedures",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GRSM"
+  },
+  {
+   "year": 1989,
+   "note": "Overhaul: Added non-recreation visits and hours; Specifically called out numeric PPVs; Added bus passengers; Added a traffic counter at Twentymile; Added traffic counters on the Foothills Spur; Added a traffic counter at Balsam Mountain; Added a traffic counter at Foothills Parkway (east); Added a traffic counter at Roaring Fork Motor Nature Trail; Added a traffic counter at Cherokee Orchard; Added an additional traffic counter at Oconaluftee",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GRSM"
+  },
+  {
+   "year": 1994,
+   "note": "Major: Updated some equipment to FOTSC program designations; Added non-reportable vehicles; Added pneumatic traffic counters at: Heintooga-Round Bottom, Bryson City-Fontana Road; Added vehicle estimate at Deep Creek; Removed counter from Roaring Fork Motor Nature Trail; Added 12% reduction factor for duplicate reporting",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GRSM"
+  },
+  {
+   "year": 2012,
+   "note": "Minor: Upgraded most (not all) traffic counters to inductive loops; Changed from estimated vehicle counts to inductive loop traffic counter at Deep Creek; Changed from traffic counter to fixed traffic estimate for Twenty Mile Road; Traffic counter at Balsam Mountain removed",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GRSM"
+  },
+  {
+   "year": 2016,
+   "note": "Minor: Changed from pneumatic tube to inductive loop traffic counter at Big Creek",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GRSM"
+  },
+  {
+   "year": 2021,
+   "note": "Overhaul: Added method to estimate days out for Federal Highways traffic counters; Removed day of week breakouts for Gatlinburg, Oconaluftee, and Townsend; Updated names/labels at several locations; Added Wears Valley and Walland to Foothills Parkway West counts; Changed peak season counts to overnight stays captured from recreation.gov for all campgrounds; Added option to have sites occupied times persons-per-site multiplier for off peak / first-come-first-served campsites at Cades Cove, Elkmont and Smokemont campgrounds",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GRSM"
+  },
+  {
+   "year": 2022,
+   "note": "Minor: Added horse camps to Miscellaneous overnights (Anthony Creek, Big Creek, Cataloochee, Round Bottom, Tow String); Changed from sites occupied times a multiplier for some campgrounds and times to year to all overnights from recreation.gov",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GRSM"
+  },
+  {
+   "year": 2024,
+   "note": "Overhaul: Updated lengths of stay for recreation visits; Updated duplicate reporting adjustment; Updated persons-per-vehicle multipliers for entire park; Updated non-reportable vehicles at all entrances",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GRSM"
+  }
+ ],
+ "GRTE": [
+  {
+   "year": 1991,
+   "note": "Major: Original Count Procedures",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GRTE"
+  },
+  {
+   "year": 1992,
+   "note": "Minor: Added the number of snowmobilers on the Continental Divide Trail to recreation visits",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GRTE"
+  },
+  {
+   "year": 2005,
+   "note": "Minor: Campgrounds changed from NPS operated to concession operated: Gros Ventre, Jenny Lake, Lizard Creek, Colter Bay, Signal Mountain; Added NPS campground overnight stays at Hunt Camps; Added NPS miscellaneous overnight stays for roadside campers",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GRTE"
+  },
+  {
+   "year": 2022,
+   "note": "Major: Removed roadside camping overnight stays and hunt camps; Added Colter Bay Winter Camping Area (NPS campground); Changed from sites occupied * persons-per-campsite multiplier to direct count of overnight stays at campgrounds; Added counts from multi-use trail at Moose entrance; Removed snowmobilers, fee waiver visits, organized group visits; Changed from bus*persons-per-bus multiplier to direct count of bus passengers",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GRTE"
+  }
+ ],
+ "GUMO": [
+  {
+   "year": 1979,
+   "note": "Major: Added traffic counters at McKittrick Canyon, Frijole Historic Site and Dog Canyon; Added manual count at Williams Ranch; Added overnights at Dog Canyon",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GUMO"
+  },
+  {
+   "year": 1992,
+   "note": "Minor: Added constants for non-reportable vehicles (manual reductions before); Identified specific persons per vehicle multiplier; Added visitor hours",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GUMO"
+  },
+  {
+   "year": 1994,
+   "note": "Non-material: No material changes (was supposed to be a change in visitor hour multiplier for Dog Canyon in procedures, but it appears this was not implemented in calculations - remained at 4 hours per visit instead of 1 hour per visit)",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GUMO"
+  },
+  {
+   "year": 2016,
+   "note": "Minor: Updated traffic counters at McKittrick Canyon and Pine Springs to inductive loop; Added counts of buses and bus passengers at Pine Springs",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GUMO"
+  },
+  {
+   "year": 2019,
+   "note": "Major: Updated PPV multipliers at Dog Canyon, Frijole Ranch and McKittrick Canyon; Update non-reportable vehicles at Dog Canyon, Frijole Ranch and McKittrick Canyon; Added non-recreation visits and hours to McKittrick Canyon; Added visits at hours at Salt Basin Dunes",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=GUMO"
+  }
+ ],
+ "HALE": [
+  {
+   "year": 1991,
+   "note": "Major: Added non-recreation visits and hours; Added recreation visitor hours; Identified specific, numeric PPV and PPBUS",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=HALE"
+  },
+  {
+   "year": 1992,
+   "note": "Minor: Added estimates for non-recreation vehicles; Added estimates for non-reportable vehicles; Updated persons per vehicle for recreation",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=HALE"
+  },
+  {
+   "year": 2000,
+   "note": "Minor: Updated duplicate reporting adjustment for Kipahulu entrance; Updated persons per van multiplier at Kipahulu; Removed non-rec visits and hours at Kipahulu",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=HALE"
+  },
+  {
+   "year": 2003,
+   "note": "Minor: Added persons per taxi and persons per bus multipliers at both entrances; Removed estimate of visitors entering after fee booth closes; Added visitors arriving by horseback",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=HALE"
+  },
+  {
+   "year": 2010,
+   "note": "Non-material: No material changes to calculations; Changed description/location of Kipahulu traffic counter",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=HALE"
+  }
+ ],
+ "HAVO": [
+  {
+   "year": 1992,
+   "note": "Major: Changed from traffic counts at multiple locations to count at entrance station on Crater Rim Drive; Added reduction for non-reportable vehicles; Accounted for buses and bus passengers; Specifically called out numeric PPVs in count procedures; Accounted for recreation visitor hours; Accounted for non-recreation visits/hours",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=HAVO"
+  },
+  {
+   "year": 1998,
+   "note": "Major: Updated values for non-reportable vehicles; Shuffled PPVs (not sure if this is a ‘real’ change or updating typo in count procedures); Added a traffic count for recreation visits at Kalapara entrance",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=HAVO"
+  },
+  {
+   "year": 2006,
+   "note": "Minor: Updated non-reportable vehicles on Crater Rim Drive; Removed traffic count at Kalapara entrance; Moved KMC overnights from Miscellaneous to Concessioner Lodging",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=HAVO"
+  },
+  {
+   "year": 2007,
+   "note": "Major: Changed from estimate of non-reportable vehicles to direct count of non-reportable vehicles by category; Updated PPV multipliers; Updated non-recreation traffic to include hand counts of Vendor, PO Box and KMC vehicles; Added estimate for Kulanaokuaiki campground; Removed Kipuka campground; Removed Kamoamoa campground; Moved KMC overnights back to Miscellaneous",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=HAVO"
+  },
+  {
+   "year": 2015,
+   "note": "Minor: Changed from estimating non-recreation visits with a traffic count to a fixed estimate; Updated estimation method for Kulanaokuaiki campground",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=HAVO"
+  },
+  {
+   "year": 2017,
+   "note": "Minor: Changed from estimate to direct count of overnight stays at Kulanaokuaiki campground; Added RV overnights at Kulanaokuaiki campground",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=HAVO"
+  },
+  {
+   "year": 2022,
+   "note": "Major: Changed to FOTSC counter at entrance station; Added monthly estimates for turn around vehicles, same day return vehicles, and average daily traffic counts to be used for adjusting traffic counts; Changed from entering counts for vendors, PO Box, and KMC Military visits to one field for pass through visits.; Added overnight stay hours for Nāmakanipaio campground; Changed to FOTSC counter at entrance station; Added monthly estimates for turn around vehicles, same day return vehicles, and average daily traffic counts to be used for adjusting traffic counts; Changed from entering counts for vendors, PO Box, and KMC Military visits to one field for pass through visits.; Added overnight stay hours for Nāmakanipaio campground",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=HAVO"
+  },
+  {
+   "year": 2026,
+   "note": "Major: Added duplicate reporting adjustment on main entrance visits; Added additional visits from Kahuku; Added non-motorized park entries; Updated length of stay multipliers; Removed RV overnight stays at Kulanaokuaiki Campground; Changed persons per vehicle multiplier from 2.7 to 3.1 November through February and June through August",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=HAVO"
+  }
+ ],
+ "HOSP": [
+  {
+   "year": 1992,
+   "note": "Major: Updated recreation / non-recreation split on West Mountain; Removed counts from Blacksnake Road; Identified specific PPV for the first time; Identified specific lengths-of-stay for the first time",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=HOSP"
+  },
+  {
+   "year": 2005,
+   "note": "Minor: Removed the number of visitors taking treatments at Libbey Memorial Physical Medicine Center from recreation visits; Removed recreation visitor hours for Libbey Memorial PMC; Updated how counts are estimated for Gulpha Gorge campground from ‘determining by permits issued’ to ‘estimating from Table 2’.; Removed Libbey treatments from Special Use Data list",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=HOSP"
+  },
+  {
+   "year": 2007,
+   "note": "Minor: Added number of visitors using Quapaw Bath and Spa to recreation visits; Added Quapaw Bath and Spa recreation visitor hours; Updated how counts are estimated for Gulpha Gorge campground from ‘estimates from Table 2’ to ‘direct count of visitor overnights in tents or RVs’.; Removed Special Use Data section",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=HOSP"
+  },
+  {
+   "year": 2008,
+   "note": "Minor: Updated highway numbers in recreation visit text (70B to 7S); Updated highway numbers in non-recreation visit text (70B to 70)",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=HOSP"
+  },
+  {
+   "year": 2020,
+   "note": "Overhaul: Changed to indicator counts with calibration and expansion multipliers; Added duplicate reporting adjustments; Updated persons per vehicle; Updated most of non-recreation method from percent split to constants; Updated recreation day use length of stay",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=HOSP"
+  }
+ ],
+ "INDU": [
+  {
+   "year": 1994,
+   "note": "Overhaul: Added counts at Buell Visitor Center area; Added counts at Tremont; Added counts at Porter Beach; Added counts at Inland Marsh; Added counts at Cowles Bog; Added information visits at Lake View; Added overnight stays; Identified specific numeric value for PPV; Added non-reportable vehicle adjustments; Removed Red Lantern Inn visits; Changed non-recreation adjustment from persons per household from Bureau of Census to persons per vehicle; Added length of stay multipliers",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=INDU"
+  },
+  {
+   "year": 1997,
+   "note": "Major: Added buses and passengers at several locations; Added counts by Wells Street lifeguards; Added visits to Challenge Education Course; Added visits to Indiana Dunes ELC; Updated non-reportable vehicles at Mount Baldy, Central Beach, Tremont, Porter Beach, Bailly; Added non-reportable vehicles for Greenbelt; Added concession lodging overnight stays (Indiana Dunes ELC)",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=INDU"
+  },
+  {
+   "year": 1999,
+   "note": "Minor: Updated method / language for non-recreation; Changed ELC overnights from concession lodging to miscellaneous",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=INDU"
+  },
+  {
+   "year": 2002,
+   "note": "Minor: Removed division by 2 at Greenbelt",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=INDU"
+  },
+  {
+   "year": 2009,
+   "note": "Major: Added counts at Portage Lakefront; Added counts at Dunbar",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=INDU"
+  },
+  {
+   "year": 2013,
+   "note": "Major: Removed buses and passengers; Porter Beach counts changed from one traffic counter to two (one North, one South); Removed Wells Street lifeguard counts; Removed Challenge Education Course visits; Removed Indiana Dunes ELC counts",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=INDU"
+  },
+  {
+   "year": 2017,
+   "note": "Minor: Changed count description for Buell Visitor Center to Calumet Dune Interpretation Trail; Updated non-reportable at Calumet Dune Trail; Removed miscellaneous overnight stays",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=INDU"
+  }
+ ],
+ "ISRO": [
+  {
+   "year": 1993,
+   "note": "Minor: Rearranged the list of recreation visit counts; Rearranged the list of non-recreation visit counts; Collected visitor hour multipliers in Table 1",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=ISRO"
+  },
+  {
+   "year": 2016,
+   "note": "Major: Changed WeNohNah to Sea Hunter; Split Ranger III visits into Ranger III and Ranger III Waterway Cruises; Clarified that additional rec visits at the Houghton VC should not be counted elsewhere; Removed commercial fishermen from non-recreation; Updated non-recreation from a list to generic “other federal and state”; Added Tobin Harbor to NPS Campgrounds; Moved group campsites overnights to Miscellaneous Overnights (was lumped into Backcountry)",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=ISRO"
+  },
+  {
+   "year": 2022,
+   "note": "Minor: Added counts for staff / family (employee guests) on Ranger III",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=ISRO"
+  },
+  {
+   "year": 2024,
+   "note": "Minor: Updated lengths of stay; Added boater overnights at docks and campground to Miscellaneous Overnight Stays",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=ISRO"
+  }
+ ],
+ "JEFF": [
+  {
+   "year": 1992,
+   "note": "Major: Changed from count of visitors entering visitor center and in organized groups to a count at North and South Ramps; Added visits to Old Courthouse; Added grounds only estimate; Changed parking lot visit estimate from recreation to non-recreation; Specifically identified numeric length of stay multipliers",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=JEFF"
+  },
+  {
+   "year": 1995,
+   "note": "Major: Added adjustment for counter error on ramps; Added adjustment for entry and exit counts on ramps; Added estimate of visits for St Louis Fair (4th of July celebrations); Updated length of stay multiplier for recreation visits from 1 hour to 4 hours",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=JEFF"
+  },
+  {
+   "year": 1997,
+   "note": "Major: Removed adjustments for ramp counts; Updated method for non-recreation parking lot counts from report by concessionaire to parking lot counts with adjustments",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=JEFF"
+  },
+  {
+   "year": 2013,
+   "note": "Minor: Removed estimate for north parking garage from non-recreation visits",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=JEFF"
+  },
+  {
+   "year": 2015,
+   "note": "Minor: Removed non-recreation visits",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=JEFF"
+  },
+  {
+   "year": 2020,
+   "note": "Overhaul: Changed from count at ramps to count from security at Visitor Center; Added duplicate reporting adjustment for additional visits from Old Courthouse; Added visitors at permitted, after hours and special events not recorded through other means",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=JEFF"
+  },
+  {
+   "year": 2023,
+   "note": "Major: Changed grounds only visit multiplier from 0.25 to 1.1; Changed length of stay from 4 to 2.2 hours",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=JEFF"
+  }
+ ],
+ "JOTR": [
+  {
+   "year": 2002,
+   "note": "Minor: Added bus and bus passenger counts; Updated persons per site multiplier for tents from 3 to 4",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=JOTR"
+  },
+  {
+   "year": 2003,
+   "note": "Minor: Added NPS campground counts at Black Rock to recreation visits because these visitors do not cross any traffic counters on their way to the campground",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=JOTR"
+  },
+  {
+   "year": 2006,
+   "note": "Major: Added counts and hours from the Covington entrance",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=JOTR"
+  },
+  {
+   "year": 2019,
+   "note": "Major: Updated PPVs for North Entrance, West Entrance, Cottonwood and Black Rock",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=JOTR"
+  }
+ ],
+ "KATM": [
+  {
+   "year": 1976,
+   "note": "Minor: Documented fixed persons-per vehicle, persons-per-aircraft, persons-per-boat and persons-per-snow machine (snowmobile) multipliers",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=KATM"
+  },
+  {
+   "year": 1994,
+   "note": "Major: Updated PPV multiplier for Lake Camp; Updated length of stay multipliers",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=KATM"
+  },
+  {
+   "year": 1997,
+   "note": "Major: Generalized location for IBP boat and aircraft visits; Added multiplier for otherwise uncounted visits to Brooks Visitor Center; Added multiplier for otherwise uncounted recreation visits; Removed other non-recreation visits",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=KATM"
+  },
+  {
+   "year": 2021,
+   "note": "Major: Simplified method for estimating recreation visits use broader categories of how visitors access the park (CUA operator, concession operator, other); Expanded non-recreation visits into categories of CUA guides, concession contract guides, researchers and other; Simplified recreation visitor hours to be the same for all visitors based on a 2014 visitor use study; Expanded backcountry overnights and non-recreation overnights to have the same structure as recreation visits and non-recreation visits, respectively",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=KATM"
+  },
+  {
+   "year": 2024,
+   "note": "Minor: Clarified source of client, guide, and researcher inputs (VURn, permit system, or concession contract; Clarified that overnight stays are recorded user days minus visits",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=KATM"
+  }
+ ],
+ "KEFJ": [
+  {
+   "year": 1986,
+   "note": "Major: Added day boat and air charter manual counts to recreation visits; Updated length of stay multipliers; Added overnight stays",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=KEFJ"
+  },
+  {
+   "year": 1991,
+   "note": "Major: Changed from manual counts at Exit Glacier to estimating visits using traffic counter and multiplier; Updated some length of stay multipliers for recreation visits; Updated length of stay multipliers for non-recreation visits; Changed from manual counts of overnight stays to counting sites occupied and multiplying by persons-per-site multipliers",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=KEFJ"
+  },
+  {
+   "year": 1996,
+   "note": "Major: Added adjustment to remove bus count from Exit Glacier traffic count; Updated PPV multiplier; Added counts for additional/new public use cabins; Added tour boat visitors; Updated overnight visitor hours",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=KEFJ"
+  },
+  {
+   "year": 1999,
+   "note": "Major: Added bus passengers at Exit Glacier; Added snowmobile visits; Removed non-recreation visits and hours; Removed miscellaneous overnight stays",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=KEFJ"
+  },
+  {
+   "year": 2010,
+   "note": "Major: Changed from inductive loop counter to pneumatic tube counter at Exit Glacier; Removed non-reportable vehicle adjustment from Exit Glacier traffic counter; Removed Delight Public Use Cabin visits / overnights; Estimating backcountry overnight visits from registrations instead of estimated by backcountry rangers; Removed persons-per-snowmobile multiplier; Removed RV overnight stays",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=KEFJ"
+  },
+  {
+   "year": 2018,
+   "note": "Minor: If traffic count and snowmobile count at Exit Glacier are zero, will use Harding Icefield Trail (HIT) count as estimate of visits to Exit Glacier",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=KEFJ"
+  },
+  {
+   "year": 2021,
+   "note": "Overhaul: Changed from traffic counter to traffic counter / classifier at Exit Glacier; Updated persons per vehicle multipliers to use vehicle class at Exit Glacier; Removed bus counts from Exit Glacier (captured by classifier); Moved public use cabin overnights from backcountry to miscellaneous to conform to NPS definitions; Added estimates from commercial services database; Removed Harding Icefield Trail visits from recreation visits – these visits are captured by traffic counter in summer and ‘other recreation visits’ other times of year. HIT visits are now tracked independently from recreation visits for administrative use only.; Added non-recreation visits, hours, and overnight stays for guides and researchers from commercial services database; Updated length of stay for Exit Glacier visits and visits to other areas using information from visitor use studies conducted in the 1990s",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=KEFJ"
+  }
+ ],
+ "KICA": [
+  {
+   "year": 1992,
+   "note": "Major: Removed traffic counter at Cedar Grove Entrance lane; Added bus visitors; Added overnights at concession lodging (Grant Grove Lodge and Cedar Grove Lodge); Added overnights at Campgrounds (Azalea, Canyon View, Crystal Springs, Moraine, Sentinel, Sheep Creek, Sunset); Added estimated backcountry overnights; Added miscellaneous overnights at group campgrounds (Canyon View and Sunset)",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=KICA"
+  },
+  {
+   "year": 2005,
+   "note": "Major: Added group campground overnights at Crystal Springs; Changed from hand count of non-recreation visitors to non-recreation vehicles with persons per vehicle multiplier of 1.0",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=KICA"
+  },
+  {
+   "year": 2006,
+   "note": "Minor: Updated length of stays",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=KICA"
+  },
+  {
+   "year": 2015,
+   "note": "Major: Added traffic counter at Lost Grove entrance; Added visitors entering by park shuttle",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=KICA"
+  },
+  {
+   "year": 2024,
+   "note": "Minor: Removed vehicles to forest service areas in Big Stump",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=KICA"
+  }
+ ],
+ "KOVA": [
+  {
+   "year": 1996,
+   "note": "Major: Changed from estimating recreation and non-recreation visits using a table to estimating recreation visits by park personnel; Updated length of stay multipliers (simplified); Added 30% of visits to Kotzebue Visitor Center",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=KOVA"
+  },
+  {
+   "year": 2025,
+   "note": "Overhaul: Changed from a manual estimate of recreation visits and overnight stays to an estimate of base visits/overnight stays plus visits/overnight by CUA clients plus an estimate of otherwise missed visits / overnight stays; Changed from a manual estimate of non-recreation visits and overnight stays to an estimate of visits/overnight by CUA guides plus an estimate of otherwise missed visits / overnight stays",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=KOVA"
+  }
+ ],
+ "LACL": [
+  {
+   "year": 2021,
+   "note": "Major: Changed from observed visits to an estimate from CUA reports, concession operation records, and an additional estimate by park staff; Added miscellaneous overnight stays at park Public Use Cabins; Added guide non-recreation visits and overnight stays; Added non-recreation researcher visits and overnight stays",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=LACL"
+  },
+  {
+   "year": 2024,
+   "note": "Minor: Clarified source of client, guide, and researcher inputs (VURn, permit system, or concession contract); Clarified that overnight stays are recorded user days minus visits",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=LACL"
+  }
+ ],
+ "LAVO": [
+  {
+   "year": 2011,
+   "note": "Minor: Updated / added locations for NPS Miscellaneous overnight stays",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=LAVO"
+  },
+  {
+   "year": 2016,
+   "note": "Minor: Removed Crags campground from overnight stay counts",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=LAVO"
+  },
+  {
+   "year": 2019,
+   "note": "Minor: Moved overnight stays at Warner Valley from NPS to concession campground",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=LAVO"
+  }
+ ],
+ "MACA": [
+  {
+   "year": 1968,
+   "note": "Minor: Removed some special use data; Split overnights between Old and New Campgrounds; Added passengers on Houchins Ferry; Moved traffic counters on Kentucky Route 70",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=MACA"
+  },
+  {
+   "year": 1991,
+   "note": "Overhaul: Traffic counters on State Highway 70 were replaced by Branch of Transportation (BRTR) counter stations 3201 and 3202; Added counts at Green River Ferry; Changed from passenger count to traffic count with multipliers at Houchin River Ferry; Added tour bus counts with persons per bus multiplier; Added adjustments for backcountry overnight visits; Added counts and adjustment for horseback riders; Added visits from trail system; Added non-recreation visits and hours; Added adjustment for overnight stays at HQ and Houchin Ferry Campgrounds (Table 3); Changed from direct count of overnights at Houchin Ferry CG to count of sites occupied and a persons per site multiplier",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=MACA"
+  },
+  {
+   "year": 1994,
+   "note": "Major: Added counts for the number of overnight visitors at Dennison Ferry Campground; Changed from direct count of overnights at HQ campground to count of sites occupied and a persons per site multiplier; Removed adjustments for overnight stays at HQ and Houchin Ferry Campgrounds (Table 3)",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=MACA"
+  },
+  {
+   "year": 1999,
+   "note": "Major: Eliminated the count for the number of overnight visitors at Dennison Ferry Campground; Added adjustments for overnight stays at HQ and Houchin Ferry Campgrounds back in (Table 3)",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=MACA"
+  },
+  {
+   "year": 2006,
+   "note": "Overhaul: Eliminated the BRTR inductive loop counters; Added counts from canoe liveries and estimate of private canoeist; Added adjustment for duplicate reporting at Green Ferry; Updated recreation PPV at Houchin Ferry; Removed tour bus counts; Added trail counters at Temple Hill, Good Springs, First Creek, Lincoln, Cedar Sink, Sand Cave, Sloans Crossing, Mammoth Cave, and Turnhole Bend Nature Trail; Added horseback riders counts from Double “J” Riding Stables; Added estimate for miscellaneous use otherwise missed; Added estimate of surface use; Added count for visitors utilizing the reserved picnic shelters; Updated length-of-stay multipliers; Removed Table 3 adjustments for campgrounds; Updated persons per boat multiplier; Added non-recreation traffic counts at ferry locations",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=MACA"
+  },
+  {
+   "year": 2015,
+   "note": "Major: Added a bike and an active infrared counter are located near the entrance of Big Hollow Trail; Eliminated the two infrared trail counters that were located at the entrance to Good Springs Trail",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=MACA"
+  },
+  {
+   "year": 2017,
+   "note": "Major: Removed recreation and non-recreation counts by ferry operator at Houchin Ferry (ferry no longer operating); Changed from direct count of horseback rider and hiker use to estimates of each from total trail count at Sal Hollow, Temple Hill, First Creek and Lincoln Trails; Removed counts at Sand Cave to eliminate potential double-counting of visits; Updated estimates for miscellaneous use otherwise missed",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=MACA"
+  },
+  {
+   "year": 2018,
+   "note": "Overhaul: Replaced estimate of motor boat use from rangers with estimate from Green River Ferry operator; Added canoes and kayaks observed by Green River Ferry operator; Added kayak users reported by canoe liveries; Changed from estimate using multiplier to fixed estimate of private canoes; Added estimate of canoes and kayaks at Nolin Tailwaters area; Updated bike/hike/horse splits for most trails; Added Collie Ridge trail counts; Removed Lincoln trail counts; Removed Double “J” riding counts from recreation visits/hours; Changed surface visits multiplier from 10% to 7% of cave visits; Removed visits to picnic shelter from recreation visits/hours; Updated cave visit length of stay from 4 hours to 5 hours per visit; Updated overnight length of stay from 12 hours to 18 hours per stay",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=MACA"
+  },
+  {
+   "year": 2019,
+   "note": "Major: Added counts at Echo River Springs Trail; Removed count of private canoeists and kayakers provided by canoe liveries; Replaced count of canoes times multiplier at Houchin Ferry with fixed estimate of canoeists and kayakers; Updated estimate of canoes/kayaks at Nolin Tailwaters area; Added equestrian visits from Double J Stables; Changed from sites occupied times a persons per site multiplier to direct count of tent and RV overnight stays at Headquarters and Houchin Ferry campgrounds; Split backcountry overnights into river and other; Updated estimate of non-recreation visits on Highway 70",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=MACA"
+  },
+  {
+   "year": 2020,
+   "note": "Major: Changed from a fixed estimate of private canoe / kayak use to an estimate of 15% of commercial livery counts; Added counts for Sand Cave Trail; Changed estimate of private canoe / kayak use from 15% to 20% of commercial livery counts",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=MACA"
+  },
+  {
+   "year": 2021,
+   "note": "Minor: Changed estimate of private canoe / kayak use from 15% to 20% of commercial livery counts",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=MACA"
+  }
+ ],
+ "MEVE": [
+  {
+   "year": 1994,
+   "note": "Major: Updated method for non-recreation from direct count of visits to manual count of traffic times non-rec PPV multiplier; Updated overnight stay multiplier from 32 hours to 18 hours per stay; Updated non-recreation length of stay multiplier from 6 hours to 1 hour per visit",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=MEVE"
+  },
+  {
+   "year": 2005,
+   "note": "Minor: Added estimate for non-motorized entries (10% of motorized entries)",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=MEVE"
+  }
+ ],
+ "MORA": [
+  {
+   "year": 1988,
+   "note": "Major: Changed from traffic counter to trail counter at Mowich Lake; Added non-recreation visits and hours with percent splits; Specifically identified persons per vehicle multiplier; Implemented / identified standard categories of overnight stays",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=MORA"
+  },
+  {
+   "year": 1990,
+   "note": "Major: Identified specific locations of traffic counters; Added percent splits for recreation and non-recreation vehicles; Added corrections for buses; Added non-reportable vehicles; Added estimate for winter months",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=MORA"
+  },
+  {
+   "year": 1995,
+   "note": "Minor: Changed from direct count of non-reportable vehicles to fixed estimate at Nisqually Entrance; Added option for entering winter estimates if traffic counter inoperable; Added estimate of non-reportable vehicles for traffic count at State Hwy 123 Entrance",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=MORA"
+  },
+  {
+   "year": 1996,
+   "note": "Non-material: No material changes – formatting only",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=MORA"
+  },
+  {
+   "year": 2005,
+   "note": "Minor: Changed from fixed estimate of non-reportable vehicles to direct count at Nisqually Entrance; Added group overnight stays at Ohanapecosh Campground; Removed Mowich Lake counts; Added Paul Peak Trailhead counts",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=MORA"
+  }
+ ],
+ "NERI": [
+  {
+   "year": 2003,
+   "note": "Non-material: No material changes",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=NERI"
+  },
+  {
+   "year": 2014,
+   "note": "Minor: Changed from manual count of climbers to estimate using a traffic counter at Fern Creek",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=NERI"
+  },
+  {
+   "year": 2021,
+   "note": "Major: Added traffic counters at Kaymoor and Long Point Trail; Updated NREP at Glade Creek, Sandstone VC, and Fern Creek; Glade Creek and Sandstone Falls are now inductive loop counters and should be divided by two.; Broke out tent and RV overnights by campground; Added estimate for number of backcountry overnights; Added Burnwood and Dunglen group campsite overnights; Added Camp Brookside Education Center overnights",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=NERI"
+  },
+  {
+   "year": 2022,
+   "note": "Minor: Converted trail users at Fayette Station to visitors estimated based on traffic count",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=NERI"
+  },
+  {
+   "year": 2025,
+   "note": "Overhaul: Overhaul of system to build visits across the park from eight traffic counts; Added duplicate reporting and missed visits adjustments; Updated non-reportable and non-recreation estimates",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=NERI"
+  }
+ ],
+ "NOCA": [
+  {
+   "year": 1998,
+   "note": "Non-material: No material changes",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=NOCA"
+  },
+  {
+   "year": 2010,
+   "note": "Major: Removed estimate of private vehicles; Removed park shuttle bus visits; Changed from count of visitors not acquiring backcountry permits to permitted visits times and expansion multiplier to account for otherwise missed visits; Removed some of the backcountry visit and overnight breakouts in favor of one count times a multiplier",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=NOCA"
+  },
+  {
+   "year": 2012,
+   "note": "Minor: Removed miscellaneous overnight stays",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=NOCA"
+  }
+ ],
+ "OLYM": [
+  {
+   "year": 1964,
+   "note": "Major: Removed visits at Bogachiel; Added visits estimated from traffic counts at Mora-Rialto; Updated methods for North Shore Quinault and South Shore Quinault",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=OLYM"
+  },
+  {
+   "year": 1993,
+   "note": "Overhaul: Identified traffic count technology (inductive loop or pneumatic tube); Identified specific numeric value for persons per vehicle multiplier(s); Updated actual count procedures at most locations; Removed La Push; Removed (or renamed) Heart O’ the Hills entrance; Added estimates for beach use or trail use at several districts; Updated methods for overnight stay estimates; Added length of stay estimates; Added non-recreation estimates",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=OLYM"
+  },
+  {
+   "year": 1994,
+   "note": "Major: Added adjustment to Soleduck traffic count for overnight visitors; Removed division by 2 for Ruby Beach traffic count; Added backcountry overnights for Kalaloch District; Added duplicate reporting adjustment for Olympic Park Visitor Center; Removed traffic count at South Shore Road Quinault; Added split between recreation and non-recreation for East Beach Road; Updated length of stay multiplier for trail users at Hoodsport and overnights at Staircase",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=OLYM"
+  },
+  {
+   "year": 2022,
+   "note": "Minor: Elwha District (Elwha was flooded and will not be rebuilt. Removed traffic counter, and Altaire and Elwha campgrounds. Recreation visits based on trail use); Hoodsport District (Removed Doswallips Road traffic counter and campground, road was washed out. Removed trail users, which are already picked up by traffic counters.); Lake Crescent District (Removed NPS administered Soleduc campground, which is now run by concessioner.); Ozette District (removed logging trucks from non-rec.); Quinault District (Removed RVs overnights for campgrounds.); All Districts (removed picnic users from visitor hours)",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=OLYM"
+  }
+ ],
+ "PEFO": [
+  {
+   "year": 1992,
+   "note": "Major: Changed from manual count to estimate from traffic counter at South Entrance; Changed from pneumatic tube traffic counter to inductive loop traffic counter at North Entrance; Added estimates for non-reportable vehicles; Added counts of buses and bus passengers; Added persons-per-vehicle multipliers; Added fields for visitor hours, non-recreation visits/hours and overnight stays",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=PEFO"
+  },
+  {
+   "year": 2012,
+   "note": "Minor: Removed non-recreation overnight stays and hours",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=PEFO"
+  },
+  {
+   "year": 2020,
+   "note": "Major: Updated persons per vehicle multipliers",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=PEFO"
+  }
+ ],
+ "PINN": [
+  {
+   "year": 1966,
+   "note": "Major: Added visits to west side; Added overnight stays for Chaparral campground",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=PINN"
+  },
+  {
+   "year": 1987,
+   "note": "Major: Identified numeric persons per vehicle multipliers; Removed overnight stays at Bear Gulch, Old Pinnacles, and Chalone Creek campgrounds; Added count for buses; Added recreation visitor hours",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=PINN"
+  },
+  {
+   "year": 1990,
+   "note": "Major: Identified fixed numeric value for non-reportable vehicles; Added entrance counts from Bench Trail; Updated persons per vehicle multipliers; Changed from manual count of bus passengers to persons per bus multiplier; Updated length of stay multipliers",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=PINN"
+  },
+  {
+   "year": 2009,
+   "note": "Minor: Changed campground overnights from NPS operated to concession operated",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=PINN"
+  },
+  {
+   "year": 2012,
+   "note": "Minor: Removed overnight stays",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=PINN"
+  },
+  {
+   "year": 2020,
+   "note": "Minor: Changed traffic counter technology from pneumatic tube to inductive loop; Removed division by 2 on west entrance traffic count; Added concession overnight stay back in",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=PINN"
+  }
+ ],
+ "REDW": [
+  {
+   "year": 1992,
+   "note": "Major: Environmental camps changed from overnight to day use; Removed organized groups with special permission to use park; Added Crescent Beach Information Center visits; Added Freshwater Spit visits and overnight stays",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=REDW"
+  },
+  {
+   "year": 1999,
+   "note": "Major: Added Freshwater Lagoon visits; Added Redwood Creek Trail visits; Added Redwood Creek Horse Trail visits; Added Cabbage Trail visits; Added visits to C Line; Added concession horseback rider visits and overnights; Added visits by special use permit",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=REDW"
+  },
+  {
+   "year": 2003,
+   "note": "Major: Changed from trail count to manual count at Redwood Creek Horse Trail; Changed from trail count to traffic count at Cabbage Trail",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=REDW"
+  },
+  {
+   "year": 2005,
+   "note": "Minor: Removed overnights at Freshwater Spit",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=REDW"
+  },
+  {
+   "year": 2011,
+   "note": "Minor: Removed concession lodging overnights (Redwood Hostel)",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=REDW"
+  },
+  {
+   "year": 2012,
+   "note": "Minor: Removed counts at Coastal Drive; Removed division by 2 on Redwood Creek Trail traffic count; Renamed (or replaced) Redwood Information Center with Kuchel Visitor Center",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=REDW"
+  },
+  {
+   "year": 2017,
+   "note": "Minor: Removed counts and overnights at pullouts; Removed Crescent Beach Environmental Education Center",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=REDW"
+  },
+  {
+   "year": 2021,
+   "note": "Major: Changed traffic counter technology for most locations; All traffic counts are divided by 2 to account for entry and exit; Add adjustments for NPS vehicles at all traffic counter locations; Added counts for Klamath Beach Road; Removed Kuchel Visitor Center counts (visits are picked up elsewhere in the system); Added a comparison to choose the higher of the manual count at the Hiouchi Visitor Center or the estimate from the Hiouchi traffic count; Removed Nickel Creek overnight stays (area closed); Moved Flint Ridge, De Martin, and Little Bald Hills overnights from NPS campground to backcountry (areas are hike in); Added overnights at 44 Backcountry Camp",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=REDW"
+  },
+  {
+   "year": 2025,
+   "note": "Overhaul: Replaced existing system of many traffic and trail counters with new estimates built from four traffic counters and one trail counter; Each retained count location has updated adjustments for multiple counter crossings, duplicate count corrections for same day reentries, and adjustments for missed traffic; Visits and hours are estimated for the combined Redwood National and State Parks administrative unit and then adjusted to visits and hours on federally managed properties; Added an expansion multiplier to convert backcountry overnight permits to backcountry overnight stays",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=REDW"
+  }
+ ],
+ "ROMO": [
+  {
+   "year": 1989,
+   "note": "Major: Added estimates from traffic counts for North Inlet, East Inlet, Tonahutut Creek, West Shore, Corral Creek, Twin Owl, Western Road, and Sun Valley Road; Added counts and hours for non-recreation visits; Removed concession lodging overnight stays; Changed overnights in undesignated campsites to backcountry overnight stays; Changed overnights ‘other’ to miscellaneous overnight stays",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=ROMO"
+  },
+  {
+   "year": 1995,
+   "note": "Major: Changed from estimate using pneumatic tube traffic counters to manual counts at Tonahutu Creek, East Inlet, North Inlet, East Shore, Sun Valley; Removed counts at Corral Creek and Twin Owl; Added recreation visits from backcountry campers and miscellaneous entries; Updated / expanded persons-per-vehicle multipliers; Changed from direct count of non-recreation vehicles to estimate in Table 1; Specifically identified numeric fixed values for non-reportable vehicles; Simplified persons-per-site multipliers for tents and RVs",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=ROMO"
+  },
+  {
+   "year": 2012,
+   "note": "Major: Changed from direct count to regression estimates for Tonahutu Creek, East Inlet, North Inlet, East Shore, Sun Valley; Added count at Lily Lake; Added count at Lumpy Ridge; Added Hiker Shuttle passengers from Estes Park; Changed from hand count to regression estimate for snowmobiles; Removed non-recreation counts for Sun Valley Road",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=ROMO"
+  },
+  {
+   "year": 2021,
+   "note": "Minor: Removed estimate of snowmobiles for Grand Lake",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=ROMO"
+  },
+  {
+   "year": 2024,
+   "note": "Minor: Changed peak season tent and RV overnights from sites occupied times a multiplier to direct estimate of overnight stays for reservable sites in rec.gov",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=ROMO"
+  }
+ ],
+ "SAGU": [
+  {
+   "year": 1992,
+   "note": "Major: Added FOTSC counters at park; Added counts from trail registers with multipliers; Expanded number of commercial use licensees supplying counts; Added ‘horse’ trail counters at Broadway and Speedway; Added count or estimate of pedestrian users at East Unit",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=SAGU"
+  },
+  {
+   "year": 1996,
+   "note": "Major: Updated persons-per-vehicle multipliers for recreation visits",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=SAGU"
+  },
+  {
+   "year": 2006,
+   "note": "Non-material: No material changes",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=SAGU"
+  },
+  {
+   "year": 2021,
+   "note": "Major: Switched from trail register counts with a multiplier to trail counters to calculate trail use; Removed horse counters at Broadway and Speedway; Replaced station 901 counter with 904; Removed station 902 counter at Kinney Road (affects both REC and NREC); Replaced Red Hills Info Center inductive loop with a magnetometer.; Added traffic counters at Golden Gate Road and Hohokam Road; Removed Desert High Country Stables from commercial use licenses.",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=SAGU"
+  }
+ ],
+ "SEQU": [
+  {
+   "year": 1992,
+   "note": "Major: Changed from pneumatic tube traffic counters to inductive loops; Added counter at South Fork Entrance; Changed language from Lost Grove entrance to Red Fir entrance; Added adjustments for buses to traffic counts and bus visitors to recreation visits; Added Bearpaw Meadow Camp to concession lodging overnights; Change from actual count of visitors staying overnight at NPS campgrounds to persons per campsite multiplier of 3.18; Added multiplier for backcountry overnights to convert permits issued to overnight stays",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=SEQU"
+  },
+  {
+   "year": 2005,
+   "note": "Major: Changed non-recreation visits from visitor count at entrance station to vehicle count with persons per vehicle multiplier of 1.0; Added tent/RV overnights at Dorst Campground to NPS administered campground overnight stays; Added group overnights at Dorst Campground to miscellaneous overnight stays",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=SEQU"
+  },
+  {
+   "year": 2008,
+   "note": "Minor: Changed non-recreation visits back from vehicle count at entrance gate to visitor count; Added visits from shuttle passengers at the Ash Mountain entrance; Removed tent/RV overnights at Dorst Campground from NPS administered campground overnight stays",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=SEQU"
+  },
+  {
+   "year": 2012,
+   "note": "Non-material: Split NPS Administered Campground overnights by which campgrounds had tent vs. RV overnight stays (non-material change)",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=SEQU"
+  },
+  {
+   "year": 2024,
+   "note": "Minor: Replaced traffic counts at Lookout Point and South Fork with built in estimates based on historic data",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=SEQU"
+  }
+ ],
+ "SHEN": [
+  {
+   "year": 1991,
+   "note": "Major: Removed reduction factors on Gross Private Vehicles to get Net Private Vehicles (no mention of what the factors were); Added Thornton Gap traffic count; Removed Panorama Entrance traffic counts; Removed visits estimated on park secondary roads; Removed visits at concessioner units at Panorama and Swift Run",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=SHEN"
+  },
+  {
+   "year": 1996,
+   "note": "Major: Changed from using a reduction factor for non-reportable vehicles to using a flat estimate; Updated PPVs; Changed from estimating non-recreation visits as a percentage of entrance station counts to a flat estimate; Changed from monthly non-recreation length of stay multipliers to 0.25 per visit all year; Updated recreation visits length of stay multipliers; Updated persons per site multiplier for tent and RV from 3.1 to 3.0; Dundo overnights moved from miscellaneous to concessioner lodging",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=SHEN"
+  },
+  {
+   "year": 1998,
+   "note": "Minor: Updated Thornton Gap non-recreation vehicle estimates for August, September and October; Dundo Overnights moved from Concessioner Lodging to Miscellaneous in the Count Procedures, but never made the change in the database. It appears Dundo remained in Concessioner Lodging (no Miscellaneous reported until 2016).",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=SHEN"
+  },
+  {
+   "year": 2016,
+   "note": "Minor: Changed from direct count of bus passengers to an estimate of bus passengers at all 4 entrance stations; Corrected issue with Dundo and now all Dundo overnight stays are recorded under Miscellaneous / Group Overnights",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=SHEN"
+  },
+  {
+   "year": 2021,
+   "note": "Minor: Added visitors from boundary stations at Whiteoak and Old Rag",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=SHEN"
+  }
+ ],
+ "THRO": [
+  {
+   "year": 1992,
+   "note": "Major: Added fixed estimates for non-reportable vehicles; Added fixed estimates for walk ins at the Medora Entrance Station; Added fixed estimates for non-recreation vehicles; Added seasonal and district specific persons per vehicle multipliers; Added location specific length of stay multipliers",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=THRO"
+  },
+  {
+   "year": 1994,
+   "note": "Non-material: No material changes",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=THRO"
+  },
+  {
+   "year": 2003,
+   "note": "Major: Changed from location/seasonal persons per vehicle multipliers for non-recreation vehicles to 2.7 across all months; Updated length of stay multipliers",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=THRO"
+  }
+ ],
+ "VIIS": [
+  {
+   "year": 2003,
+   "note": "Non-material: None",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=VIIS"
+  },
+  {
+   "year": 2022,
+   "note": "Minor: Removed counts from Trunk Bay lifeguards (Boats at Trunk Bay Beach, Trunk Bay Tours from Lifeguard Logs, Passengers off boats at Trunk Bay); Removed Maho Campground guests; Removed VIERS day use and overnights use; Removed counts from Trunk Bay lifeguards (Boats at Trunk Bay Beach, Trunk Bay Tours from Lifeguard Logs, Passengers off boats at Trunk Bay); Removed Maho Campground guests; Removed VIERS day use and overnights use",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=VIIS"
+  },
+  {
+   "year": 2026,
+   "note": "Overhaul: Replaced old count system to use estimated derived from traffic and trail counters; Updated method for Miscellaneous Overnight Stays and Non-Recreation Overnight Stays to use an estimate developed from land-based recreation; Replaced old count system with estimates derived from traffic and trail counters",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=VIIS"
+  }
+ ],
+ "VOYA": [
+  {
+   "year": 1998,
+   "note": "Minor: Changed from trail count in winter months to manual count of snowmobilers and cross-country skiers; Removed special use data",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=VOYA"
+  },
+  {
+   "year": 2009,
+   "note": "Major: Changed from regression estimates for fishermen, houseboaters and backcountry overnight stays to a variety of categories estimated from aerial over-flights; Updated recreation visitor hour values; Removed non-recreation visits and non-recreation visitor hours; New method for overnight stays on cabins and boats",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=VOYA"
+  },
+  {
+   "year": 2010,
+   "note": "Non-material: Format changes only – no change to content",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=VOYA"
+  },
+  {
+   "year": 2013,
+   "note": "Major: Reverted back to procedures from 1998, except for corrections to November numbers if VC count too low",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=VOYA"
+  }
+ ],
+ "WHSA": [
+  {
+   "year": 2014,
+   "note": "Minor: Changed PPV from 3.2 to 3 from March through August, and 2.6 September through February",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=WHSA"
+  },
+  {
+   "year": 2020,
+   "note": "Major: Few substantive changes to count system but switched from calculations being done by park to calculations being embedded in IRMA; Recreation hours calculation changed from length of stay by activity calculation, to an average length of stay in the Dune area calculation.; Removal of non-recreation overnights",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=WHSA"
+  }
+ ],
+ "WICA": [
+  {
+   "year": 1993,
+   "note": "Major: Identified numeric values for non-reportable vehicles; Identified numeric values for PPV; Added non-recreation visits and hours; Added backcountry overnight stays",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=WICA"
+  },
+  {
+   "year": 1999,
+   "note": "Non-material: No material changes",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=WICA"
+  },
+  {
+   "year": 2004,
+   "note": "Major: Removed visits at NPS Road 5 and NPS Road 6; Updated PPVs / PPSite multipliers",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=WICA"
+  },
+  {
+   "year": 2009,
+   "note": "Minor: Updated length of stay for overnight stays",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=WICA"
+  },
+  {
+   "year": 2013,
+   "note": "Minor: Added NPS Miscellaneous overnight stays",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=WICA"
+  },
+  {
+   "year": 2015,
+   "note": "Minor: Changed from tent and RV sites occupied times a multiplier to direct count of overnight stays",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=WICA"
+  }
+ ],
+ "WRST": [
+  {
+   "year": 1998,
+   "note": "Major: Updated estimated winter visitor use table; Added number of visitors to Kennecott for recreation visits",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=WRST"
+  }
+ ],
+ "YELL": [
+  {
+   "year": 1993,
+   "note": "Major: Updated counter technology at entrances; Changed from manual count/estimate of visits to estimate from traffic counters; Added non-recreation visits and hours; Changed from manual count to estimate of tent and RV overnights using sites occupied times persons per site multiplier",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=YELL"
+  },
+  {
+   "year": 1995,
+   "note": "Non-material: No material changes – update to labels and language",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=YELL"
+  },
+  {
+   "year": 2013,
+   "note": "Major: Updated persons per vehicle multipliers",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=YELL"
+  },
+  {
+   "year": 2024,
+   "note": "Minor: Converted NPS Campgrounds from sites occupied with multiplier to actual overnight stays from rec.gov.",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=YELL"
+  }
+ ],
+ "YOSE": [
+  {
+   "year": 1985,
+   "note": "Major: Added documentation for non-reportable vehicle estimates; Added documentation for persons per vehicle multipliers; Added non-recreation visits and hours; Added documentation for length of stay and visitor hours",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=YOSE"
+  },
+  {
+   "year": 1994,
+   "note": "Major: Added estimates for daily traffic when traffic counters are inoperable; Added Curry Village, Yosemite Lodge, Ahwahnee Hotel and High Sierra Camps to Concession Lodging overnight stays; Added Camp 4 to NPS Administered Campground tent overnight stays",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=YOSE"
+  },
+  {
+   "year": 2026,
+   "note": "Minor: Added buses and bus passengers at Hetch Hetchy",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=YOSE"
+  }
+ ],
+ "ZION": [
+  {
+   "year": 1992,
+   "note": "Major: 1992 is first record of PPV multipliers used with traffic counts; Kolob Terrance changed from pneumatic tube to inductive loop; Changed from direct count of overnight stays in NPS campground to sites occupied times PPV multiplier; Added illegal roadside camping under miscellaneous overnight stays; May have updated non-recreation and non-reportable vehicles?; Added length of stay multipliers",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=ZION"
+  },
+  {
+   "year": 2000,
+   "note": "Minor: Added number of visitors entering at River Station Entrance; Removed illegal roadside camping",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=ZION"
+  },
+  {
+   "year": 2013,
+   "note": "Minor: Changed from direct count of bus passengers to using persons-per-bus multiplier",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=ZION"
+  },
+  {
+   "year": 2019,
+   "note": "Major: Changed from persons per bus multiplier to actual count of bus passengers; Updated persons per vehicle multipliers for South Entrance, East Entrance and Kolob Canyons",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=ZION"
+  },
+  {
+   "year": 2023,
+   "note": "Minor: Switched from using tent/rv sites occupied with a persons per site multiplier to actual overnight stays from rec.gov.",
+   "source": "https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Park%20Visitor%20Use%20and%20Count%20Procedure%20Changes?Park=ZION"
+  }
+ ]
+}

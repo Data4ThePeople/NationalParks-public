@@ -1,0 +1,602 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>National Parks Over Time</title>
+<meta name="description" content="Pick any of the 63 U.S. national parks to see its visits, base budget and staff over time, from the National Park Service's own published figures. Built by Data 4 The People.">
+<script type="application/ld+json">/*JSONLD*/</script>
+<style>
+:root {
+  color-scheme: light;
+  --page: #f9f9f7; --surface: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e; --muted: #898781;
+  --grid: #e1e0d9; --axis: #c3c2b7; --border: rgba(11,11,11,0.10);
+  --land: #ecebe4; --land-edge: #c9c6ba; --sea: #fcfcfb; --parkfill: rgba(0,131,0,0.22);
+  --line: #2a78d6; --line-wash: rgba(42,120,214,0.14); --accent: #2a78d6;
+  --up2: #184f95; --up1: #6da7ec; --flat: #a9a79f; --dn1: #f0a27f; --dn2: #c2461a; --none: #fcfcfb;
+  --ring: #fcfcfb; --sel: #0b0b0b; --shade: rgba(11,11,11,0.05);
+  --relief: 0.75;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --page: #0d0d0d; --surface: #1a1a19; --ink: #f0efec; --ink-2: #c3c2b7; --muted: #898781;
+    --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,0.10);
+    --land: #2a2925; --land-edge: #45433d; --sea: #1a1a19; --parkfill: rgba(25,158,112,0.28);
+    --line: #3987e5; --line-wash: rgba(57,135,229,0.18); --accent: #3987e5;
+    --up2: #6da7ec; --up1: #256abf; --flat: #6b6a65; --dn1: #9a4a26; --dn2: #ec835a; --none: #1a1a19;
+    --ring: #1a1a19; --sel: #f0efec; --shade: rgba(255,255,255,0.05);
+    --relief: 0.55;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --page: #0d0d0d; --surface: #1a1a19; --ink: #f0efec; --ink-2: #c3c2b7; --muted: #898781;
+  --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,0.10);
+  --land: #2a2925; --land-edge: #45433d; --sea: #1a1a19; --parkfill: rgba(25,158,112,0.28);
+  --line: #3987e5; --line-wash: rgba(57,135,229,0.18); --accent: #3987e5;
+  --up2: #6da7ec; --up1: #256abf; --flat: #6b6a65; --dn1: #9a4a26; --dn2: #ec835a; --none: #1a1a19;
+  --ring: #1a1a19; --sel: #f0efec; --shade: rgba(255,255,255,0.05);
+  --relief: 0.55;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; }
+body { background: var(--page); color: var(--ink); font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
+.app { container-type: inline-size; height: 100%; min-height: 600px; display: flex; flex-direction: column; background: var(--surface); }
+body.framed .app { height: 780px; }
+header { display: flex; align-items: center; gap: 8px 12px; padding: 12px 16px; border-bottom: 1px solid var(--grid); flex-wrap: wrap; }
+header h1 { font-size: 18px; margin: 0; font-weight: 650; letter-spacing: -0.01em; }
+header .sub { color: var(--ink-2); font-size: 13px; flex: 1 1 240px; }
+select, button { font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--axis); border-radius: 6px; padding: 5px 8px; max-width: 100%; }
+button { cursor: pointer; }
+button:hover, select:hover { border-color: var(--muted); }
+button:focus-visible, select:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.main { flex: 1; display: flex; min-height: 0; }
+.mapcol { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.mapwrap { position: relative; flex: 1; min-height: 0; }
+.maptools { position: absolute; left: 10px; top: 10px; display: flex; gap: 6px; }
+.maptools button { min-width: 32px; min-height: 30px; padding: 3px 8px; background: color-mix(in srgb, var(--surface) 92%, transparent); }
+#zoomIn, #zoomOut { font-size: 17px; line-height: 1; }
+.maptools button:disabled { opacity: 0.45; cursor: default; }
+#map { position: absolute; inset: 0; width: 100%; height: 100%; cursor: pointer; touch-action: manipulation; }
+.maplegend { font-size: 12px; color: var(--ink-2); padding: 6px 12px 8px; display: flex; gap: 4px 12px; flex-wrap: wrap; align-items: center; border-top: 1px solid var(--grid); }
+.maplegend .lt { color: var(--ink); font-weight: 600; flex-basis: 100%; }
+.key { display: inline-flex; align-items: center; gap: 5px; }
+.key b { display: inline-block; width: 10px; height: 10px; border-radius: 50%; border: 1px solid var(--axis); }
+.key i { display: inline-block; width: 16px; height: 0; border-top: 2px solid; }
+header > *, header label { min-width: 0; max-width: 100%; }
+.chartwrap canvas, #map { max-width: 100%; }
+.panel { min-width: 0; width: 400px; flex: none; border-left: 1px solid var(--grid); overflow-y: auto; padding: 12px 16px 12px; display: flex; flex-direction: column; gap: 10px; }
+.panel h2 { margin: 0; font-size: 20px; font-weight: 650; }
+.region { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; }
+.figtitle { font-weight: 600; font-size: 13px; margin: 0; }
+.figsub { color: var(--muted); font-size: 12px; margin: 0; }
+.chartwrap { position: relative; }
+.chartwrap canvas { width: 100%; height: 132px; display: block; cursor: crosshair; }
+.chartwrap canvas.bars { height: 90px; }
+.tip { position: absolute; pointer-events: none; background: var(--surface); border: 1px solid var(--border); box-shadow: 0 2px 8px rgba(0,0,0,0.12); border-radius: 6px; padding: 4px 8px; font-size: 12px; white-space: nowrap; display: none; z-index: 5; }
+.tip strong { font-size: 13px; }
+.block { display: flex; flex-direction: column; gap: 4px; border-top: 1px solid var(--grid); padding-top: 10px; }
+.stat { font-size: 12px; color: var(--ink-2); margin: 0; }
+.note { font-size: 12px; color: var(--ink-2); margin: 0; padding: 6px 10px; border-left: 3px solid var(--axis); background: var(--page); }
+.note a, .avail a, .srcs a { color: var(--ink-2); }
+.intro p { margin: 0 0 8px; color: var(--ink-2); font-size: 13px; }
+.avail { margin-top: 4px; padding: 10px 12px; border: 1px solid var(--grid); border-radius: 8px; background: var(--page); }
+.avail p { margin: 0 0 6px; font-size: 13px; color: var(--ink-2); }
+.avail ul { margin: 0; padding-left: 18px; font-size: 12px; color: var(--ink-2); }
+.avail li { margin-bottom: 6px; }
+.srcs { font-size: 12px; color: var(--muted); }
+.srcs ul { margin: 4px 0 0; padding-left: 18px; }
+details.table { font-size: 12px; color: var(--ink-2); }
+details.table summary { cursor: pointer; color: var(--ink); font-weight: 600; font-size: 13px; }
+details.table table { width: 100%; border-collapse: collapse; margin-top: 6px; }
+details.table th, details.table td { text-align: right; padding: 3px 4px; border-bottom: 1px solid var(--grid); font-variant-numeric: tabular-nums; }
+details.table th:first-child, details.table td:first-child { text-align: left; }
+details.table td button { all: unset; cursor: pointer; text-decoration: underline; text-decoration-color: var(--axis); }
+.brand { display: inline-flex; align-items: center; gap: 6px; color: var(--muted); text-decoration: none; }
+.brand img { height: 18px; width: auto; display: block; }
+.brand .logo-lt { display: none; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .brand .logo-dk { display: none; } :root:not([data-theme="light"]) .brand .logo-lt { display: block; } }
+:root[data-theme="dark"] .brand .logo-dk { display: none; }
+:root[data-theme="dark"] .brand .logo-lt { display: block; }
+footer { font-size: 11px; color: var(--muted); padding: 6px 16px 8px; border-top: 1px solid var(--grid); display: flex; gap: 12px; flex-wrap: wrap; justify-content: space-between; align-items: center; }
+.hidden { display: none !important; }
+.history { margin: 0; font-size: 13px; color: var(--ink-2); }
+.history a { color: var(--muted); }
+.back { align-self: flex-start; font-size: 12px; padding: 2px 8px; }
+.hswitch { display: inline-flex; align-items: center; gap: 8px; align-self: flex-start; background: none; border: 0; padding: 2px 0 4px; font-size: 12px; color: var(--ink-2); cursor: pointer; }
+.hswitch .track { position: relative; width: 34px; height: 20px; border-radius: 999px; background: var(--axis); transition: background .2s; flex: none; }
+.hswitch .knob { position: absolute; top: 3px; left: 3px; width: 14px; height: 14px; border-radius: 50%; background: #fff; box-shadow: 0 1px 2px rgba(0,0,0,.3); transition: transform .2s; }
+.hswitch[aria-checked="true"] .track { background: var(--accent); }
+.hswitch[aria-checked="true"] .knob { transform: translateX(14px); }
+.hswitch:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+@media (prefers-reduced-motion: reduce) { .hswitch .track, .hswitch .knob { transition: none; } }
+@container (max-width: 820px) {
+  .main { flex-direction: column; overflow-y: auto; }
+  .mapcol { flex: none; }
+  .mapwrap { flex: none; height: 62cqw; min-height: 240px; }
+  .mapcol, .panel { min-width: 0; max-width: 100cqw; }
+  .panel { width: auto; border-left: 0; border-top: 1px solid var(--grid); overflow: visible; }
+}
+</style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <h1>National Parks Over Time</h1>
+    <div class="sub">Click a park to see its visits, budget and staff by year. Zoom in to separate parks that sit close together.</div>
+    <label><span class="hidden">Map shows</span><select id="metricSel" aria-label="What the map colors show"></select></label>
+    <label><span class="hidden">Park</span><select id="parkSel" aria-label="Choose a park"></select></label>
+  </header>
+  <div class="main">
+    <div class="mapcol">
+      <div class="mapwrap">
+        <canvas id="map" role="img" aria-label="Map of the 63 U.S. national parks. Each dot is a park, colored by the measure chosen above and sized by recreation visits. A table of the same values is in the panel."></canvas>
+        <div class="maptools"><button id="zoomIn" type="button" aria-label="Zoom in">+</button><button id="zoomOut" type="button" aria-label="Zoom out">&minus;</button><button id="zoomReset" type="button">Reset</button></div>
+        <div class="tip" id="mapTip"></div>
+      </div>
+      <div class="maplegend" id="mapLegend"></div>
+    </div>
+    <aside class="panel" id="panel" aria-live="polite">
+      <div id="intro" class="intro">
+        <h2>63 national parks</h2>
+        <p id="introText"></p>
+        <div class="avail" id="availBox"></div>
+        <details class="table" id="tableBox"><summary>Table: every park on the map</summary><table id="parkTable"></table></details>
+        <div class="srcs" id="srcBox"></div>
+      </div>
+      <div id="parkView" class="hidden">
+        <button type="button" class="back" id="backBtn">All parks</button>
+        <div class="region" id="pState"></div>
+        <h2 id="pName"></h2>
+        <p class="history" id="pHist"></p>
+        <p class="note hidden" id="pDesig"></p>
+
+        <div class="block" id="bVisits">
+          <button type="button" class="hswitch" id="histSw" role="switch" aria-checked="false"><span class="track"><span class="knob"></span></span><span id="histLbl"></span></button>
+          <p class="figtitle" id="tVisits"></p>
+          <p class="figsub" id="sVisits"></p>
+          <div class="chartwrap"><canvas id="cVisits" aria-label="Recreation visits by year"></canvas><div class="tip"></div></div>
+          <p class="stat" id="stVisits"></p>
+          <p class="note hidden" id="nVisits"></p>
+          <p class="note hidden" id="nVisitFix"></p>
+        </div>
+
+        <div class="block" id="bBudget">
+          <p class="figtitle" id="tBudget"></p>
+          <p class="figsub" id="sBudget"></p>
+          <div class="chartwrap"><canvas id="cBudget" aria-label="Park base budget by fiscal year, adjusted for inflation"></canvas><div class="tip"></div></div>
+          <p class="stat" id="stBudget"></p>
+          <p class="note hidden" id="nShared"></p>
+          <p class="note hidden" id="nPark"></p>
+        </div>
+
+        <div class="block" id="bStaff">
+          <p class="figtitle" id="tStaff"></p>
+          <p class="figsub" id="sStaff"></p>
+          <div class="chartwrap"><canvas id="cStaff" aria-label="Staff by fiscal year"></canvas><div class="tip"></div></div>
+          <p class="stat" id="stStaff"></p>
+        </div>
+
+        <div class="block" id="bPerVisit">
+          <p class="figtitle" id="tPerVisit"></p>
+          <p class="figsub" id="sPerVisit"></p>
+          <div class="chartwrap"><canvas id="cPerVisit" aria-label="Base budget per recreation visit, adjusted for inflation"></canvas><div class="tip"></div></div>
+          <p class="stat" id="stPerVisit"></p>
+        </div>
+
+
+      </div>
+    </aside>
+  </div>
+  <footer>
+    <span id="srcLine"></span>
+    <a class="brand" href="https://www.data4thepeople.com" target="_blank" rel="noopener" aria-label="Built by Data 4 The People"><span>Built by</span><img class="logo-dk" src="/*LOGO_DARK*/" alt="Data 4 The People"><img class="logo-lt" src="/*LOGO_LIGHT*/" alt="Data 4 The People"></a>
+  </footer>
+</div>
+<script id="payload" type="application/json">/*DATA*/</script>
+<script>
+"use strict";
+const D = JSON.parse(document.getElementById("payload").textContent);
+if (window.self !== window.top) { document.body.classList.add("framed"); document.documentElement.dataset.theme = "light"; }
+const $ = id => document.getElementById(id);
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const MONTHS = ["Jan.", "Feb.", "March", "April", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."];
+const G = D.geo, PARKS = D.parks, BY = Object.fromEntries(PARKS.map(p => [p.code, p]));
+
+// ---------- numbers ----------
+// half away from zero, so the tie-out can match it exactly
+const round = (v, d = 0) => { const f = 10 ** d; return Math.sign(v) * Math.round(Math.abs(v) * f) / f; };
+const int = v => round(v).toLocaleString("en-US");
+function big(v) { // 1,234,567 -> "1.2 million"
+  const a = Math.abs(v);
+  if (a >= 1e9) return round(v / 1e9, 1).toLocaleString("en-US", { minimumFractionDigits: 1 }) + " billion";
+  if (a >= 1e6) return round(v / 1e6, 1).toLocaleString("en-US", { minimumFractionDigits: 1 }) + " million";
+  return int(v);
+}
+const usd = v => "$" + big(v);
+const money = v => v === 0 ? "$0" : "$" + (v >= 1e9 ? round(v / 1e9, 1) + "B" : v >= 1e6 ? round(v / 1e6, 1) + "M" : round(v / 1e3) + "K");
+const usd2 = v => "$" + round(v, 2).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+const pct = v => { const r = round(v); return (r > 0 ? "+" : r < 0 ? "−" : "") + Math.abs(r).toLocaleString("en-US") + "%"; };
+const change = (a, b) => (a > 0 && b != null) ? (b / a - 1) * 100 : null;
+const updown = v => round(v) === 0 ? "about the same as" : (v > 0 ? "up " : "down ") + Math.abs(round(v)).toLocaleString("en-US") + "% from";
+
+// ---------- series ----------
+// every series is {y0, v:[...]} with null for years not published
+const at = (s, y) => (s && y >= s.y0 && y < s.y0 + s.v.length) ? s.v[y - s.y0] : null;
+const years = s => s ? s.v.map((_, i) => s.y0 + i) : [];
+const lastYear = s => { if (!s) return null; for (let i = s.v.length - 1; i >= 0; i--) if (s.v[i] != null) return s.y0 + i; return null; };
+const firstYear = s => { if (!s) return null; for (let i = 0; i < s.v.length; i++) if (s.v[i] != null) return s.y0 + i; return null; };
+const CPI = D.cpi, CPI_BASE = D.cpi_base_fy;
+const real = (v, fy) => (v == null || at(CPI, fy) == null) ? null : v * at(CPI, CPI_BASE) / at(CPI, fy);
+function mapS(s, f) { return s ? { y0: s.y0, v: s.v.map((v, i) => v == null ? null : f(v, s.y0 + i)) } : null; }
+
+for (const p of PARKS) {
+  p.budgetReal = mapS(p.budget && p.budget.base_k, (v, fy) => real(v * 1000, fy));
+  // visits for the whole budget line (shared lines sum their parks' visits)
+  const members = p.budget_members.map(c => BY[c] || null);
+  p.lineVisits = p.budget ? { y0: p.budget.base_k.y0, v: p.budget.base_k.v.map((_, i) => {
+    const y = p.budget.base_k.y0 + i;
+    const vals = members.map(m => m ? at(m.visits, y) : null);
+    return vals.some(v => v == null) ? null : vals.reduce((a, b) => a + b, 0);
+  }) } : null;
+  p.perVisit = p.budgetReal && p.per_visit_ok && !(p.visit_note && p.visit_note.no_compare) ? { y0: p.budgetReal.y0, v: p.budgetReal.v.map((v, i) => {
+    const n = p.lineVisits.v[i]; return (v == null || !n) ? null : v / n; }) } : null;
+}
+
+// ---------- map metrics ----------
+const VB = D.compare.visits, FB = D.compare.budget;
+const noCmp = p => !!(p.visit_note && p.visit_note.no_compare);
+const METRICS = [
+  { id: "visits", label: `Change in visits, ${VB[0]} to ${VB[1]}`, val: p => noCmp(p) ? null : change(at(p.visits, VB[0]), at(p.visits, VB[1])) },
+  { id: "budget", label: `Change in base budget after inflation, FY${FB[0]} to FY${FB[1]}`, val: p => change(at(p.budgetReal, FB[0]), at(p.budgetReal, FB[1])) },
+  { id: "staff", label: `Change in staff (${D.fte_label}), FY${FB[0]} to FY${FB[1]}`, val: p => change(at(p.budget && p.budget[D.fte_key], FB[0]), at(p.budget && p.budget[D.fte_key], FB[1])) },
+  { id: "pervisit", label: `Change in budget per visit after inflation, FY${FB[0]} to FY${FB[1]}`, val: p => noCmp(p) ? null : change(at(p.perVisit, FB[0]), at(p.perVisit, FB[1])) },
+];
+const CLASSES = [ // percent change bins, fixed for every measure
+  { max: -20, c: "--dn2", t: "Down 20% or more" },
+  { max: -5, c: "--dn1", t: "Down 5% to 20%" },
+  { max: 5, c: "--flat", t: "Within 5%" },
+  { max: 20, c: "--up1", t: "Up 5% to 20%" },
+  { max: Infinity, c: "--up2", t: "Up 20% or more" },
+];
+// down 20% or more | more than 5% down | within 5% | 5% up to 20% | 20% up or more
+const cls = v => { if (v == null) return null; const r = round(v); // bins use the whole-number change the table shows
+  return CLASSES[r <= -20 ? 0 : r <= -5 ? 1 : r < 5 ? 2 : r < 20 ? 3 : 4]; };
+let metric = METRICS[0], sel = null, hover = null;
+
+// ---------- map ----------
+const map = $("map"), mctx = map.getContext("2d");
+// shaded relief (Natural Earth SR_50M, reprojected into this map's drawing space by scripts/relief.py),
+// a separate file loaded after the map first draws
+let RELIEF = null;
+{ const img = new Image(); img.onload = () => { RELIEF = img; drawMap(); }; img.src = "relief.jpg"; }
+// view: the fitted map (k0, ox0, oy0) times a zoom z, shifted by (tx, ty) screen pixels
+let view = { k: 1, ox: 0, oy: 0, k0: 1, ox0: 0, oy0: 0, z: 1, tx: 0, ty: 0, dpr: 1 };
+const ZMAX = 10;
+const VMAX = Math.max(...PARKS.map(p => at(p.visits, VB[1]) || 0));
+// dots keep their screen size when zooming in, so crowded parks pull apart
+const radius = p => { const v = at(p.visits, VB[1]); return 3 + 9 * Math.sqrt((v || 0) / VMAX); };
+function applyView() {
+  const r = map.getBoundingClientRect(), z = view.z;
+  // keep the map on screen: no panning past its edges
+  const w = view.k0 * G.w * z, h = view.k0 * G.h * z;
+  const minx = Math.min(0, r.width - (view.ox0 * z + w)), maxx = Math.max(0, -view.ox0 * z);
+  const miny = Math.min(0, r.height - (view.oy0 * z + h)), maxy = Math.max(0, -view.oy0 * z);
+  view.tx = z === 1 ? 0 : Math.min(maxx, Math.max(minx, view.tx));
+  view.ty = z === 1 ? 0 : Math.min(maxy, Math.max(miny, view.ty));
+  view.k = view.k0 * z; view.ox = view.ox0 * z + view.tx; view.oy = view.oy0 * z + view.ty;
+  $("zoomOut").disabled = z <= 1; $("zoomIn").disabled = z >= ZMAX; $("zoomReset").disabled = z <= 1;
+  map.style.cursor = z > 1 ? "grab" : "pointer";
+  drawMap();
+}
+function resizeMap() {
+  const r = map.getBoundingClientRect(), dpr = window.devicePixelRatio || 1;
+  map.width = Math.round(r.width * dpr); map.height = Math.round(r.height * dpr);
+  const k0 = Math.min(r.width / G.w, r.height / G.h);
+  Object.assign(view, { k0, ox0: (r.width - k0 * G.w) / 2, oy0: (r.height - k0 * G.h) / 2, dpr });
+  applyView();
+}
+function zoomAt(mx, my, f) { // zoom by factor f, keeping the map point under (mx, my) where it is
+  // screen x = (ox0 + k0 x) z + tx; holding mx fixed: tx' = mx - (mx - ox0 z - tx) g - ox0 z', with g = z' / z
+  const z = Math.min(ZMAX, Math.max(1, view.z * f)), g = z / view.z;
+  view.tx = mx - (mx - view.ox0 * view.z - view.tx) * g - view.ox0 * z;
+  view.ty = my - (my - view.oy0 * view.z - view.ty) * g - view.oy0 * z;
+  view.z = z; applyView();
+}
+const sx = x => view.ox + view.k * x, sy = y => view.oy + view.k * y;
+function ringPath(ctx, flat) { ctx.moveTo(sx(flat[0]), sy(flat[1])); for (let i = 2; i < flat.length; i += 2) ctx.lineTo(sx(flat[i]), sy(flat[i + 1])); ctx.closePath(); }
+function drawMap() {
+  const ctx = mctx; ctx.setTransform(view.dpr, 0, 0, view.dpr, 0, 0);
+  ctx.clearRect(0, 0, map.width, map.height);
+  ctx.fillStyle = css("--sea"); ctx.fillRect(0, 0, map.width, map.height);
+  ctx.beginPath(); for (const s of G.states) ringPath(ctx, s.ring);
+  ctx.fillStyle = css("--land"); ctx.fill("evenodd");
+  if (RELIEF) { // shaded relief on land only, hard-light: mid-gray changes nothing
+    ctx.save(); ctx.clip("evenodd"); ctx.globalCompositeOperation = "hard-light";
+    ctx.globalAlpha = parseFloat(css("--relief")) || 0.75; ctx.imageSmoothingQuality = "high";
+    ctx.drawImage(RELIEF, sx(0), sy(0), view.k * G.w, view.k * G.h); ctx.restore();
+  }
+  ctx.strokeStyle = css("--land-edge"); ctx.lineWidth = 0.6; ctx.stroke();
+  ctx.beginPath(); for (const c in G.parks) for (const r of G.parks[c].rings) ringPath(ctx, r);
+  ctx.fillStyle = css("--parkfill"); ctx.fill("evenodd");
+  ctx.strokeStyle = css("--axis"); ctx.lineWidth = 0.8; ctx.fillStyle = css("--muted"); ctx.textAlign = "left"; ctx.textBaseline = "alphabetic";
+  ctx.font = Math.round(Math.max(9, Math.min(11, 13 * view.k))) + "px system-ui, sans-serif";
+  const SHORT = { VI: "Virgin Is.", AS: "Am. Samoa" };
+  for (const b of G.insets) {
+    if (b.id === "VI" || b.id === "AS") ctx.strokeRect(sx(b.x), sy(b.y), view.k * b.w, view.k * b.h);
+    const t = ctx.measureText(b.label).width > view.k * b.w - 6 && SHORT[b.id] ? SHORT[b.id] : b.label;
+    ctx.fillText(t, sx(b.x) + 3, sy(b.y + b.h) - 4);
+  }
+  const order = [...PARKS].sort((a, b) => radius(b) - radius(a));
+  for (const p of order) {
+    const g = G.parks[p.code], k = cls(metric.val(p)), r = radius(p);
+    ctx.beginPath(); ctx.arc(sx(g.x), sy(g.y), r, 0, 2 * Math.PI);
+    ctx.fillStyle = k ? css(k.c) : css("--none"); ctx.fill();
+    ctx.lineWidth = 2; ctx.strokeStyle = css("--ring"); ctx.stroke();
+    ctx.beginPath(); ctx.arc(sx(g.x), sy(g.y), r - 0.5, 0, 2 * Math.PI);
+    ctx.lineWidth = 1; ctx.strokeStyle = k ? "rgba(0,0,0,0.25)" : css("--muted"); ctx.stroke();
+  }
+  for (const c of [hover, sel]) if (c) {
+    const g = G.parks[c]; ctx.beginPath(); ctx.arc(sx(g.x), sy(g.y), radius(BY[c]) + 3, 0, 2 * Math.PI);
+    ctx.lineWidth = 2; ctx.strokeStyle = css("--sel"); ctx.stroke();
+  }
+  if (sel) { // label the selected park
+    const g = G.parks[sel], name = BY[sel].short; ctx.font = "600 12px system-ui, sans-serif";
+    const w = ctx.measureText(name).width, rr = radius(BY[sel]) + 6, right = sx(g.x) + rr;
+    const x = right + w + 4 <= map.width / view.dpr ? right : Math.max(4, sx(g.x) - rr - w);
+    ctx.lineWidth = 3; ctx.strokeStyle = css("--surface"); ctx.strokeText(name, x, sy(g.y) + 4);
+    ctx.fillStyle = css("--ink"); ctx.fillText(name, x, sy(g.y) + 4);
+  }
+}
+function hit(ev) {
+  const r = map.getBoundingClientRect(), x = ev.clientX - r.left, y = ev.clientY - r.top;
+  let best = null, bd = Infinity;
+  for (const p of PARKS) {
+    const g = G.parks[p.code], d = Math.hypot(sx(g.x) - x, sy(g.y) - y);
+    const reach = radius(p) + (ev.pointerType === "touch" ? 14 : 6);
+    if (d < reach && d < bd) { bd = d; best = p.code; }
+  }
+  return { code: best, x, y };
+}
+function showTip(h) {
+  const tip = $("mapTip");
+  if (!h.code) { tip.style.display = "none"; return; }
+  const p = BY[h.code], v = metric.val(p);
+  tip.innerHTML = `<strong>${p.short}</strong><br>${v == null ? "Not available for this period" : pct(v) + " " + metric.label.replace(/^Change in /, "").replace(/,.*/, "")}<br>${at(p.visits, VB[1]) != null ? big(at(p.visits, VB[1])) + " visits in " + VB[1] : ""}`;
+  tip.style.display = "block";
+  const wrap = map.parentElement.getBoundingClientRect();
+  tip.style.left = Math.min(h.x + 12, wrap.width - tip.offsetWidth - 4) + "px";
+  tip.style.top = Math.max(h.y - tip.offsetHeight - 8, 4) + "px";
+}
+// pointers: one finger or the mouse pans (once zoomed in) or clicks; two fingers pinch
+const pts = new Map(); let drag = null, pinch = null;
+map.addEventListener("pointerdown", ev => {
+  map.setPointerCapture(ev.pointerId); pts.set(ev.pointerId, { x: ev.clientX, y: ev.clientY });
+  if (pts.size === 1) drag = { x: ev.clientX, y: ev.clientY, tx: view.tx, ty: view.ty, moved: false };
+  if (pts.size === 2) { const [a, b] = [...pts.values()]; pinch = { d: Math.hypot(a.x - b.x, a.y - b.y), z: view.z }; drag = null; }
+});
+map.addEventListener("pointermove", ev => {
+  if (pts.has(ev.pointerId)) pts.set(ev.pointerId, { x: ev.clientX, y: ev.clientY });
+  if (pinch && pts.size === 2) {
+    const [a, b] = [...pts.values()], r = map.getBoundingClientRect();
+    zoomAt((a.x + b.x) / 2 - r.left, (a.y + b.y) / 2 - r.top, pinch.z * Math.hypot(a.x - b.x, a.y - b.y) / pinch.d / view.z);
+    return;
+  }
+  if (drag && pts.size === 1) {
+    const dx = ev.clientX - drag.x, dy = ev.clientY - drag.y;
+    if (Math.hypot(dx, dy) > 4) drag.moved = true;
+    if (drag.moved && view.z > 1) { view.tx = drag.tx + dx; view.ty = drag.ty + dy; map.style.cursor = "grabbing"; $("mapTip").style.display = "none"; applyView(); return; }
+  }
+  const h = hit(ev);
+  if (h.code !== hover) { hover = h.code; drawMap(); }
+  showTip(h);
+});
+function endPointer(ev) {
+  const wasDrag = drag && drag.moved;
+  pts.delete(ev.pointerId);
+  if (pts.size < 2) pinch = null;
+  if (ev.type === "pointerup" && drag && !wasDrag && pts.size === 0) { const h = hit(ev); if (h.code) select(h.code); }
+  if (pts.size === 0) { drag = null; map.style.cursor = view.z > 1 ? "grab" : "pointer"; }
+}
+map.addEventListener("pointerup", endPointer);
+map.addEventListener("pointercancel", endPointer);
+map.addEventListener("pointerleave", () => { if (!pts.size) { hover = null; $("mapTip").style.display = "none"; drawMap(); } });
+// wheel zooms only with ctrl or cmd (trackpad pinch sends ctrl), so scrolling the article still scrolls
+map.addEventListener("wheel", ev => {
+  if (!(ev.ctrlKey || ev.metaKey)) return;
+  ev.preventDefault(); const r = map.getBoundingClientRect();
+  zoomAt(ev.clientX - r.left, ev.clientY - r.top, Math.exp(-ev.deltaY * 0.01));
+}, { passive: false });
+const centerZoom = f => { const r = map.getBoundingClientRect(); zoomAt(r.width / 2, r.height / 2, f); };
+$("zoomIn").onclick = () => centerZoom(2);
+$("zoomOut").onclick = () => centerZoom(0.5);
+$("zoomReset").onclick = () => { view.z = 1; applyView(); };
+
+function drawLegend() {
+  const n = PARKS.filter(p => metric.val(p) == null).length;
+  $("mapLegend").innerHTML = `<span class="lt">${metric.label}</span>` +
+    CLASSES.map(k => `<span class="key"><b style="background:var(${k.c})"></b>${k.t}</span>`).join("") +
+    (n ? `<span class="key"><b style="background:var(--none);border-color:var(--muted)"></b>Not available (${n})</span>` : "") +
+    `<span class="key">Dot size: visits in ${VB[1]}</span>`;
+}
+
+// ---------- charts ----------
+function niceStep(range, n) { const raw = range / n, p = 10 ** Math.floor(Math.log10(raw)), f = raw / p; return (f < 1.5 ? 1 : f < 3 ? 2 : f < 7 ? 5 : 10) * p; }
+function setupCanvas(cv) {
+  const r = cv.getBoundingClientRect(), dpr = window.devicePixelRatio || 1;
+  cv.width = Math.round(r.width * dpr); cv.height = Math.round(r.height * dpr);
+  const ctx = cv.getContext("2d"); ctx.setTransform(dpr, 0, 0, dpr, 0, 0); return { ctx, W: r.width, H: r.height };
+}
+// opts: {series, fmt, tipfmt(y), x0, x1, markers:[{year,label}], gapFrom, gapLabel, bars}
+function chart(cv, opts) {
+  const { ctx, W, H } = setupCanvas(cv), s = opts.series;
+  const hasGap = opts.gapFrom != null && opts.gapFrom <= opts.x1;
+  const L = 46, R = 8, T = hasGap ? 22 : 8, B = 18; // a band above the plot holds the gap label, clear of the data
+  const x0 = opts.x0, x1 = opts.x1;
+  const vals = years(s).filter(y => y >= x0 && y <= x1).map(y => at(s, y)).filter(v => v != null), vmax = Math.max(...vals) * 1.08 || 1;
+  const step = niceStep(vmax, 3), ymax = Math.ceil(vmax / step) * step;
+  const X = y => L + (W - L - R) * (x1 === x0 ? 0.5 : (y - x0) / (x1 - x0)), Y = v => T + (H - T - B) * (1 - v / ymax);
+  ctx.clearRect(0, 0, W, H);
+  if (opts.gapFrom != null && opts.gapFrom <= x1) { // years past the last published figure
+    const gx = X(opts.gapFrom - 0.5);
+    ctx.fillStyle = css("--shade"); ctx.fillRect(gx, T, W - R - gx, H - T - B);
+  }
+  ctx.font = "11px system-ui, sans-serif"; ctx.textAlign = "right"; ctx.textBaseline = "middle";
+  for (let v = 0; v <= ymax + 1e-9; v += step) {
+    ctx.strokeStyle = css("--grid"); ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(L, Y(v)); ctx.lineTo(W - R, Y(v)); ctx.stroke();
+    ctx.fillStyle = css("--muted"); ctx.fillText(opts.fmt(v), L - 5, Y(v));
+  }
+  ctx.textAlign = "center"; ctx.textBaseline = "top";
+  const span = x1 - x0, ys = span > 30 ? 10 : span > 12 ? 5 : span > 5 ? 2 : 1;
+  for (let y = Math.ceil(x0 / ys) * ys; y <= x1; y += ys) {
+    const t = opts.ylab ? opts.ylab(y) : String(y), w = ctx.measureText(t).width / 2;
+    ctx.fillStyle = css("--muted"); ctx.fillText(t, Math.min(Math.max(X(y), L + w), W - R - w), H - B + 4); }
+  ctx.strokeStyle = css("--axis"); ctx.beginPath(); ctx.moveTo(L, Y(0)); ctx.lineTo(W - R, Y(0)); ctx.stroke();
+  for (const m of opts.markers || []) {
+    if (m.year < x0 || m.year > x1) continue;
+    ctx.strokeStyle = css("--muted"); ctx.setLineDash([3, 3]); ctx.beginPath(); ctx.moveTo(X(m.year), T); ctx.lineTo(X(m.year), H - B); ctx.stroke(); ctx.setLineDash([]);
+  }
+  if (opts.dots) { // separate readings: no line, so years with a method change are not joined
+    for (const y of years(s)) { const v = at(s, y); if (v == null) continue;
+      ctx.beginPath(); ctx.arc(X(y), Y(v), 4.5, 0, 2 * Math.PI); ctx.fillStyle = css("--line"); ctx.fill();
+      ctx.lineWidth = 2; ctx.strokeStyle = css("--surface"); ctx.stroke(); }
+  } else if (opts.bars) {
+    const bw = Math.max(2, (W - L - R) / (x1 - x0 + 1) - 3);
+    ctx.fillStyle = css("--line");
+    for (const y of years(s)) { const v = at(s, y); if (v == null) continue;
+      const x = X(y) - bw / 2, top = Y(v), h = Y(0) - top; ctx.beginPath(); ctx.roundRect(x, top, bw, h, [3, 3, 0, 0]); ctx.fill(); }
+  } else {
+    ctx.strokeStyle = css("--line"); ctx.lineWidth = 2; ctx.lineJoin = "round"; ctx.beginPath();
+    let pen = false;
+    for (const y of years(s)) { const v = at(s, y); if (v == null || y < x0 || y > x1) { pen = false; continue; }
+      if (!pen) { ctx.moveTo(X(y), Y(v)); pen = true; } else ctx.lineTo(X(y), Y(v)); }
+    ctx.stroke();
+    ctx.fillStyle = css("--line"); // single isolated points still show
+    for (const y of years(s)) { const v = at(s, y); if (v == null) continue;
+      const lone = at(s, y - 1) == null && at(s, y + 1) == null; if (lone) { ctx.beginPath(); ctx.arc(X(y), Y(v), 3, 0, 2 * Math.PI); ctx.fill(); } }
+  }
+  if (hasGap) { // one line in the band above the plot, ending over the shaded years
+    ctx.fillStyle = css("--muted"); ctx.font = "11px system-ui, sans-serif"; ctx.textAlign = "right"; ctx.textBaseline = "alphabetic";
+    ctx.fillText(opts.gapLabel, W - R, 13);
+  }
+  const snap = ctx.getImageData(0, 0, cv.width, cv.height), tip = cv.parentElement.querySelector(".tip");
+  cv.onpointermove = ev => {
+    const r = cv.getBoundingClientRect(), mx = ev.clientX - r.left;
+    let y = Math.round(x0 + (mx - L) / (W - L - R) * (x1 - x0)); y = Math.max(x0, Math.min(x1, y));
+    ctx.putImageData(snap, 0, 0);
+    const dpr = window.devicePixelRatio || 1; ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    const v = at(s, y);
+    ctx.strokeStyle = css("--axis"); ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(X(y), T); ctx.lineTo(X(y), H - B); ctx.stroke();
+    if (v != null && !opts.bars) { ctx.beginPath(); ctx.arc(X(y), Y(v), 4.5, 0, 2 * Math.PI); ctx.fillStyle = css("--line"); ctx.fill(); ctx.lineWidth = 2; ctx.strokeStyle = css("--surface"); ctx.stroke(); }
+    tip.innerHTML = opts.tipfmt(y, v); tip.style.display = "block";
+    tip.style.left = Math.max(0, Math.min(X(y) + 10, W - tip.offsetWidth)) + "px"; tip.style.top = "-6px";
+  };
+  cv.onpointerleave = () => { ctx.putImageData(snap, 0, 0); tip.style.display = "none"; };
+}
+
+// ---------- panel ----------
+const span = (s, a, b) => [Math.min(a, firstYear(s) ?? a), b];
+function select(code, push = true) {
+  sel = code; drawMap();
+  $("parkSel").value = code || "";
+  $("intro").classList.toggle("hidden", !!code); $("parkView").classList.toggle("hidden", !code);
+  if (push) history.replaceState(null, "", code ? "#" + code : location.pathname + location.search);
+  if (!code) return;
+  const p = BY[code];
+  $("pName").textContent = p.name; $("pState").textContent = p.state_names;
+  drawPark(p);
+}
+function drawPark(p) {
+  // visits open at the first budget year, like every other series; the switch shows the whole record
+  const vfirst = firstYear(p.visits), vy1 = lastYear(p.visits), vy0 = longHistory ? vfirst : Math.max(vfirst, D.series_start);
+  const sw = $("histSw"); sw.classList.toggle("hidden", vfirst >= D.series_start);
+  sw.setAttribute("aria-checked", String(longHistory));
+  $("histLbl").textContent = `Show full record, from ${vfirst}`;
+  const dg = $("pDesig"), showDg = p.designated && p.designated.year > vy0;
+  dg.classList.toggle("hidden", !showDg);
+  dg.innerHTML = showDg ? `The visit chart starts before the park got its current name in ${p.designated.year}, so earlier years count it under its old name.` : "";
+  const src = [...p.history.sources, p.history.acres_source].filter(Boolean);
+  $("pHist").innerHTML = `${p.history.text} <span class="srcs">(${src.map((u, i) => `<a href="${u}" target="_blank" rel="noopener">${i < p.history.sources.length ? "NPS source" : "acreage"}${p.history.sources.length > 1 && i < p.history.sources.length ? " " + (i + 1) : ""}</a>`).join(", ")})</span>`;
+  $("tVisits").textContent = `Recreation visits per year, ${vy0} to ${vy1}`;
+  $("sVisits").textContent = "One visit is one person entering the park for recreation on one day. Dashed lines mark years with a major change in how the park counts.";
+  chart($("cVisits"), { series: p.visits, x0: vy0, x1: vy1, fmt: v => v >= 1e6 ? round(v / 1e6, 1) + "M" : v >= 1e3 ? round(v / 1e3) + "K" : String(v),
+    markers: p.method_changes.filter(m => m.major), tipfmt: (y, v) => `<strong>${y}</strong><br>${v == null ? "Not published" : int(v) + " visits"}${(p.method_changes || []).filter(m => m.year === y).map(m => "<br>Counting changed: " + m.note).join("")}` });
+  const a = at(p.visits, VB[0]), b = at(p.visits, VB[1]);
+  $("stVisits").innerHTML = `<span id="vLast">${int(at(p.visits, vy1))}</span> visits in ${vy1}.` + (a && b && !noCmp(p) ? ` That is <span id="vChg">${updown(change(a, b))}</span> ${VB[0]}.` : "");
+  const vf = $("nVisitFix"); vf.classList.toggle("hidden", !p.visit_note);
+  vf.innerHTML = p.visit_note ? `${p.visit_note.text} (<a href="${p.visit_note.source}" target="_blank" rel="noopener">${p.visit_note.label}</a>)` : "";
+  const mc = $("nVisits"), mj = p.method_changes.filter(m => m.major); mc.classList.toggle("hidden", !p.method_changes.length);
+  mc.innerHTML = p.method_changes.length ? `The park changed how it counts visits ${p.method_changes.length === 1 ? "once" : p.method_changes.length + " times"} since 1979` +
+    (mj.length ? `, with major changes in ${mj.map(m => m.year).join(", ")}` : "") + `. Jumps in those years may come from the change, not from more or fewer visits. <a href="${p.method_changes[0].source}" target="_blank" rel="noopener">Every change, from the Park Service</a>` : "";
+
+  const hasB = !!p.budget;
+  for (const id of ["bStaff", "bPerVisit"]) $(id).classList.toggle("hidden", !hasB);
+  $("bPerVisit").classList.toggle("hidden", !p.perVisit);
+  for (const id of ["cBudget", "stBudget"]) $(id).closest(".chartwrap, .stat").classList.toggle("hidden", !hasB);
+  $("tBudget").textContent = "Park base budget"; $("sBudget").textContent = "";
+  const sh = $("nShared"); sh.classList.toggle("hidden", !p.budget_note); sh.textContent = p.budget_note;
+  const pr = $("nPark"); pr.classList.toggle("hidden", !p.park_report);
+  pr.innerHTML = p.park_report ? `${p.park_report.text} (<a href="${p.park_report.source}" target="_blank" rel="noopener">park source</a>)` : "";
+  if (hasB) {
+    const b0 = firstYear(p.budget.base_k), b1 = lastYear(p.budget.base_k), gx1 = D.budget_axis_end;
+    const gap = { gapFrom: D.budget_last_fy + 1, gapLabel: `Shaded: no park-by-park table after FY${D.budget_last_fy}` };
+    $("tBudget").textContent = `Park base budget, FY${b0} to FY${b1}, in FY${CPI_BASE} dollars`;
+    $("sBudget").textContent = "The park's share of the Park Service's main operating account. It leaves out money from other accounts, such as construction, entrance fees, donations and Great American Outdoors Act projects.";
+    chart($("cBudget"), { series: p.budgetReal, x0: b0, x1: gx1, ...gap, fmt: money, tipfmt: (y, v) => `<strong>FY${y}</strong><br>${v == null ? "Not published" : usd(v) + ` in FY${CPI_BASE} dollars<br>` + usd(at(p.budget.base_k, y) * 1000) + " as published"}` });
+    const r0 = at(p.budgetReal, FB[0]), r1 = at(p.budgetReal, FB[1]);
+    $("stBudget").innerHTML = `<span id="bLast">${usd(at(p.budget.base_k, b1) * 1000)}</span> in FY${b1} as published.` + (r0 && r1 ? ` After inflation, that is <span id="bChg">${updown(change(r0, r1))}</span> FY${FB[0]}.` : "");
+
+    const fte = p.budget[D.fte_key];
+    $("tStaff").textContent = `Staff, FY${b0} to FY${b1}, in full-time equivalents`;
+    $("sStaff").textContent = D.fte_desc;
+    chart($("cStaff"), { series: fte, x0: b0, x1: gx1, ...gap, fmt: v => int(v),
+      tipfmt: (y, v) => `<strong>FY${y}</strong><br>${v == null ? "Not published" : int(v) + " full-time equivalents"}` });
+    const f0 = at(fte, FB[0]), f1 = at(fte, FB[1]);
+    $("stStaff").innerHTML = `<span id="fLast">${int(at(fte, b1))}</span> in FY${b1}.` + (f0 && f1 ? ` That is <span id="fChg">${updown(change(f0, f1))}</span> FY${FB[0]}.` : "");
+
+    if (p.perVisit) {
+    $("tPerVisit").textContent = `Base budget per visit, FY${b0} to FY${b1}, in FY${CPI_BASE} dollars`;
+    $("sPerVisit").textContent = "Our calculation: the fiscal year's base budget divided by recreation visits in the calendar year with the same number. Fiscal years start Oct. 1.";
+    chart($("cPerVisit"), { series: p.perVisit, x0: b0, x1: gx1, ...gap, fmt: v => "$" + round(v, v < 10 ? 1 : 0),
+      tipfmt: (y, v) => `<strong>FY${y}</strong><br>${v == null ? "Not available" : usd2(v) + " per visit"}` });
+    const q0 = at(p.perVisit, FB[0]), q1 = at(p.perVisit, FB[1]);
+    $("stPerVisit").innerHTML = q1 != null ? `<span id="pvLast">${usd2(q1)}</span> per visit in FY${FB[1]}.` + (q0 && !noCmp(p) ? ` That is <span id="pvChg">${updown(change(q0, q1))}</span> FY${FB[0]}.` : "") : "";
+    }
+  }
+}
+
+// ---------- intro, table, controls ----------
+function buildIntro() {
+  $("introText").innerHTML = D.intro;
+  $("availBox").innerHTML = `<p class="figtitle">What is missing</p>` + `<ul>${D.availability.map(a => `<li>${a.text} ${a.links.map(l => `<a href="${l.url}" target="_blank" rel="noopener">${l.label}</a>`).join(", ")}</li>`).join("")}</ul>`;
+  $("srcBox").innerHTML = `<p class="figtitle">Sources</p><ul>${D.sources.map(s => `<li><a href="${s.url}" target="_blank" rel="noopener">${s.name}</a>: ${s.what}</li>`).join("")}</ul>`;
+  $("srcLine").textContent = D.source_line;
+}
+function buildTable() {
+  const rows = [...PARKS].sort((a, b) => a.short.localeCompare(b.short));
+  $("parkTable").innerHTML = `<thead><tr><th>Park</th><th>Visits ${VB[1]}</th>${METRICS.map(m => `<th>${m.id === "visits" ? "Visits" : m.id === "budget" ? "Budget" : m.id === "staff" ? "Staff" : "Per visit"} change</th>`).join("")}</tr></thead><tbody>` +
+    rows.map(p => `<tr><td><button type="button" data-code="${p.code}">${p.short}</button></td><td>${at(p.visits, VB[1]) != null ? int(at(p.visits, VB[1])) : "n/a"}</td>${METRICS.map(m => { const v = m.val(p); return `<td>${v == null ? "n/a" : pct(v)}</td>`; }).join("")}</tr>`).join("") + "</tbody>";
+  $("parkTable").querySelector("thead").insertAdjacentHTML("beforebegin", `<caption class="figsub" style="text-align:left">Visits change is ${VB[0]} to ${VB[1]}. Budget, staff and per-visit changes are FY${FB[0]} to FY${FB[1]}, budget after inflation.</caption>`);
+  $("parkTable").onclick = ev => { const c = ev.target.dataset && ev.target.dataset.code; if (c) select(c); };
+}
+$("metricSel").innerHTML = METRICS.map(m => `<option value="${m.id}">${m.label}</option>`).join("");
+$("metricSel").onchange = () => { metric = METRICS.find(m => m.id === $("metricSel").value); drawLegend(); drawMap(); };
+$("parkSel").innerHTML = `<option value="">All parks</option>` + [...PARKS].sort((a, b) => a.short.localeCompare(b.short)).map(p => `<option value="${p.code}">${p.short}</option>`).join("");
+$("parkSel").onchange = () => select($("parkSel").value || null);
+$("backBtn").onclick = () => select(null);
+let longHistory = false;
+try { longHistory = localStorage.getItem("np-long-history") === "1"; } catch (e) {}
+$("histSw").onclick = () => {
+  longHistory = !longHistory;
+  try { localStorage.setItem("np-long-history", longHistory ? "1" : "0"); } catch (e) {}
+  if (sel) drawPark(BY[sel]);
+};
+function fromHash() { const c = location.hash.slice(1).toUpperCase(); select(BY[c] ? c : null, false); }
+buildIntro(); buildTable(); drawLegend(); resizeMap(); fromHash();
+window.addEventListener("hashchange", fromHash);
+new ResizeObserver(() => { resizeMap(); if (sel) drawPark(BY[sel]); }).observe(document.querySelector(".app"));
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => { drawMap(); if (sel) drawPark(BY[sel]); });
+</script>
+</body>
+</html>

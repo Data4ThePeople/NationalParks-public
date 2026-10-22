@@ -1,0 +1,443 @@
+[
+ {
+  "code": "ACAD",
+  "name": "Acadia National Park",
+  "state": "ME",
+  "lon": -68.2455,
+  "lat": 44.3379
+ },
+ {
+  "code": "ARCH",
+  "name": "Arches National Park",
+  "state": "UT",
+  "lon": -109.5955,
+  "lat": 38.7079
+ },
+ {
+  "code": "BADL",
+  "name": "Badlands National Park",
+  "state": "SD",
+  "lon": -102.394,
+  "lat": 43.8341
+ },
+ {
+  "code": "BIBE",
+  "name": "Big Bend National Park",
+  "state": "TX",
+  "lon": -103.1941,
+  "lat": 29.3338
+ },
+ {
+  "code": "BISC",
+  "name": "Biscayne National Park",
+  "state": "FL",
+  "lon": -80.2183,
+  "lat": 25.4697
+ },
+ {
+  "code": "BLCA",
+  "name": "Black Canyon of the Gunnison National Park",
+  "state": "CO",
+  "lon": -107.7437,
+  "lat": 38.5794
+ },
+ {
+  "code": "BRCA",
+  "name": "Bryce Canyon National Park",
+  "state": "UT",
+  "lon": -112.1856,
+  "lat": 37.5708
+ },
+ {
+  "code": "CANY",
+  "name": "Canyonlands National Park",
+  "state": "UT",
+  "lon": -109.8832,
+  "lat": 38.2721
+ },
+ {
+  "code": "CARE",
+  "name": "Capitol Reef National Park",
+  "state": "UT",
+  "lon": -111.1427,
+  "lat": 38.1706
+ },
+ {
+  "code": "CAVE",
+  "name": "Carlsbad Caverns National Park",
+  "state": "NM",
+  "lon": -104.6013,
+  "lat": 32.1201
+ },
+ {
+  "code": "CHIS",
+  "name": "Channel Islands National Park",
+  "state": "CA",
+  "lon": -119.7062,
+  "lat": 34.0185
+ },
+ {
+  "code": "CONG",
+  "name": "Congaree National Park",
+  "state": "SC",
+  "lon": -80.7635,
+  "lat": 33.7941
+ },
+ {
+  "code": "CRLA",
+  "name": "Crater Lake National Park",
+  "state": "OR",
+  "lon": -122.1343,
+  "lat": 42.9451
+ },
+ {
+  "code": "CUVA",
+  "name": "Cuyahoga Valley National Park",
+  "state": "OH",
+  "lon": -81.5697,
+  "lat": 41.2092
+ },
+ {
+  "code": "DEVA",
+  "name": "Death Valley National Park",
+  "state": "CA",
+  "lon": -117.1388,
+  "lat": 36.5668
+ },
+ {
+  "code": "DENA",
+  "name": "Denali National Park",
+  "state": "AK",
+  "lon": -150.603,
+  "lat": 63.3263
+ },
+ {
+  "code": "DRTO",
+  "name": "Dry Tortugas National Park",
+  "state": "FL",
+  "lon": -82.8741,
+  "lat": 24.6458
+ },
+ {
+  "code": "EVER",
+  "name": "Everglades National Park",
+  "state": "FL",
+  "lon": -80.9548,
+  "lat": 25.2826
+ },
+ {
+  "code": "GAAR",
+  "name": "Gates of the Arctic National Park",
+  "state": "AK",
+  "lon": -153.2699,
+  "lat": 67.7623
+ },
+ {
+  "code": "JEFF",
+  "name": "Gateway Arch National Park",
+  "state": "MO",
+  "lon": -90.1754,
+  "lat": 38.6235
+ },
+ {
+  "code": "GLBA",
+  "name": "Glacier Bay National Park",
+  "state": "AK",
+  "lon": -136.8691,
+  "lat": 58.8274
+ },
+ {
+  "code": "GLAC",
+  "name": "Glacier National Park",
+  "state": "MT",
+  "lon": -113.7563,
+  "lat": 48.6189
+ },
+ {
+  "code": "GRCA",
+  "name": "Grand Canyon National Park",
+  "state": "AZ",
+  "lon": -112.2997,
+  "lat": 36.3099
+ },
+ {
+  "code": "GRTE",
+  "name": "Grand Teton National Park",
+  "state": "WY",
+  "lon": -110.6856,
+  "lat": 43.8263
+ },
+ {
+  "code": "GRBA",
+  "name": "Great Basin National Park",
+  "state": "NV",
+  "lon": -114.2443,
+  "lat": 38.9272
+ },
+ {
+  "code": "GRSA",
+  "name": "Great Sand Dunes National Park",
+  "state": "CO",
+  "lon": -105.613,
+  "lat": 37.7669
+ },
+ {
+  "code": "GRSM",
+  "name": "Great Smoky Mountains National Park",
+  "state": "NC",
+  "lon": -83.4981,
+  "lat": 35.6222
+ },
+ {
+  "code": "GUMO",
+  "name": "Guadalupe Mountains National Park",
+  "state": "TX",
+  "lon": -104.9008,
+  "lat": 31.9069
+ },
+ {
+  "code": "HALE",
+  "name": "Haleakala National Park",
+  "state": "HI",
+  "lon": -156.1326,
+  "lat": 20.6994
+ },
+ {
+  "code": "HAVO",
+  "name": "Hawai'i Volcanoes National Park",
+  "state": "HI",
+  "lon": -155.2395,
+  "lat": 19.3031
+ },
+ {
+  "code": "HOSP",
+  "name": "Hot Springs National Park",
+  "state": "AR",
+  "lon": -93.03,
+  "lat": 34.5292
+ },
+ {
+  "code": "INDU",
+  "name": "Indiana Dunes National Park",
+  "state": "IN",
+  "lon": -87.0329,
+  "lat": 41.6596
+ },
+ {
+  "code": "ISRO",
+  "name": "Isle Royale National Park",
+  "state": "MI",
+  "lon": -88.8067,
+  "lat": 48.031
+ },
+ {
+  "code": "JOTR",
+  "name": "Joshua Tree National Park",
+  "state": "CA",
+  "lon": -115.9533,
+  "lat": 33.8993
+ },
+ {
+  "code": "KATM",
+  "name": "Katmai National Park",
+  "state": "AK",
+  "lon": -155.083,
+  "lat": 58.5105
+ },
+ {
+  "code": "KEFJ",
+  "name": "Kenai Fjords National Park",
+  "state": "AK",
+  "lon": -150.2466,
+  "lat": 59.8092
+ },
+ {
+  "code": "KICA",
+  "name": "Kings Canyon National Park",
+  "state": "CA",
+  "lon": -118.5939,
+  "lat": 36.8749
+ },
+ {
+  "code": "KOVA",
+  "name": "Kobuk Valley National Park",
+  "state": "AK",
+  "lon": -159.0625,
+  "lat": 67.3962
+ },
+ {
+  "code": "LACL",
+  "name": "Lake Clark National Park",
+  "state": "AK",
+  "lon": -153.2619,
+  "lat": 60.5886
+ },
+ {
+  "code": "LAVO",
+  "name": "Lassen Volcanic National Park",
+  "state": "CA",
+  "lon": -121.4046,
+  "lat": 40.4971
+ },
+ {
+  "code": "MACA",
+  "name": "Mammoth Cave National Park",
+  "state": "KY",
+  "lon": -86.1203,
+  "lat": 37.1886
+ },
+ {
+  "code": "MEVE",
+  "name": "Mesa Verde National Park",
+  "state": "CO",
+  "lon": -108.4556,
+  "lat": 37.2535
+ },
+ {
+  "code": "MORA",
+  "name": "Mount Rainier National Park",
+  "state": "WA",
+  "lon": -121.7064,
+  "lat": 46.8547
+ },
+ {
+  "code": "NPSA",
+  "name": "National Park of American Samoa",
+  "state": "AS",
+  "lon": -169.4488,
+  "lat": -14.2488
+ },
+ {
+  "code": "NERI",
+  "name": "New River Gorge National Park and Preserve",
+  "state": "WV",
+  "lon": -81.0429,
+  "lat": 37.897
+ },
+ {
+  "code": "NOCA",
+  "name": "North Cascades National Park",
+  "state": "WA",
+  "lon": -121.3501,
+  "lat": 48.8284
+ },
+ {
+  "code": "OLYM",
+  "name": "Olympic National Park",
+  "state": "WA",
+  "lon": -123.5343,
+  "lat": 47.7867
+ },
+ {
+  "code": "PEFO",
+  "name": "Petrified Forest National Park",
+  "state": "AZ",
+  "lon": -109.7727,
+  "lat": 34.9311
+ },
+ {
+  "code": "PINN",
+  "name": "Pinnacles National Park",
+  "state": "CA",
+  "lon": -121.1734,
+  "lat": 36.4754
+ },
+ {
+  "code": "REDW",
+  "name": "Redwood National Park",
+  "state": "CA",
+  "lon": -124.0045,
+  "lat": 41.2776
+ },
+ {
+  "code": "ROMO",
+  "name": "Rocky Mountain National Park",
+  "state": "CO",
+  "lon": -105.7037,
+  "lat": 40.3573
+ },
+ {
+  "code": "SAGU",
+  "name": "Saguaro National Park",
+  "state": "AZ",
+  "lon": -110.6184,
+  "lat": 32.1707
+ },
+ {
+  "code": "SEQU",
+  "name": "Sequoia National Park",
+  "state": "CA",
+  "lon": -118.5604,
+  "lat": 36.4964
+ },
+ {
+  "code": "SHEN",
+  "name": "Shenandoah National Park",
+  "state": "VA",
+  "lon": -78.464,
+  "lat": 38.4724
+ },
+ {
+  "code": "THRO",
+  "name": "Theodore Roosevelt National Park",
+  "state": "ND",
+  "lon": -103.463,
+  "lat": 46.9558
+ },
+ {
+  "code": "VIIS",
+  "name": "Virgin Islands National Park",
+  "state": "VI",
+  "lon": -64.7399,
+  "lat": 18.3439
+ },
+ {
+  "code": "VOYA",
+  "name": "Voyageurs National Park",
+  "state": "MN",
+  "lon": -92.8855,
+  "lat": 48.4657
+ },
+ {
+  "code": "WHSA",
+  "name": "White Sands National Park",
+  "state": "NM",
+  "lon": -106.326,
+  "lat": 32.7648
+ },
+ {
+  "code": "WICA",
+  "name": "Wind Cave National Park",
+  "state": "SD",
+  "lon": -103.4288,
+  "lat": 43.5753
+ },
+ {
+  "code": "WRST",
+  "name": "Wrangell-St. Elias National Park",
+  "state": "AK",
+  "lon": -143.866,
+  "lat": 61.2156
+ },
+ {
+  "code": "YELL",
+  "name": "Yellowstone National Park",
+  "state": "ID",
+  "lon": -110.4901,
+  "lat": 44.583
+ },
+ {
+  "code": "YOSE",
+  "name": "Yosemite National Park",
+  "state": "CA",
+  "lon": -119.5428,
+  "lat": 37.8413
+ },
+ {
+  "code": "ZION",
+  "name": "Zion National Park",
+  "state": "UT",
+  "lon": -113.0457,
+  "lat": 37.2795
+ }
+]

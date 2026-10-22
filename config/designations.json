@@ -1,0 +1,317 @@
+{
+ "ACAD": {
+  "year": 1919,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=58",
+  "basis": "Established as Lafayette National Park Feb. 26, 1919; renamed Acadia National Park Jan. 19, 1929."
+ },
+ "ARCH": {
+  "year": 1971,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=101",
+  "basis": "Proclaimed a national monument April 12, 1929; redesignated Nov. 12, 1971."
+ },
+ "BADL": {
+  "year": 1978,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=95",
+  "basis": "Redesignated a national park Nov. 10, 1978."
+ },
+ "BIBE": {
+  "year": 1944,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=99",
+  "basis": "Authorized June 20, 1935; established June 12, 1944."
+ },
+ "BISC": {
+  "year": 1980,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=46",
+  "basis": "Redesignated as a national park and enlarged June 28, 1980."
+ },
+ "BLCA": {
+  "year": 1999,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=38",
+  "basis": "Redesignated as a national park Oct. 21, 1999."
+ },
+ "BRCA": {
+  "year": 1928,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=101",
+  "basis": "Redesignated Utah National Park June 7, 1924; renamed Bryce Canyon National Park Feb. 25, 1928. The index gives 1924 for the Utah National Park designation; 1928 is the year of the Bryce Canyon National Park name."
+ },
+ "CANY": {
+  "year": 1964,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=101",
+  "basis": "Established Sept. 12, 1964."
+ },
+ "CARE": {
+  "year": 1971,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=101",
+  "basis": "Redesignated a national park Dec. 18, 1971."
+ },
+ "CAVE": {
+  "year": 1930,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=77",
+  "basis": "Established as Carlsbad Caverns National Park May 14, 1930."
+ },
+ "CHIS": {
+  "year": 1980,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=31",
+  "basis": "Proclaimed a national monument April 26, 1938; redesignated March 5, 1980."
+ },
+ "CONG": {
+  "year": 2003,
+  "source": "https://www.nps.gov/aboutus/recent-changes.htm",
+  "basis": "Congaree National Park redesignated Nov. 10, 2003 (index: redesignated Nov. 10, 2003)."
+ },
+ "CRLA": {
+  "year": 1902,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=89",
+  "basis": "Established May 22, 1902."
+ },
+ "CUVA": {
+  "year": 2000,
+  "source": "https://www.nps.gov/aboutus/recent-changes.htm",
+  "basis": "Cuyahoga Valley National Park redesignated Oct. 11, 2000."
+ },
+ "DENA": {
+  "year": 1917,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=20",
+  "basis": "Established as Mt. McKinley National Park Feb. 26, 1917; established as Denali National Park and Preserve Dec. 2, 1980."
+ },
+ "DEVA": {
+  "year": 1994,
+  "source": "https://www.nps.gov/aboutus/recent-changes.htm",
+  "basis": "Death Valley National Park incorporated Death Valley National Monument Oct. 31, 1994."
+ },
+ "DRTO": {
+  "year": 1992,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=46",
+  "basis": "Renamed and redesignated as a national park Oct. 26, 1992."
+ },
+ "EVER": {
+  "year": 1947,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=47",
+  "basis": "Authorized May 30, 1934; established Dec. 6, 1947."
+ },
+ "GAAR": {
+  "year": 1980,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=20",
+  "basis": "Established as a national park and national preserve Dec. 2, 1980."
+ },
+ "GLAC": {
+  "year": 1910,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=71",
+  "basis": "Established May 11, 1910."
+ },
+ "GLBA": {
+  "year": 1980,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=20",
+  "basis": "Established as a national park and national preserve Dec. 2, 1980."
+ },
+ "GRBA": {
+  "year": 1986,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=73",
+  "basis": "Great Basin National Park established Oct. 27, 1986."
+ },
+ "GRCA": {
+  "year": 1919,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=25",
+  "basis": "National park established Feb. 26, 1919."
+ },
+ "GRSA": {
+  "year": 2004,
+  "source": "https://www.nps.gov/aboutus/recent-changes.htm",
+  "basis": "Great Sand Dunes National Park listed Sept. 24, 2004 (index: redesignation as a national park and preserve Nov. 22, 2000; established Sept. 24, 2004)."
+ },
+ "GRSM": {
+  "year": 1934,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=96",
+  "basis": "Authorized May 22, 1926; established for administration and protection only Feb. 6, 1930; established for full development June 15, 1934."
+ },
+ "GRTE": {
+  "year": 1929,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=113",
+  "basis": "Established Feb. 26, 1929."
+ },
+ "GUMO": {
+  "year": 1972,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=99",
+  "basis": "Authorized Oct. 15, 1966; established Sept. 30, 1972."
+ },
+ "HALE": {
+  "year": 1916,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=50",
+  "basis": "Established as a part of Hawaii National Park Aug. 1, 1916; renamed Sept. 13, 1960."
+ },
+ "HAVO": {
+  "year": 1916,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=50",
+  "basis": "Established as part of Hawaii National Park Aug. 1, 1916; renamed Sept. 22, 1961."
+ },
+ "HOSP": {
+  "year": 1921,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=30",
+  "basis": "Established as Hot Springs Reservation April 20, 1832; redesignated March 4, 1921."
+ },
+ "INDU": {
+  "year": 2019,
+  "source": "https://www.nps.gov/aboutus/recent-changes.htm",
+  "basis": "Feb. 15, 2019: Indiana Dunes National Park redesignated from Indiana Dunes National Lakeshore."
+ },
+ "ISRO": {
+  "year": 1940,
+  "source": "https://www.nps.gov/isro/learn/management/upload/ISRO_Web_Accessible_Foundation_Document_Overview_2016.pdf",
+  "basis": "The park was formally authorized on March 3, 1931, and was officially established on April 3, 1940."
+ },
+ "JEFF": {
+  "year": 2018,
+  "source": "https://www.nps.gov/aboutus/recent-changes.htm",
+  "basis": "Feb. 22, 2018: Gateway Arch National Park redesignated from Jefferson National Expansion Memorial."
+ },
+ "JOTR": {
+  "year": 1994,
+  "source": "https://www.nps.gov/aboutus/recent-changes.htm",
+  "basis": "Joshua Tree National Park Oct. 31, 1994 (index: proclaimed a national monument Aug. 10, 1936; redesignated Oct. 31, 1994)."
+ },
+ "KATM": {
+  "year": 1980,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=21",
+  "basis": "Established as national park and national preserve Dec. 2, 1980."
+ },
+ "KEFJ": {
+  "year": 1980,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=21",
+  "basis": "Established as a national park Dec. 2, 1980."
+ },
+ "KICA": {
+  "year": 1940,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=33",
+  "basis": "Established as General Grant National Park Oct. 1, 1890; renamed and enlarged March 4, 1940."
+ },
+ "KOVA": {
+  "year": 1980,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=21",
+  "basis": "Established as a national park Dec. 2, 1980."
+ },
+ "LACL": {
+  "year": 1980,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=22",
+  "basis": "Established as a national park and national preserve Dec. 2, 1980."
+ },
+ "LAVO": {
+  "year": 1916,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=33",
+  "basis": "Made part of Lassen Volcanic National Park when established Aug. 9, 1916."
+ },
+ "MACA": {
+  "year": 1941,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=56",
+  "basis": "Authorized May 25, 1926; established July 1, 1941."
+ },
+ "MEVE": {
+  "year": 1906,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=39",
+  "basis": "Established June 29, 1906."
+ },
+ "MORA": {
+  "year": 1899,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=110",
+  "basis": "Established March 2, 1899."
+ },
+ "NERI": {
+  "year": 2020,
+  "source": "https://www.nps.gov/aboutus/recent-changes.htm",
+  "basis": "Dec. 27, 2020: New River Gorge National Park and Preserve (renamed from New River Gorge National River), P.L. 116-260."
+ },
+ "NOCA": {
+  "year": 1968,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=109",
+  "basis": "Established Oct. 2, 1968."
+ },
+ "NPSA": {
+  "year": 1988,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=23",
+  "basis": "Authorized Oct. 31, 1988; 50-year lease signed Sept. 9, 1993."
+ },
+ "OLYM": {
+  "year": 1938,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=110",
+  "basis": "Renamed and redesignated national park June 29, 1938."
+ },
+ "PEFO": {
+  "year": 1962,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=26",
+  "basis": "Proclaimed a national monument Dec. 8, 1906; redesignated Dec. 9, 1962."
+ },
+ "PINN": {
+  "year": 2013,
+  "source": "https://www.nps.gov/aboutus/recent-changes.htm",
+  "basis": "Jan. 10, 2013: Pinnacles National Park redesignated from Pinnacles National Monument, P.L. 112-245."
+ },
+ "REDW": {
+  "year": 1968,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=35",
+  "basis": "Established Oct. 2, 1968."
+ },
+ "ROMO": {
+  "year": 1915,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=40",
+  "basis": "Established Jan. 26, 1915."
+ },
+ "SAGU": {
+  "year": 1994,
+  "source": "https://www.nps.gov/aboutus/recent-changes.htm",
+  "basis": "Saguaro National Park incorporated Saguaro National Monument Oct. 14, 1994."
+ },
+ "SEQU": {
+  "year": 1890,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=36",
+  "basis": "Established Sept. 25, 1890."
+ },
+ "SHEN": {
+  "year": 1935,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=107",
+  "basis": "Authorized May 22, 1926; fully established Dec. 26, 1935."
+ },
+ "THRO": {
+  "year": 1978,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=87",
+  "basis": "Established as Theodore Roosevelt National Memorial Park April 25, 1947; redesignated Nov. 10, 1978."
+ },
+ "VIIS": {
+  "year": 1956,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=108",
+  "basis": "Authorized Aug. 2, 1956."
+ },
+ "VOYA": {
+  "year": 1975,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=67",
+  "basis": "Authorized Jan. 8, 1971; established April 8, 1975."
+ },
+ "WHSA": {
+  "year": 2019,
+  "source": "https://www.nps.gov/aboutus/recent-changes.htm",
+  "basis": "Dec. 20, 2019: White Sands National Park redesignated from White Sands National Monument, P.L. 116-92."
+ },
+ "WICA": {
+  "year": 1903,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=95",
+  "basis": "Established Jan. 9, 1903."
+ },
+ "WRST": {
+  "year": 1980,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=23",
+  "basis": "Established as a national park and national preserve Dec. 2, 1980."
+ },
+ "YELL": {
+  "year": 1872,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=113",
+  "basis": "Established March 1, 1872."
+ },
+ "YOSE": {
+  "year": 1890,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=38",
+  "basis": "Established as a national park Oct. 1, 1890."
+ },
+ "ZION": {
+  "year": 1919,
+  "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=103",
+  "basis": "Established as a national park Nov. 19, 1919."
+ }
+}

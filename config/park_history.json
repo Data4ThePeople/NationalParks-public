@@ -1,0 +1,1798 @@
+{
+ "ACAD": {
+  "events": [
+   {
+    "date": "1916-07-08",
+    "date_text": "July 8, 1916",
+    "kind": "proclaimed",
+    "name": "Sieur de Monts National Monument",
+    "name_stated": true,
+    "text": "Proclaimed Sieur de Monts National Monument July 8, 1916",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=58"
+   },
+   {
+    "date": "1919-02-26",
+    "date_text": "Feb. 26, 1919",
+    "kind": "established",
+    "name": "Lafayette National Park",
+    "name_stated": true,
+    "text": "established as Lafayette National Park Feb. 26, 1919",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=58"
+   },
+   {
+    "date": "1929-01-19",
+    "date_text": "Jan. 19, 1929",
+    "kind": "renamed",
+    "name": "Acadia National Park",
+    "name_stated": true,
+    "text": "renamed Acadia National Park Jan. 19, 1929",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=58"
+   },
+   {
+    "date": "1986-09-25",
+    "date_text": "Sept. 25, 1986",
+    "kind": "other",
+    "name": "Acadia National Park",
+    "name_stated": true,
+    "text": "Permanent boundary established Sept. 25, 1986.",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=58"
+   }
+  ],
+  "acres": 49076.65,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": "The Index lists 14 boundary changes from 1929 to 1982; only the 1986 permanent boundary is listed here."
+ },
+ "ARCH": {
+  "events": [
+   {
+    "date": "1929-04-12",
+    "date_text": "April 12, 1929",
+    "kind": "proclaimed",
+    "name": "Arches National Monument",
+    "name_stated": false,
+    "text": "Proclaimed a national monument April 12, 1929",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=101"
+   },
+   {
+    "date": "1971-11-12",
+    "date_text": "Nov. 12, 1971",
+    "kind": "redesignated",
+    "name": "Arches National Park",
+    "name_stated": true,
+    "text": "redesignated Nov. 12, 1971",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=101"
+   }
+  ],
+  "acres": 76678.98,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": ""
+ },
+ "BADL": {
+  "events": [
+   {
+    "date": "1929-03-04",
+    "date_text": "March 4, 1929",
+    "kind": "authorized",
+    "name": "Badlands National Monument",
+    "name_stated": false,
+    "text": "Authorized as a national monument March 4, 1929",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=95"
+   },
+   {
+    "date": "1939-01-24",
+    "date_text": "Jan. 24, 1939",
+    "kind": "established",
+    "name": "Badlands National Monument",
+    "name_stated": false,
+    "text": "established Jan. 24, 1939",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=95"
+   },
+   {
+    "date": "1978-11-10",
+    "date_text": "Nov. 10, 1978",
+    "kind": "redesignated",
+    "name": "Badlands National Park",
+    "name_stated": true,
+    "text": "redesignated a national park Nov. 10, 1978",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=95"
+   }
+  ],
+  "acres": 242742.9,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": ""
+ },
+ "BIBE": {
+  "events": [
+   {
+    "date": "1935-06-20",
+    "date_text": "June 20, 1935",
+    "kind": "authorized",
+    "name": "Big Bend National Park",
+    "name_stated": true,
+    "text": "Authorized June 20, 1935",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=99"
+   },
+   {
+    "date": "1944-06-12",
+    "date_text": "June 12, 1944",
+    "kind": "established",
+    "name": "Big Bend National Park",
+    "name_stated": true,
+    "text": "established June 12, 1944",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=99"
+   }
+  ],
+  "acres": 801162.34,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": ""
+ },
+ "BISC": {
+  "events": [
+   {
+    "date": "1968-10-18",
+    "date_text": "Oct. 18, 1968",
+    "kind": "authorized",
+    "name": "Biscayne National Monument",
+    "name_stated": false,
+    "text": "Authorized as a national monument Oct. 18, 1968",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=46"
+   },
+   {
+    "date": "1980-06-28",
+    "date_text": "June 28, 1980",
+    "kind": "redesignated",
+    "name": "Biscayne National Park",
+    "name_stated": true,
+    "text": "redesignated as a national park and enlarged June 28, 1980",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=46"
+   }
+  ],
+  "acres": 172971.11,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": ""
+ },
+ "BLCA": {
+  "events": [
+   {
+    "date": "1933-03-02",
+    "date_text": "March 2, 1933",
+    "kind": "proclaimed",
+    "name": "Black Canyon of the Gunnison National Monument",
+    "name_stated": false,
+    "text": "Proclaimed a national monument March 2, 1933",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=38"
+   },
+   {
+    "date": "1999-10-21",
+    "date_text": "Oct. 21, 1999",
+    "kind": "redesignated",
+    "name": "Black Canyon of the Gunnison National Park",
+    "name_stated": true,
+    "text": "redesignated as a national park Oct. 21, 1999",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=38"
+   }
+  ],
+  "acres": 30779.83,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": "Recent Changes also lists Oct. 21, 1999 (P.L. 106-076), 'redesignated from a national monument.' Same date as the Index."
+ },
+ "BRCA": {
+  "events": [
+   {
+    "date": "1923-06-08",
+    "date_text": "June 8, 1923",
+    "kind": "proclaimed",
+    "name": "Bryce Canyon National Monument",
+    "name_stated": false,
+    "text": "Proclaimed a national monument June 8, 1923",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=101"
+   },
+   {
+    "date": "1924-06-07",
+    "date_text": "June 7, 1924",
+    "kind": "redesignated",
+    "name": "Utah National Park",
+    "name_stated": true,
+    "text": "renamed and redesignated Utah National Park June 7, 1924",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=101"
+   },
+   {
+    "date": "1928-02-25",
+    "date_text": "Feb. 25, 1928",
+    "kind": "renamed",
+    "name": "Bryce Canyon National Park",
+    "name_stated": true,
+    "text": "renamed Bryce Canyon National Park Feb. 25, 1928",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=101"
+   }
+  ],
+  "acres": 35835.08,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": "The Index says the monument was 'renamed and redesignated Utah National Park June 7, 1924' and 'renamed Bryce Canyon National Park Feb. 25, 1928.'"
+ },
+ "CANY": {
+  "events": [
+   {
+    "date": "1964-09-12",
+    "date_text": "Sept. 12, 1964",
+    "kind": "established",
+    "name": "Canyonlands National Park",
+    "name_stated": true,
+    "text": "Established Sept. 12, 1964.",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=101"
+   }
+  ],
+  "acres": 337597.83,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": ""
+ },
+ "CARE": {
+  "events": [
+   {
+    "date": "1937-08-02",
+    "date_text": "Aug. 2, 1937",
+    "kind": "proclaimed",
+    "name": "Capitol Reef National Monument",
+    "name_stated": false,
+    "text": "Proclaimed a national monument Aug. 2, 1937",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=101"
+   },
+   {
+    "date": "1971-12-18",
+    "date_text": "Dec. 18, 1971",
+    "kind": "redesignated",
+    "name": "Capitol Reef National Park",
+    "name_stated": true,
+    "text": "redesignated a national park Dec. 18, 1971",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=101"
+   }
+  ],
+  "acres": 241904.5,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": ""
+ },
+ "CAVE": {
+  "events": [
+   {
+    "date": "1923-10-25",
+    "date_text": "Oct. 25, 1923",
+    "kind": "proclaimed",
+    "name": "Carlsbad Cave National Monument",
+    "name_stated": true,
+    "text": "Proclaimed Carlsbad Cave National Monument Oct. 25, 1923",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=77"
+   },
+   {
+    "date": "1930-05-14",
+    "date_text": "May 14, 1930",
+    "kind": "established",
+    "name": "Carlsbad Caverns National Park",
+    "name_stated": true,
+    "text": "established as Carlsbad Caverns National Park May 14, 1930",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=77"
+   }
+  ],
+  "acres": 46766.45,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": ""
+ },
+ "CHIS": {
+  "events": [
+   {
+    "date": "1938-04-26",
+    "date_text": "April 26, 1938",
+    "kind": "proclaimed",
+    "name": "Channel Islands National Monument",
+    "name_stated": false,
+    "text": "Proclaimed a national monument April 26, 1938",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=31"
+   },
+   {
+    "date": "1980-03-05",
+    "date_text": "March 5, 1980",
+    "kind": "redesignated",
+    "name": "Channel Islands National Park",
+    "name_stated": true,
+    "text": "redesignated March 5, 1980",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=31"
+   }
+  ],
+  "acres": 249561.0,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": ""
+ },
+ "CONG": {
+  "events": [
+   {
+    "date": "1976-10-18",
+    "date_text": "Oct. 18, 1976",
+    "kind": "authorized",
+    "name": "Congaree Swamp National Monument",
+    "name_stated": true,
+    "text": "Authorized Oct. 18, 1976 as Congaree Swamp National Monument",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=94"
+   },
+   {
+    "date": "2003-11-10",
+    "date_text": "Nov. 10, 2003",
+    "kind": "redesignated",
+    "name": "Congaree National Park",
+    "name_stated": true,
+    "text": "redesignated Nov. 10, 2003",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=94"
+   }
+  ],
+  "acres": 26692.6,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": "Recent Changes lists Nov. 10, 2003 with the wording 'incorporated Congaree Swamp National Monument' (P.L. 108-108). Same date as the Index."
+ },
+ "CRLA": {
+  "events": [
+   {
+    "date": "1902-05-22",
+    "date_text": "May 22, 1902",
+    "kind": "established",
+    "name": "Crater Lake National Park",
+    "name_stated": true,
+    "text": "Established May 22, 1902.",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=89"
+   }
+  ],
+  "acres": 183224.05,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": ""
+ },
+ "CUVA": {
+  "events": [
+   {
+    "date": "1974-12-27",
+    "date_text": "Dec. 27, 1974",
+    "kind": "authorized",
+    "name": "Cuyahoga Valley National Recreation Area",
+    "name_stated": false,
+    "text": "Authorized Dec. 27, 1974",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=87"
+   },
+   {
+    "date": "1975-06-26",
+    "date_text": "June 26, 1975",
+    "kind": "established",
+    "name": "Cuyahoga Valley National Recreation Area",
+    "name_stated": false,
+    "text": "established June 26, 1975",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=87"
+   },
+   {
+    "date": "2000-10-11",
+    "date_text": "Oct. 11, 2000",
+    "kind": "redesignated",
+    "name": "Cuyahoga Valley National Park",
+    "name_stated": true,
+    "text": "redesignated Oct. 11, 2000",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=87"
+   }
+  ],
+  "acres": 32607.2,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": "The Index does not name the unit before 2000. Recent Changes says it was 'redesignated from a national recreation area' on Oct. 11, 2000 (P.L. 106-291), so the earlier name is given as Cuyahoga Valley National Recreation Area."
+ },
+ "DEVA": {
+  "events": [
+   {
+    "date": "1933-02-11",
+    "date_text": "Feb. 11, 1933",
+    "kind": "proclaimed",
+    "name": "Death Valley National Monument",
+    "name_stated": false,
+    "text": "Proclaimed a national monument Feb. 11, 1933",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=31"
+   },
+   {
+    "date": "1994-10-31",
+    "date_text": "Oct. 31, 1994",
+    "kind": "redesignated",
+    "name": "Death Valley National Park",
+    "name_stated": true,
+    "text": "redesignated as a national park Oct. 31, 1994",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=31"
+   }
+  ],
+  "acres": 3408374.95,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": "Recent Changes lists Oct. 31, 1994, 'incorporated Death Valley National Monument' (P.L. 103-433). Same date as the Index."
+ },
+ "DENA": {
+  "events": [
+   {
+    "date": "1917-02-26",
+    "date_text": "Feb. 26, 1917",
+    "kind": "established",
+    "name": "Mt. McKinley National Park",
+    "name_stated": true,
+    "text": "Established as Mt. McKinley National Park Feb. 26, 1917.",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=20"
+   },
+   {
+    "date": "1978-12-01",
+    "date_text": "Dec. 1, 1978",
+    "kind": "proclaimed",
+    "name": "Denali National Monument",
+    "name_stated": true,
+    "text": "Separate Denali National Monument proclaimed Dec. 1, 1978.",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=20"
+   },
+   {
+    "date": "1980-12-02",
+    "date_text": "Dec. 2, 1980",
+    "kind": "established",
+    "name": "Denali National Park and Denali National Preserve",
+    "name_stated": true,
+    "text": "Both incorporated into and established as Denali National Park and Denali National Preserve Dec. 2, 1980.",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=20"
+   }
+  ],
+  "acres": 4740911.16,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "acres_preserve": 1334117.8,
+  "acres_park_and_preserve": 6075028.96,
+  "notes": "Park and preserve are separate rows in the acreage report: 'acres' is the national park, 'acres_preserve' the national preserve. The Index spells the first name 'Mt. McKinley National Park.'"
+ },
+ "DRTO": {
+  "events": [
+   {
+    "date": "1935-01-04",
+    "date_text": "Jan. 4, 1935",
+    "kind": "proclaimed",
+    "name": "Fort Jefferson National Monument",
+    "name_stated": true,
+    "text": "Proclaimed Fort Jefferson National Monument Jan. 4, 1935",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=46"
+   },
+   {
+    "date": "1992-10-26",
+    "date_text": "Oct. 26, 1992",
+    "kind": "redesignated",
+    "name": "Dry Tortugas National Park",
+    "name_stated": true,
+    "text": "renamed and redesignated as a national park Oct. 26, 1992",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=46"
+   }
+  ],
+  "acres": 64701.22,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": ""
+ },
+ "EVER": {
+  "events": [
+   {
+    "date": "1934-05-30",
+    "date_text": "May 30, 1934",
+    "kind": "authorized",
+    "name": "Everglades National Park",
+    "name_stated": true,
+    "text": "Authorized May 30, 1934",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=47"
+   },
+   {
+    "date": "1947-12-06",
+    "date_text": "Dec. 6, 1947",
+    "kind": "established",
+    "name": "Everglades National Park",
+    "name_stated": true,
+    "text": "established Dec. 6, 1947",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=47"
+   }
+  ],
+  "acres": 1508939.07,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": "The acreage report lists 'EVERGLADES NP' and 'EVERGLADES EXPANSION' on separate rows. Its endnote 6 says: 'FOR TOTAL ACREAGE OF EVERGLADES NATIONAL PARK - ADD THE ACREAGE FOR EVERGLADES NATIONAL PARK AND EVERGLADES EXPANSION.' 'acres' is that sum."
+ },
+ "GAAR": {
+  "events": [
+   {
+    "date": "1978-12-01",
+    "date_text": "Dec. 1, 1978",
+    "kind": "proclaimed",
+    "name": "Gates of the Arctic National Monument",
+    "name_stated": true,
+    "text": "Proclaimed Gates of the Arctic National Monument Dec. 1, 1978",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=20"
+   },
+   {
+    "date": "1980-12-02",
+    "date_text": "Dec. 2, 1980",
+    "kind": "established",
+    "name": "Gates of the Arctic National Park and Gates of the Arctic National Preserve",
+    "name_stated": true,
+    "text": "established as a national park and national preserve Dec. 2, 1980",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=20"
+   }
+  ],
+  "acres": 7523897.45,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "acres_preserve": 948608.07,
+  "acres_park_and_preserve": 8472505.52,
+  "notes": "Park and preserve are separate rows in the acreage report: 'acres' is the national park, 'acres_preserve' the national preserve."
+ },
+ "JEFF": {
+  "events": [
+   {
+    "date": "1935-12-21",
+    "date_text": "Dec. 21, 1935",
+    "kind": "other",
+    "name": "Jefferson National Expansion Memorial",
+    "name_stated": true,
+    "text": "Designated Dec. 21, 1935",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=70"
+   },
+   {
+    "date": "1954-05-17",
+    "date_text": "May 17, 1954",
+    "kind": "authorized",
+    "name": "Jefferson National Expansion Memorial",
+    "name_stated": true,
+    "text": "Gateway Arch authorized May 17, 1954",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=70"
+   },
+   {
+    "date": "2018-02-22",
+    "date_text": "February 22, 2018",
+    "kind": "redesignated",
+    "name": "Gateway Arch National Park",
+    "name_stated": true,
+    "text": "February 22, 2018 | Gateway Arch National Park, Missouri redesignated from Jefferson Expansion Memorial | S. 1438",
+    "source": "https://www.nps.gov/aboutus/recent-changes.htm"
+   }
+  ],
+  "acres": 192.83,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": "The Index entry is 'Jefferson National Expansion Memorial' (2012-2016). The 2018 change comes from Recent Changes, which names the old unit 'Jefferson Expansion Memorial' (sic) and cites 'S. 1438' rather than a public law number. The Index does not say which designation the 1935 date is; it says only 'Designated Dec. 21, 1935.'"
+ },
+ "GLBA": {
+  "events": [
+   {
+    "date": "1925-02-26",
+    "date_text": "Feb. 26, 1925",
+    "kind": "proclaimed",
+    "name": "Glacier Bay National Monument",
+    "name_stated": true,
+    "text": "Proclaimed Glacier Bay National Monument Feb. 26, 1925",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=20"
+   },
+   {
+    "date": "1980-12-02",
+    "date_text": "Dec. 2, 1980",
+    "kind": "established",
+    "name": "Glacier Bay National Park and Glacier Bay National Preserve",
+    "name_stated": true,
+    "text": "established as a national park and national preserve Dec. 2, 1980",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=20"
+   }
+  ],
+  "acres": 3223383.43,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "acres_preserve": 58406.0,
+  "acres_park_and_preserve": 3281789.43,
+  "notes": "Park and preserve are separate rows in the acreage report: 'acres' is the national park, 'acres_preserve' the national preserve."
+ },
+ "GLAC": {
+  "events": [
+   {
+    "date": "1910-05-11",
+    "date_text": "May 11, 1910",
+    "kind": "established",
+    "name": "Glacier National Park",
+    "name_stated": true,
+    "text": "Established May 11, 1910.",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=71"
+   },
+   {
+    "date": "1932-05-02",
+    "date_text": "May 2, 1932",
+    "kind": "other",
+    "name": "Glacier National Park",
+    "name_stated": true,
+    "text": "Authorized as part of Waterton-Glacier International Peace Park May 2, 1932",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=71"
+   },
+   {
+    "date": "1932-06-30",
+    "date_text": "June 30, 1932",
+    "kind": "other",
+    "name": "Glacier National Park",
+    "name_stated": true,
+    "text": "proclaimed June 30, 1932.",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=71"
+   }
+  ],
+  "acres": 1013126.39,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": "The two 1932 events are the Waterton-Glacier International Peace Park designation. The Index lists them after the boundary changes."
+ },
+ "GRCA": {
+  "events": [
+   {
+    "date": "1893-02-20",
+    "date_text": "Feb. 20, 1893",
+    "kind": "proclaimed",
+    "name": "Grand Canyon Forest Reserve",
+    "name_stated": true,
+    "text": "Proclaimed as Grand Canyon Forest Reserve Feb. 20, 1893",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=25"
+   },
+   {
+    "date": "1906-11-28",
+    "date_text": "Nov. 28, 1906",
+    "kind": "proclaimed",
+    "name": "Grand Canyon Game Preserve",
+    "name_stated": true,
+    "text": "Grand Canyon Game Preserve proclaimed Nov. 28, 1906",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=25"
+   },
+   {
+    "date": "1908-01-11",
+    "date_text": "Jan. 11, 1908",
+    "kind": "proclaimed",
+    "name": "Grand Canyon National Monument",
+    "name_stated": true,
+    "text": "Grand Canyon National Monument proclaimed Jan. 11, 1908",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=25"
+   },
+   {
+    "date": "1919-02-26",
+    "date_text": "Feb. 26, 1919",
+    "kind": "established",
+    "name": "Grand Canyon National Park",
+    "name_stated": true,
+    "text": "national park established Feb. 26, 1919",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=25"
+   },
+   {
+    "date": "1919-08-15",
+    "date_text": "Aug. 15, 1919",
+    "kind": "other",
+    "name": "Grand Canyon National Park",
+    "name_stated": true,
+    "text": "transferred from U.S. Forest Service, Aug. 15, 1919.",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=25"
+   },
+   {
+    "date": "1932-12-22",
+    "date_text": "Dec. 22, 1932",
+    "kind": "proclaimed",
+    "name": "Grand Canyon National Monument",
+    "name_stated": true,
+    "text": "A separate Grand Canyon National Monument proclaimed Dec. 22, 1932.",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=25"
+   },
+   {
+    "date": "1969-01-20",
+    "date_text": "Jan. 20, 1969",
+    "kind": "proclaimed",
+    "name": "Marble Canyon National Monument",
+    "name_stated": true,
+    "text": "Marble Canyon National Monument proclaimed Jan. 20, 1969.",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=25"
+   },
+   {
+    "date": "1975-01-03",
+    "date_text": "Jan. 3, 1975",
+    "kind": "enlarged",
+    "name": "Grand Canyon National Park",
+    "name_stated": true,
+    "text": "Three units and portions of Glen Canyon and Lake Mead national recreation areas combined with additional lands as a national park Jan. 3, 1975.",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=25"
+   }
+  ],
+  "acres": 1201647.03,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": "The Index lists a forest reserve, a game preserve, two separate units named Grand Canyon National Monument (1908 and 1932) and Marble Canyon National Monument before the 1975 combined park."
+ },
+ "GRTE": {
+  "events": [
+   {
+    "date": "1929-02-26",
+    "date_text": "Feb. 26, 1929",
+    "kind": "established",
+    "name": "Grand Teton National Park",
+    "name_stated": true,
+    "text": "Established Feb. 26, 1929.",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=113"
+   },
+   {
+    "date": "1943-03-15",
+    "date_text": "March 15, 1943",
+    "kind": "proclaimed",
+    "name": "Jackson Hole National Monument",
+    "name_stated": true,
+    "text": "Enlarged by Congress Sept. 14, 1950, through a boundary change that incorporated much of the Jackson Hole National Monument, proclaimed March 15, 1943.",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=113"
+   },
+   {
+    "date": "1950-09-14",
+    "date_text": "Sept. 14, 1950",
+    "kind": "enlarged",
+    "name": "Grand Teton National Park",
+    "name_stated": true,
+    "text": "Enlarged by Congress Sept. 14, 1950, through a boundary change that incorporated much of the Jackson Hole National Monument, proclaimed March 15, 1943.",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=113"
+   }
+  ],
+  "acres": 310044.36,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": "The Jackson Hole National Monument (proclaimed March 15, 1943) and the 1950 enlargement come from one Index sentence; both events quote it. The Index entry under the same web address that follows is John D. Rockefeller, Jr. Memorial Parkway, which is not used here."
+ },
+ "GRBA": {
+  "events": [
+   {
+    "date": "1922-01-24",
+    "date_text": "Jan. 24, 1922",
+    "kind": "proclaimed",
+    "name": "Lehman Caves National Monument",
+    "name_stated": true,
+    "text": "Proclaimed as Lehman Caves National Monument Jan. 24, 1922",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=73"
+   },
+   {
+    "date": "1933-08-10",
+    "date_text": "Aug. 10, 1933",
+    "kind": "other",
+    "name": "Lehman Caves National Monument",
+    "name_stated": true,
+    "text": "transferred from the U.S. Forest Service, Aug. 10, 1933",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=73"
+   },
+   {
+    "date": "1986-10-27",
+    "date_text": "Oct. 27, 1986",
+    "kind": "established",
+    "name": "Great Basin National Park",
+    "name_stated": true,
+    "text": "made part of Great Basin National Park when established Oct. 27, 1986",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=73"
+   }
+  ],
+  "acres": 77180.0,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": ""
+ },
+ "GRSA": {
+  "events": [
+   {
+    "date": "1932-03-17",
+    "date_text": "March 17, 1932",
+    "kind": "proclaimed",
+    "name": "Great Sand Dunes National Monument",
+    "name_stated": false,
+    "text": "Proclaimed a national monument March 17, 1932.",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=39"
+   },
+   {
+    "date": "2000-11-22",
+    "date_text": "Nov. 22, 2000",
+    "kind": "redesignated",
+    "name": "Great Sand Dunes National Park and Great Sand Dunes National Preserve",
+    "name_stated": true,
+    "text": "Boundary change/redesignation as a national park and national preserve Nov. 22, 2000.",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=39"
+   },
+   {
+    "date": "2004-09-24",
+    "date_text": "Sept. 24, 2004",
+    "kind": "established",
+    "name": "Great Sand Dunes National Park and Great Sand Dunes National Preserve",
+    "name_stated": true,
+    "text": "Established Sept. 24, 2004.",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=39"
+   }
+  ],
+  "acres": 107336.95,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "acres_preserve": 41686.0,
+  "acres_park_and_preserve": 149022.95,
+  "notes": "Park and preserve are separate rows in the acreage report: 'acres' is the national park, 'acres_preserve' the national preserve. The Index lists the 'redesignation as a national park and national preserve' on Nov. 22, 2000 and 'Established Sept. 24, 2004.' Recent Changes lists the redesignation on September 24, 2004 (P.L. 106-530). The event list follows the Index."
+ },
+ "GRSM": {
+  "events": [
+   {
+    "date": "1926-05-22",
+    "date_text": "May 22, 1926",
+    "kind": "authorized",
+    "name": "Great Smoky Mountains National Park",
+    "name_stated": true,
+    "text": "Authorized May 22, 1926",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=96"
+   },
+   {
+    "date": "1930-02-06",
+    "date_text": "Feb. 6, 1930",
+    "kind": "established",
+    "name": "Great Smoky Mountains National Park",
+    "name_stated": true,
+    "text": "established for administration and protection only Feb. 6, 1930",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=96"
+   },
+   {
+    "date": "1934-06-15",
+    "date_text": "June 15, 1934",
+    "kind": "established",
+    "name": "Great Smoky Mountains National Park",
+    "name_stated": true,
+    "text": "established for full development June 15, 1934",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=96"
+   }
+  ],
+  "acres": 522426.88,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": ""
+ },
+ "GUMO": {
+  "events": [
+   {
+    "date": "1966-10-15",
+    "date_text": "Oct. 15, 1966",
+    "kind": "authorized",
+    "name": "Guadalupe Mountains National Park",
+    "name_stated": true,
+    "text": "Authorized Oct. 15, 1966",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=99"
+   },
+   {
+    "date": "1972-09-30",
+    "date_text": "Sept. 30, 1972",
+    "kind": "established",
+    "name": "Guadalupe Mountains National Park",
+    "name_stated": true,
+    "text": "established Sept. 30, 1972",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=99"
+   }
+  ],
+  "acres": 86367.1,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": ""
+ },
+ "HALE": {
+  "events": [
+   {
+    "date": "1916-08-01",
+    "date_text": "Aug. 1, 1916",
+    "kind": "established",
+    "name": "Hawaii National Park",
+    "name_stated": true,
+    "text": "Established as a part of Hawaii National Park Aug. 1, 1916",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=50"
+   },
+   {
+    "date": "1960-09-13",
+    "date_text": "Sept. 13, 1960",
+    "kind": "renamed",
+    "name": "Haleakalā National Park",
+    "name_stated": true,
+    "text": "renamed Sept. 13, 1960",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=50"
+   }
+  ],
+  "acres": 33489.24,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": "The Index lists both Haleakalā and Hawai'i Volcanoes as 'established as part of Hawaii National Park Aug. 1, 1916'; Haleakalā was renamed Sept. 13, 1960. The Index prints the name 'Haleakalā' with a macron; the acreage report uses 'HALEAKALA NP.'"
+ },
+ "HAVO": {
+  "events": [
+   {
+    "date": "1916-08-01",
+    "date_text": "Aug. 1, 1916",
+    "kind": "established",
+    "name": "Hawaii National Park",
+    "name_stated": true,
+    "text": "Established as part of Hawaii National Park Aug. 1, 1916",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=50"
+   },
+   {
+    "date": "1961-09-22",
+    "date_text": "Sept. 22, 1961",
+    "kind": "renamed",
+    "name": "Hawaii Volcanoes National Park",
+    "name_stated": false,
+    "text": "renamed Sept. 22, 1961",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=50"
+   }
+  ],
+  "acres": 344812.18,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": "Established in 1916 as part of Hawaii National Park; renamed Sept. 22, 1961. The Index heading spells the name 'Hawai'i Volcanoes' with an okina but writes 'Hawaii National Park' for the 1916 unit. The Index does not spell out the 1961 name; 'Hawaii Volcanoes National Park' here is our spelling, without the okina. The acreage report uses 'HAWAII VOLCANOES NP.'"
+ },
+ "HOSP": {
+  "events": [
+   {
+    "date": "1832-04-20",
+    "date_text": "April 20, 1832",
+    "kind": "established",
+    "name": "Hot Springs Reservation",
+    "name_stated": true,
+    "text": "Established as Hot Springs Reservation April 20, 1832",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=30"
+   },
+   {
+    "date": "1880-06-16",
+    "date_text": "June 16, 1880",
+    "kind": "other",
+    "name": "Hot Springs Reservation",
+    "name_stated": true,
+    "text": "dedicated to public use as a park June 16, 1880",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=30"
+   },
+   {
+    "date": "1921-03-04",
+    "date_text": "March 4, 1921",
+    "kind": "redesignated",
+    "name": "Hot Springs National Park",
+    "name_stated": true,
+    "text": "redesignated March 4, 1921",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=30"
+   }
+  ],
+  "acres": 5554.15,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": "The Index lists 15 boundary changes, left out here."
+ },
+ "INDU": {
+  "events": [
+   {
+    "date": "1966-11-05",
+    "date_text": "Nov. 5, 1966",
+    "kind": "authorized",
+    "name": "Indiana Dunes National Lakeshore",
+    "name_stated": true,
+    "text": "Authorized Nov. 5, 1966.",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=54"
+   },
+   {
+    "date": "2019-02-15",
+    "date_text": "February 15, 2019",
+    "kind": "redesignated",
+    "name": "Indiana Dunes National Park",
+    "name_stated": true,
+    "text": "February 15, 2019 | Indiana Dunes National Park, Indiana redesignated from Indiana Dunes National Lakeshore | P.L. 166-6",
+    "source": "https://www.nps.gov/aboutus/recent-changes.htm"
+   }
+  ],
+  "acres": 16267.53,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": "The Index entry is 'Indiana Dunes National Lakeshore' (2012-2016). The 2019 change comes from Recent Changes, which cites 'P.L. 166-6' (as printed)."
+ },
+ "ISRO": {
+  "events": [
+   {
+    "date": "1931-03-03",
+    "date_text": "March 3, 1931",
+    "kind": "authorized",
+    "name": "Isle Royale National Park",
+    "name_stated": true,
+    "text": "Authorized March 3, 1931.",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=66"
+   },
+   {
+    "date": "1940-04-03",
+    "date_text": "April 3, 1940",
+    "kind": "established",
+    "name": "Isle Royale National Park",
+    "name_stated": true,
+    "text": "The park was formally authorized on March 3, 1931, and was officially established on April 3, 1940.",
+    "source": "https://www.nps.gov/isro/learn/management/upload/ISRO_Web_Accessible_Foundation_Document_Overview_2016.pdf#page=4"
+   }
+  ],
+  "acres": 571790.3,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": "The Index gives only the authorization date (March 3, 1931) and no establishment date. The 1940 establishment date comes from the park's 2016 Foundation Document Overview (NPS), page 4."
+ },
+ "JOTR": {
+  "events": [
+   {
+    "date": "1936-08-10",
+    "date_text": "Aug. 10, 1936",
+    "kind": "proclaimed",
+    "name": "Joshua Tree National Monument",
+    "name_stated": false,
+    "text": "Proclaimed a national monument Aug. 10, 1936",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=32"
+   },
+   {
+    "date": "1994-10-31",
+    "date_text": "Oct. 31, 1994",
+    "kind": "redesignated",
+    "name": "Joshua Tree National Park",
+    "name_stated": true,
+    "text": "redesignated Oct. 31, 1994",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=32"
+   }
+  ],
+  "acres": 795155.85,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": "Recent Changes lists Oct. 31, 1994, 'incorporated Joshua Tree National Monument' (P.L. 103-433). Same date as the Index."
+ },
+ "KATM": {
+  "events": [
+   {
+    "date": "1918-09-24",
+    "date_text": "Sept. 24, 1918",
+    "kind": "proclaimed",
+    "name": "Katmai National Monument",
+    "name_stated": true,
+    "text": "Proclaimed Katmai National Monument Sept. 24, 1918",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=21"
+   },
+   {
+    "date": "1980-12-02",
+    "date_text": "Dec. 2, 1980",
+    "kind": "established",
+    "name": "Katmai National Park and Katmai National Preserve",
+    "name_stated": true,
+    "text": "established as national park and national preserve Dec. 2, 1980",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=21"
+   }
+  ],
+  "acres": 3674529.33,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "acres_preserve": 418698.8,
+  "acres_park_and_preserve": 4093228.13,
+  "notes": "Park and preserve are separate rows in the acreage report: 'acres' is the national park, 'acres_preserve' the national preserve."
+ },
+ "KEFJ": {
+  "events": [
+   {
+    "date": "1978-12-01",
+    "date_text": "Dec. 1, 1978",
+    "kind": "proclaimed",
+    "name": "Kenai Fjords National Monument",
+    "name_stated": false,
+    "text": "Proclaimed a national monument Dec. 1, 1978",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=21"
+   },
+   {
+    "date": "1980-12-02",
+    "date_text": "Dec. 2, 1980",
+    "kind": "established",
+    "name": "Kenai Fjords National Park",
+    "name_stated": true,
+    "text": "established as a national park Dec. 2, 1980",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=21"
+   }
+  ],
+  "acres": 669650.05,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": ""
+ },
+ "KICA": {
+  "events": [
+   {
+    "date": "1890-10-01",
+    "date_text": "Oct. 1, 1890",
+    "kind": "established",
+    "name": "General Grant National Park",
+    "name_stated": true,
+    "text": "Established as General Grant National Park Oct. 1, 1890",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=33"
+   },
+   {
+    "date": "1940-03-04",
+    "date_text": "March 4, 1940",
+    "kind": "renamed",
+    "name": "Kings Canyon National Park",
+    "name_stated": true,
+    "text": "renamed and enlarged March 4, 1940",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=33"
+   }
+  ],
+  "acres": 461901.37,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": "Kings Canyon has its own Index entry, separate from Sequoia, but both list the shared web address www.nps.gov/seki. The 1940 event is both a renaming and an enlargement in the Index wording."
+ },
+ "KOVA": {
+  "events": [
+   {
+    "date": "1978-12-01",
+    "date_text": "Dec. 1, 1978",
+    "kind": "proclaimed",
+    "name": "Kobuk Valley National Monument",
+    "name_stated": false,
+    "text": "Proclaimed a national monument Dec. 1, 1978",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=21"
+   },
+   {
+    "date": "1980-12-02",
+    "date_text": "Dec. 2, 1980",
+    "kind": "established",
+    "name": "Kobuk Valley National Park",
+    "name_stated": true,
+    "text": "established as a national park Dec. 2, 1980",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=21"
+   }
+  ],
+  "acres": 1750716.16,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": ""
+ },
+ "LACL": {
+  "events": [
+   {
+    "date": "1978-12-01",
+    "date_text": "Dec. 1, 1978",
+    "kind": "proclaimed",
+    "name": "Lake Clark National Monument",
+    "name_stated": true,
+    "text": "Proclaimed Lake Clark National Monument Dec. 1, 1978",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=22"
+   },
+   {
+    "date": "1980-12-02",
+    "date_text": "Dec. 2, 1980",
+    "kind": "established",
+    "name": "Lake Clark National Park and Lake Clark National Preserve",
+    "name_stated": true,
+    "text": "established as a national park and national preserve Dec. 2, 1980",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=22"
+   }
+  ],
+  "acres": 2619816.49,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "acres_preserve": 1410293.68,
+  "acres_park_and_preserve": 4030110.17,
+  "notes": "Park and preserve are separate rows in the acreage report: 'acres' is the national park, 'acres_preserve' the national preserve."
+ },
+ "LAVO": {
+  "events": [
+   {
+    "date": "1907-05-06",
+    "date_text": "May 6, 1907",
+    "kind": "proclaimed",
+    "name": "Lassen Peak and Cinder Cone National Monuments",
+    "name_stated": true,
+    "text": "Proclaimed as Lassen Peak and Cinder Cone National Monuments May 6, 1907",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=33"
+   },
+   {
+    "date": "1916-08-09",
+    "date_text": "Aug. 9, 1916",
+    "kind": "established",
+    "name": "Lassen Volcanic National Park",
+    "name_stated": true,
+    "text": "made part of Lassen Volcanic National Park when established Aug. 9, 1916",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=33"
+   }
+  ],
+  "acres": 106589.02,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": "Two national monuments (Lassen Peak and Cinder Cone) were combined into the park in 1916."
+ },
+ "MACA": {
+  "events": [
+   {
+    "date": "1926-05-25",
+    "date_text": "May 25, 1926",
+    "kind": "authorized",
+    "name": "Mammoth Cave National Park",
+    "name_stated": true,
+    "text": "Authorized May 25, 1926",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=56"
+   },
+   {
+    "date": "1941-07-01",
+    "date_text": "July 1, 1941",
+    "kind": "established",
+    "name": "Mammoth Cave National Park",
+    "name_stated": true,
+    "text": "established July 1, 1941",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=56"
+   }
+  ],
+  "acres": 72041.73,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": "The 09/30/2026 acreage report gives 72,041.73 gross acres, of which 20,034.11 are non-federal. The Index (2012-2016) gave 52,830.19. The acreage reports do not explain the change."
+ },
+ "MEVE": {
+  "events": [
+   {
+    "date": "1906-06-29",
+    "date_text": "June 29, 1906",
+    "kind": "established",
+    "name": "Mesa Verde National Park",
+    "name_stated": true,
+    "text": "Established June 29, 1906.",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=39"
+   }
+  ],
+  "acres": 52485.17,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": ""
+ },
+ "MORA": {
+  "events": [
+   {
+    "date": "1899-03-02",
+    "date_text": "March 2, 1899",
+    "kind": "established",
+    "name": "Mount Rainier National Park",
+    "name_stated": true,
+    "text": "Established March 2, 1899.",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=110"
+   }
+  ],
+  "acres": 236381.64,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": ""
+ },
+ "NPSA": {
+  "events": [
+   {
+    "date": "1988-10-31",
+    "date_text": "Oct. 31, 1988",
+    "kind": "authorized",
+    "name": "National Park of American Samoa",
+    "name_stated": true,
+    "text": "Authorized Oct. 31, 1988",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=23"
+   },
+   {
+    "date": "1993-09-09",
+    "date_text": "Sept. 9, 1993",
+    "kind": "other",
+    "name": "National Park of American Samoa",
+    "name_stated": true,
+    "text": "50-year lease signed Sept. 9, 1993.",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=23"
+   }
+  ],
+  "acres": 8256.67,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": "The acreage report lists all 8,256.67 acres as 'Other Public Acres' (none federal); the Index says 'all Nonfederal.' The land is leased (the 1993 50-year lease in the event list)."
+ },
+ "NERI": {
+  "events": [
+   {
+    "date": "1978-11-10",
+    "date_text": "Nov. 10, 1978",
+    "kind": "authorized",
+    "name": "New River Gorge National River",
+    "name_stated": true,
+    "text": "Authorized Nov. 10, 1978.",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=112"
+   },
+   {
+    "date": "2020-12-27",
+    "date_text": "December 27, 2020",
+    "kind": "redesignated",
+    "name": "New River Gorge National Park and Preserve",
+    "name_stated": true,
+    "text": "December 27, 2020 | New River Gorge National Park and Preserve, West Virginia (renamed from New River Gorge National River) | P.L. 116-260",
+    "source": "https://www.nps.gov/aboutus/recent-changes.htm"
+   }
+  ],
+  "acres": 72405.24,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": "The Index entry is 'New River Gorge National River' (2012-2016). The 2020 change comes from Recent Changes, which says 'renamed from New River Gorge National River' (P.L. 116-260); it is listed here as a redesignation because the unit type changed. The acreage report has one combined row, 'NEW RIVER GORGE NP & PRES', so the park and preserve parts cannot be split from it."
+ },
+ "NOCA": {
+  "events": [
+   {
+    "date": "1968-10-02",
+    "date_text": "Oct. 2, 1968",
+    "kind": "established",
+    "name": "North Cascades National Park",
+    "name_stated": true,
+    "text": "Established Oct. 2, 1968.",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=110"
+   }
+  ],
+  "acres": 504780.94,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": "The Index lists three entries under www.nps.gov/noca: North Cascades National Park, Lake Chelan National Recreation Area and Ross Lake National Recreation Area. Only the park entry is used, and the acreage is the park row only."
+ },
+ "OLYM": {
+  "events": [
+   {
+    "date": "1909-03-02",
+    "date_text": "March 2, 1909",
+    "kind": "proclaimed",
+    "name": "Mount Olympus National Monument",
+    "name_stated": true,
+    "text": "Proclaimed Mount Olympus National Monument March 2, 1909",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=110"
+   },
+   {
+    "date": "1933-08-10",
+    "date_text": "Aug. 10, 1933",
+    "kind": "other",
+    "name": "Mount Olympus National Monument",
+    "name_stated": true,
+    "text": "transferred from U.S. Forest Service Aug. 10, 1933",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=110"
+   },
+   {
+    "date": "1938-06-29",
+    "date_text": "June 29, 1938",
+    "kind": "redesignated",
+    "name": "Olympic National Park",
+    "name_stated": true,
+    "text": "renamed and redesignated national park June 29, 1938",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=110"
+   }
+  ],
+  "acres": 923045.8,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": "The Index lists nine boundary changes, left out here."
+ },
+ "PEFO": {
+  "events": [
+   {
+    "date": "1906-12-08",
+    "date_text": "Dec. 8, 1906",
+    "kind": "proclaimed",
+    "name": "Petrified Forest National Monument",
+    "name_stated": false,
+    "text": "Proclaimed a national monument Dec. 8, 1906",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=26"
+   },
+   {
+    "date": "1962-12-09",
+    "date_text": "Dec. 9, 1962",
+    "kind": "redesignated",
+    "name": "Petrified Forest National Park",
+    "name_stated": true,
+    "text": "redesignated Dec. 9, 1962",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=26"
+   }
+  ],
+  "acres": 221390.21,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": ""
+ },
+ "PINN": {
+  "events": [
+   {
+    "date": "1908-01-16",
+    "date_text": "Jan. 16, 1908",
+    "kind": "proclaimed",
+    "name": "Pinnacles National Monument",
+    "name_stated": false,
+    "text": "Proclaimed a national monument Jan. 16, 1908",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=34"
+   },
+   {
+    "date": "2013-01-10",
+    "date_text": "Jan. 10, 2013",
+    "kind": "redesignated",
+    "name": "Pinnacles National Park",
+    "name_stated": true,
+    "text": "redesignated as national park Jan. 10, 2013",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=34"
+   }
+  ],
+  "acres": 26685.73,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": "Recent Changes also lists January 10, 2013 (P.L. 112-245). Same date as the Index."
+ },
+ "REDW": {
+  "events": [
+   {
+    "date": "1968-10-02",
+    "date_text": "Oct. 2, 1968",
+    "kind": "established",
+    "name": "Redwood National Park",
+    "name_stated": true,
+    "text": "Established Oct. 2, 1968.",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=35"
+   }
+  ],
+  "acres": 139090.97,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": "The acreage report's gross area includes non-federal land inside the boundary; the Index lists 61,252.91 non-federal acres for 2012-2016."
+ },
+ "ROMO": {
+  "events": [
+   {
+    "date": "1915-01-26",
+    "date_text": "Jan. 26, 1915",
+    "kind": "established",
+    "name": "Rocky Mountain National Park",
+    "name_stated": true,
+    "text": "Established Jan. 26, 1915.",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=40"
+   }
+  ],
+  "acres": 265917.74,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": ""
+ },
+ "SAGU": {
+  "events": [
+   {
+    "date": "1933-03-01",
+    "date_text": "March 1, 1933",
+    "kind": "proclaimed",
+    "name": "Saguaro National Monument",
+    "name_stated": false,
+    "text": "Proclaimed a national monument March 1, 1933",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=27"
+   },
+   {
+    "date": "1933-08-10",
+    "date_text": "Aug. 10, 1933",
+    "kind": "other",
+    "name": "Saguaro National Monument",
+    "name_stated": false,
+    "text": "transferred from U.S. Forest Service, Aug. 10, 1933",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=27"
+   },
+   {
+    "date": "1994-10-04",
+    "date_text": "Oct. 4, 1994",
+    "kind": "redesignated",
+    "name": "Saguaro National Park",
+    "name_stated": true,
+    "text": "redesignated Oct. 4, 1994",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=27"
+   }
+  ],
+  "acres": 92799.73,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": "Dates disagree. The Index says 'redesignated Oct. 4, 1994.' Recent Changes lists October 14, 1994, 'incorporated Saguaro National Monument' (P.L. 103-364). The event list follows the Index."
+ },
+ "SEQU": {
+  "events": [
+   {
+    "date": "1890-09-25",
+    "date_text": "Sept. 25, 1890",
+    "kind": "established",
+    "name": "Sequoia National Park",
+    "name_stated": true,
+    "text": "Established Sept. 25, 1890.",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=36"
+   }
+  ],
+  "acres": 404062.63,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": "Sequoia has its own Index entry, separate from Kings Canyon, but both list the shared web address www.nps.gov/seki. The Index lists Oct. 1, 1890 as Sequoia's first boundary change, the same day General Grant National Park was established."
+ },
+ "SHEN": {
+  "events": [
+   {
+    "date": "1926-05-22",
+    "date_text": "May 22, 1926",
+    "kind": "authorized",
+    "name": "Shenandoah National Park",
+    "name_stated": true,
+    "text": "Authorized May 22, 1926",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=107"
+   },
+   {
+    "date": "1935-12-26",
+    "date_text": "Dec. 26, 1935",
+    "kind": "established",
+    "name": "Shenandoah National Park",
+    "name_stated": true,
+    "text": "fully established Dec. 26, 1935",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=107"
+   },
+   {
+    "date": "1936-07-03",
+    "date_text": "July 3, 1936",
+    "kind": "other",
+    "name": "Shenandoah National Park",
+    "name_stated": true,
+    "text": "dedicated July 3, 1936.",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=107"
+   }
+  ],
+  "acres": 200454.01,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": "The Index lists three dates: authorized 1926, 'fully established' 1935, 'dedicated' 1936."
+ },
+ "THRO": {
+  "events": [
+   {
+    "date": "1947-04-25",
+    "date_text": "April 25, 1947",
+    "kind": "established",
+    "name": "Theodore Roosevelt National Memorial Park",
+    "name_stated": true,
+    "text": "Established as Theodore Roosevelt National Memorial Park April 25, 1947",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=87"
+   },
+   {
+    "date": "1978-11-10",
+    "date_text": "Nov. 10, 1978",
+    "kind": "redesignated",
+    "name": "Theodore Roosevelt National Park",
+    "name_stated": true,
+    "text": "redesignated Nov. 10, 1978.",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=87"
+   }
+  ],
+  "acres": 70446.04,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": "The acreage report spells the name 'T ROOSEVELT NP.'"
+ },
+ "VIIS": {
+  "events": [
+   {
+    "date": "1956-08-02",
+    "date_text": "Aug. 2, 1956",
+    "kind": "authorized",
+    "name": "Virgin Islands National Park",
+    "name_stated": true,
+    "text": "Authorized Aug. 2, 1956.",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=108"
+   }
+  ],
+  "acres": 15041.03,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": "The Index gives only the authorization date (Aug. 2, 1956) and no separate establishment date."
+ },
+ "VOYA": {
+  "events": [
+   {
+    "date": "1971-01-08",
+    "date_text": "Jan. 8, 1971",
+    "kind": "authorized",
+    "name": "Voyageurs National Park",
+    "name_stated": true,
+    "text": "Authorized Jan. 8, 1971",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=67"
+   },
+   {
+    "date": "1975-04-08",
+    "date_text": "April 8, 1975",
+    "kind": "established",
+    "name": "Voyageurs National Park",
+    "name_stated": true,
+    "text": "established April 8, 1975.",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=67"
+   }
+  ],
+  "acres": 218223.25,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": ""
+ },
+ "WHSA": {
+  "events": [
+   {
+    "date": "1933-01-18",
+    "date_text": "Jan. 18, 1933",
+    "kind": "proclaimed",
+    "name": "White Sands National Monument",
+    "name_stated": true,
+    "text": "Proclaimed Jan. 18, 1933.",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=79"
+   },
+   {
+    "date": "2019-12-20",
+    "date_text": "December 20, 2019",
+    "kind": "redesignated",
+    "name": "White Sands National Park",
+    "name_stated": true,
+    "text": "December 20, 2019 | White Sands National Park, New Mexico redesignated from White Sands National Monument | P.L. 116-92",
+    "source": "https://www.nps.gov/aboutus/recent-changes.htm"
+   }
+  ],
+  "acres": 146344.31,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": "The Index entry is 'White Sands National Monument' (2012-2016) and gives only 'Proclaimed Jan. 18, 1933.' The 2019 change comes from Recent Changes (P.L. 116-92)."
+ },
+ "WICA": {
+  "events": [
+   {
+    "date": "1903-01-09",
+    "date_text": "Jan. 9, 1903",
+    "kind": "established",
+    "name": "Wind Cave National Park",
+    "name_stated": true,
+    "text": "Established Jan. 9, 1903.",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=95"
+   },
+   {
+    "date": "1935-06-15",
+    "date_text": "June 15, 1935",
+    "kind": "enlarged",
+    "name": "Wind Cave National Park",
+    "name_stated": true,
+    "text": "Wind Cave National Game Preserve, established Aug. 10, 1912, added to park June 15, 1935.",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=95"
+   }
+  ],
+  "acres": 33970.84,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": ""
+ },
+ "WRST": {
+  "events": [
+   {
+    "date": "1978-12-01",
+    "date_text": "Dec. 1, 1978",
+    "kind": "proclaimed",
+    "name": "Wrangell-St. Elias National Monument",
+    "name_stated": true,
+    "text": "Proclaimed Wrangell-St. Elias National Monument Dec. 1, 1978",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=23"
+   },
+   {
+    "date": "1980-12-02",
+    "date_text": "Dec. 2, 1980",
+    "kind": "established",
+    "name": "Wrangell-St. Elias National Park and Wrangell-St. Elias National Preserve",
+    "name_stated": true,
+    "text": "established as a national park and national preserve Dec. 2, 1980",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=23"
+   }
+  ],
+  "acres": 8323146.48,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "acres_preserve": 4852644.89,
+  "acres_park_and_preserve": 13175791.37,
+  "notes": "Park and preserve are separate rows in the acreage report: 'acres' is the national park, 'acres_preserve' the national preserve. The Index prints 'WrangellSt. Elias' without a hyphen in the text layer."
+ },
+ "YELL": {
+  "events": [
+   {
+    "date": "1872-03-01",
+    "date_text": "March 1, 1872",
+    "kind": "established",
+    "name": "Yellowstone National Park",
+    "name_stated": true,
+    "text": "Established March 1, 1872.",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=113"
+   }
+  ],
+  "acres": 2219790.71,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": "parks.json lists the state as ID; the Index lists Yellowstone under Wyoming, '(Also in Montana and Idaho).'"
+ },
+ "YOSE": {
+  "events": [
+   {
+    "date": "1864-06-30",
+    "date_text": "June 30, 1864",
+    "kind": "other",
+    "name": "Yosemite Valley and Mariposa Big Tree Grove",
+    "name_stated": true,
+    "text": "Yosemite Valley and Mariposa Big Tree Grove granted to State of California June 30, 1864",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=38"
+   },
+   {
+    "date": "1890-10-01",
+    "date_text": "Oct. 1, 1890",
+    "kind": "established",
+    "name": "Yosemite National Park",
+    "name_stated": true,
+    "text": "established as a national park Oct. 1, 1890",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=38"
+   },
+   {
+    "date": "1906-06-11",
+    "date_text": "June 11, 1906",
+    "kind": "other",
+    "name": "Yosemite National Park",
+    "name_stated": true,
+    "text": "Federal government accepted lands returned by state June 11, 1906.",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=38"
+   }
+  ],
+  "acres": 761747.5,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": "The Index acreage 'does not include 1,397.99 acres composing El Portal administrative site, adjacent to park.' The acreage report does not say whether its Yosemite row includes El Portal. The Index also lists 'El Portal site authorized Sept. 2, 1958,' left out here."
+ },
+ "ZION": {
+  "events": [
+   {
+    "date": "1909-07-31",
+    "date_text": "July 31, 1909",
+    "kind": "proclaimed",
+    "name": "Mukuntuweap National Monument",
+    "name_stated": true,
+    "text": "Mukuntuweap National Monument proclaimed July 31, 1909",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=103"
+   },
+   {
+    "date": "1918-03-18",
+    "date_text": "March 18, 1918",
+    "kind": "renamed",
+    "name": "Zion National Monument",
+    "name_stated": true,
+    "text": "incorporated in Zion National Monument by proclamation March 18, 1918.",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=103"
+   },
+   {
+    "date": "1919-11-19",
+    "date_text": "Nov. 19, 1919",
+    "kind": "established",
+    "name": "Zion National Park",
+    "name_stated": true,
+    "text": "Established as a national park Nov. 19, 1919.",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=103"
+   },
+   {
+    "date": "1937-01-22",
+    "date_text": "Jan. 22, 1937",
+    "kind": "proclaimed",
+    "name": "Zion National Monument",
+    "name_stated": true,
+    "text": "Separate Zion National Monument proclaimed Jan. 22, 1937",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=103"
+   },
+   {
+    "date": "1956-07-11",
+    "date_text": "July 11, 1956",
+    "kind": "enlarged",
+    "name": "Zion National Park",
+    "name_stated": true,
+    "text": "incorporated in park July 11, 1956.",
+    "source": "https://www.nps.gov/aboutus/upload/npindex2012-2016.pdf#page=103"
+   }
+  ],
+  "acres": 147242.66,
+  "acres_as_of": "2026-09-30",
+  "acres_source": "https://www.nps.gov/subjects/lwcf/upload/NPS-Acreage-09-30-2026.xlsx",
+  "notes": "The Index lists two different units called Zion National Monument: the renamed Mukuntuweap monument (1918), which became the park in 1919, and a separate one proclaimed in 1937 and added to the park in 1956."
+ }
+}

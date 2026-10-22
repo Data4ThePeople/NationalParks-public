@@ -1,0 +1,165 @@
+{
+ "budget_compare_from": 2012,
+ "budget_compare_why": "FY2012 is the first year after the Park Service moved human resources and purchasing money out of park budgets into central accounts (FY2011 and FY2012 books), and the year before the FY2013 sequester.",
+ "fte_key": "total_fte",
+ "fte_label": "all staff",
+ "fte_desc": "Every position at the park, whatever money pays for it, measured in full-time equivalents (FTE): the hours worked divided by the hours in a full-time work year.",
+ "no_budget": {
+  "KOVA": "Kobuk Valley does not have its own budget line. It shares one with Cape Krusenstern National Monument and Noatak National Preserve, and with Bering Land Bridge National Preserve until FY2019, so there are no figures for the park alone."
+ },
+ "shared_lines": {
+  "SEKI": "Sequoia and Kings Canyon share one budget line. The budget and staff figures are for both parks together, and the per-visit figure uses both parks' visits.",
+  "KATM_ANIA_ALAG": "Katmai's budget line also covers Aniakchak National Monument and Preserve and Alagnak Wild River. The figures shown are for all three.",
+  "NOCA_LACH_ROLA": "North Cascades' budget line also covers Lake Chelan and Ross Lake National Recreation Areas. The figures shown are for all three."
+ },
+ "intro": "Each dot is a national park. Pick a measure above to color the map, or click a park to see how it has changed. Park figures come from the National Park Service and the Interior Department. Budget figures are each park's base operating budget, adjusted for inflation unless the chart says otherwise.",
+ "availability": [
+  {
+   "text": "The Park Service's budget book for FY2027 no longer has the table of each park's budget and staff, or the section on park visitation and acreage. The park table was in every book from FY2010 to FY2025, and the FY2025 book also had the visitation and acreage section.",
+   "links": [
+    {
+     "label": "FY2025 book",
+     "url": "https://www.doi.gov/sites/default/files/documents/2024-03/fy2025-508-nps-greenbook_2.pdf"
+    },
+    {
+     "label": "FY2027 book",
+     "url": "https://www.doi.gov/sites/default/files/documents/2026-04/fy2027greenbooknps_0.pdf"
+    }
+   ]
+  },
+  {
+   "text": "The Park Service did not release a budget book for FY2026, according to the Congressional Research Service. So the last year with a published budget for every park is FY2023. A few parks post newer figures on their own websites, and we found no park-by-park table for any later year.",
+   "links": [
+    {
+     "label": "CRS report R42757",
+     "url": "https://www.everycrsreport.com/reports/R42757.html"
+    },
+    {
+     "label": "Interior's FY2026 budget page",
+     "url": "https://www.doi.gov/budget/appropriations/2026"
+    }
+   ]
+  },
+  {
+   "text": "Congress did not get the FY2026 book either. The Senate Appropriations Committee wrote in July 2025 that it \"has not received the detailed budget justification for the National Park Service for fiscal year 2026.\" The final FY2026 spending law's explanatory statement directs the Park Service to brief the committees every 60 days on \"staffing levels by park and visitor data by park.\" Those briefings go only to the committees, and we found no public copy.",
+   "links": [
+    {
+     "label": "Senate Report 119-46, p. 47",
+     "url": "https://www.govinfo.gov/content/pkg/CRPT-119srpt46/pdf/CRPT-119srpt46.pdf"
+    },
+    {
+     "label": "Congressional Record, Jan. 8, 2026, H474",
+     "url": "https://www.govinfo.gov/content/pkg/CREC-2026-01-08/html/CREC-2026-01-08-pt3-PgH255.htm"
+    }
+   ]
+  },
+  {
+   "text": "The Park Service's park-by-park repair backlog reports for FY2014 to FY2018 now return \"page not found,\" and its FY2024 park fact sheets were replaced with FY2025 versions. We found copies only in the Internet Archive, and for FY2024 only for 25 parks. We found no park figures from the Park Service for FY2019 to FY2021. For FY2023, a Congressional Research Service report lists 20 parks \"using data from NPS,\" but we found no Park Service file.",
+   "links": [
+    {
+     "label": "Archived FY2018 report page",
+     "url": "https://web.archive.org/web/2022/https://www.nps.gov/subjects/infrastructure/identifying-reporting-deferred-maintenance.htm"
+    },
+    {
+     "label": "Current page",
+     "url": "https://www.nps.gov/subjects/plandesignconstruct/defermain.htm"
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "name": "NPS Visitor Use Statistics (IRMA)",
+   "url": "https://irma.nps.gov/Stats/",
+   "what": "recreation visits by park and month, 1979 to 2025"
+  },
+  {
+   "name": "NPS budget justifications, FY2010 to FY2025",
+   "url": "https://www.nps.gov/aboutus/budget.htm",
+   "what": "each park's base budget and staff, FY2008 to FY2023"
+  },
+  {
+   "name": "BLS Consumer Price Index (CPI-U)",
+   "url": "https://www.bls.gov/cpi/",
+   "what": "inflation adjustment, by federal fiscal year"
+  },
+  {
+   "name": "NPS Land Resources Division",
+   "url": "https://public-nps.opendata.arcgis.com/",
+   "what": "park boundaries and locations"
+  },
+  {
+   "name": "U.S. Census Bureau cartographic boundaries",
+   "url": "https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html",
+   "what": "state outlines"
+  },
+  {
+   "name": "Natural Earth shaded relief (SR_50M)",
+   "url": "https://www.naturalearthdata.com/downloads/50m-raster-data/50m-shaded-relief/",
+   "what": "terrain shading on the map"
+  }
+ ],
+ "source_line": "Sources: National Park Service, Interior Department, Bureau of Labor Statistics, Census Bureau. Shaded relief: Natural Earth. Alaska, Hawaii and the islands are not to scale.",
+ "jsonld_description": "Recreation visits, park base budget and staff for the 63 U.S. national parks, from National Park Service visitor statistics and National Park Service budget justifications. Budgets are adjusted for inflation with the Consumer Price Index by federal fiscal year. Gaps are left as gaps, and the page notes which figures the Park Service no longer publishes.",
+ "temporal": "1979/2025",
+ "variables": [
+  "Recreation visits",
+  "Park base budget (thousands of dollars)",
+  "Total full-time equivalent staff"
+ ],
+ "visit_notes": {
+  "BRCA": {
+   "text": "The Park Service says Bryce Canyon's visits for 2000 through 2024 were \"too high by approximately 18–19 percent each year\" because of an error in counting shuttle bus riders. It has not published corrected numbers, so the chart shows the numbers as published. Changes that compare those years with 2025 are left off the map, the table and this panel, and so is the budget-per-visit chart.",
+   "source": "https://irma.nps.gov/DataStore/DownloadFile/759491",
+   "label": "2025 Statistical Abstract",
+   "no_compare": true
+  }
+ },
+ "dm_exclude_source_contains": [
+  "everycrsreport.com"
+ ],
+ "dm_exclude_why": "FY2023 park figures exist only as a CRS top-20 table rounded to $1 million, not from NPS; left out so every value shown comes from an NPS or Interior file.",
+ "dm_breaks": [
+  {
+   "year": 2022,
+   "note": "New method. The Park Service began scoring the condition of each asset instead of adding up open work orders. It also began adding about 35% for design and management costs to estimates for assets other than transportation assets such as park roads, which already carried a similar markup. The Congressional Research Service dates that change to FY2021; the Park Service's own FAQ says it counted only construction costs \"through 2018\" (<a href=\"https://www.nps.gov/subjects/infrastructure/faqs.htm\" target=\"_blank\" rel=\"noopener\">NPS FAQ</a>).",
+   "source": "https://www.everycrsreport.com/files/2024-07-25_R48136_b8f735eff6a455e0ad5cff787c7348b59f659b10.html"
+  },
+  {
+   "year": 2023,
+   "note": "The Park Service changed which buildings and other assets it counts, and the road cost model began to include recent inflation.",
+   "source": "https://www.everycrsreport.com/files/2024-07-25_R48136_b8f735eff6a455e0ad5cff787c7348b59f659b10.html"
+  }
+ ],
+ "dm_notes": {
+  "SEQU": "The Park Service reports one figure for Sequoia and Kings Canyon together. The chart shows that combined figure.",
+  "KICA": "The Park Service reports one figure for Sequoia and Kings Canyon together. The chart shows that combined figure.",
+  "KOVA": "The Park Service reports one figure for Western Arctic National Parklands, which includes Kobuk Valley, Cape Krusenstern and Noatak. The chart shows that combined figure."
+ },
+ "park_reports": {
+  "GRCA": {
+   "text": "The park's website lists an \"ONPS Base Operating Appropriation\" of $23,670,800 for FY2025, and total Park Service staff (permanent, term and seasonal) of 427 in FY2024 and 369 in FY2025. These are the park's own figures, not from the budget books, and may not measure the same thing, so they are not on the charts.",
+   "source": "https://www.nps.gov/grca/learn/management/statistics.htm"
+  },
+  "YELL": {
+   "text": "The park's website lists \"Operations and staff (base)\" of $39.8 million for FY2024, and 748 Park Service employees in summer 2024 (392 permanent, 4 term and 356 seasonal). These are the park's own figures, not from the budget books, and may not measure the same thing, so they are not on the charts.",
+   "source": "https://www.nps.gov/yell/planyourvisit/parkfacts.htm"
+  },
+  "GRSM": {
+   "text": "The park's website lists a \"$21.56 million base budget in Fiscal Year 2024.\" These are the park's own figures, not from the budget books, and may not measure the same thing, so they are not on the charts.",
+   "source": "https://www.nps.gov/grsm/learn/management/statistics.htm"
+  },
+  "YOSE": {
+   "text": "The park's website lists a 2025 operating budget of about $32 million and 674 summer and 499 winter staff in 2025. These are the park's own figures, not from the budget books, and may not measure the same thing, so they are not on the charts.",
+   "source": "https://www.nps.gov/yose/learn/management/statistics.htm"
+  },
+  "GLBA": {
+   "text": "The park's website lists a base budget of $5,752,744 for FY2024. These are the park's own figures, not from the budget books, and may not measure the same thing, so they are not on the charts.",
+   "source": "https://www.nps.gov/glba/learn/management/glacier-bay-fact-sheet.htm"
+  },
+  "KEFJ": {
+   "text": "The park's 2026 fact sheet lists 2025 base appropriations of $4.44 million. These are the park's own figures, not from the budget books, and may not measure the same thing, so they are not on the charts.",
+   "source": "https://www.nps.gov/kefj/learn/management/upload/KEFJ_Fact-Sheet-2026-508.pdf"
+  }
+ }
+}
