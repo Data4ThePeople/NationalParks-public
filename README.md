@@ -46,6 +46,7 @@ All are U.S. government or public domain sources.
 - **NPS Land Resources Division:** park boundaries, locations and acreage.
 - **NPS National Park Index 2012-2016 and the "Recent Changes" page:** park designation dates.
 - **NPS and Interior deferred maintenance reports**, current and archived copies.
+- **U.S. Office of Personnel Management, Federal Workforce Data** (data.opm.gov): Park Service employees by job, September 2012 to September 2025, for the post's staff-by-job charts.
 - **U.S. Census Bureau cartographic boundaries:** state outlines.
 - **Natural Earth:** 1:50m shaded relief.
 
@@ -62,6 +63,8 @@ uv run python -I scripts/fetch/greenbooks.py
 uv run python -I scripts/fetch/cpi.py          # needs a free BLS API key in BLS_API_KEY
 uv run python -I scripts/fetch/deferred_maintenance.py
 uv run python -I scripts/fetch/park_history.py
+uv run python -I scripts/fetch/irma_total.py      # system-wide visits, for the staff-by-job charts
+uv run python -I scripts/fetch/opm_jobs.py        # OPM employment files, about 70 MB each
 uv run python -I scripts/build_geo.py
 uv run python -I scripts/relief.py             # needs Natural Earth SR_50M in data/raw/naturalearth_relief/
 uv run python -I scripts/build_viz.py
@@ -82,4 +85,5 @@ The full method is in [DATASETS.md](DATASETS.md).
   - Katmai's and North Cascades' lines also fund nearby units.
   - Kobuk Valley's line changed in FY2020, so it has no budget figures.
 - **Bryce Canyon.** The Park Service says its visits for 2000 through 2024 were about 18% to 19% too high. They are shown as published, and Bryce is left out of changes that compare those years with 2025.
+- **Staff by job.** These are OPM headcounts for the whole Park Service, including seasonal staff, not full-time equivalents. The job groups are our own, built from OPM job codes; every code and its group is in `data/processed/nps_staff_by_series.csv`.
 - **Rules.** Gaps stay gaps. Nothing is filled in or typed by hand. A duplicate or unparseable value stops the build.

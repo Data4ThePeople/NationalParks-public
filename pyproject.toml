@@ -10,4 +10,5 @@ dependencies = [
     "numpy",
     "pillow",
     "matplotlib>=3.11.2",
+    "pyarrow>=26.0.0",
 ]

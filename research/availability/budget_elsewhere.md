@@ -408,3 +408,20 @@ None of these published a park-by-park table. Figures as reported:
   regex queries on doi.gov returned HTTP 504; we used month folders instead.
 - Foundation documents and park newspapers were not reviewed one by one.
 - Park pages outside the paths we tried may hold figures we missed.
+
+## 2026-10-23 additions: OPM history and jobs
+
+- **Older records were reissued in FWD.** The FWD file list has employment
+  files back to March 2005. The March 2005 to December 2009 files (version 1,
+  published December 2025) give the duty station state only. From March 2010
+  on (version 3, published October 2026) the files have the same 64 columns as
+  the 2024 to 2026 files, including duty station city and county. Checked by
+  download: September 2005 and September 2008 (state only), September 2010,
+  2011 and 2012 (city and county). September 2012: 25,776 NPS people, 700 with
+  the duty station shown as REDACTED. Download URL pattern:
+  `https://data.opm.gov/api/v1/files/employment/<year>/<month>/<version>/download`.
+- **Jobs.** Every FWD record has an occupational series. `scripts/fetch/opm_jobs.py`
+  groups NPS people in September 2024 and September 2025 into plain job groups
+  and writes `data/processed/nps_staff_by_job.csv` and
+  `nps_staff_by_series.csv`. The groups are our own; every series and its
+  group is in the second file.
